@@ -1,0 +1,941 @@
+2023-11-25 16:16:45,457 - train - INFO - ----------------------
+ <class 'models.FastTextModel'>
+2023-11-25 16:16:48,666 - train - INFO - Epoch [1/5]
+2023-11-25 16:16:48,932 - train - INFO - Iter:   0, Train-Loss:0.6759, Val-Loss:0.6689, Val-Acc: 0.76%, Macro-Score: 0.36%, Micro-Score: 0.90%, Time:0:00:00, Improve:*
+2023-11-25 16:16:49,456 - train - INFO - Iter: 100, Train-Loss:0.4809, Val-Loss:0.4764, Val-Acc: 0.00%, Macro-Score: 0.00%, Micro-Score: 0.00%, Time:0:00:01, Improve:
+2023-11-25 16:16:49,992 - train - INFO - Iter: 200, Train-Loss:0.4725, Val-Loss:0.4523, Val-Acc: 0.00%, Macro-Score: 0.00%, Micro-Score: 0.00%, Time:0:00:01, Improve:
+2023-11-25 16:16:50,525 - train - INFO - Iter: 300, Train-Loss:0.4506, Val-Loss:0.4454, Val-Acc: 0.00%, Macro-Score: 0.00%, Micro-Score: 0.00%, Time:0:00:02, Improve:
+2023-11-25 16:16:51,066 - train - INFO - Iter: 400, Train-Loss:0.4322, Val-Loss:0.4422, Val-Acc: 0.00%, Macro-Score: 0.00%, Micro-Score: 0.00%, Time:0:00:02, Improve:
+2023-11-25 16:16:51,329 - train - INFO - Epoch [2/5]
+2023-11-25 16:16:51,595 - train - INFO - Iter: 500, Train-Loss:  0.47, Val-Loss:0.4413, Val-Acc: 0.00%, Macro-Score: 0.00%, Micro-Score: 0.00%, Time:0:00:03, Improve:
+2023-11-25 16:16:52,144 - train - INFO - Iter: 600, Train-Loss:0.4684, Val-Loss:0.4407, Val-Acc: 0.00%, Macro-Score: 0.00%, Micro-Score: 0.00%, Time:0:00:03, Improve:
+2023-11-25 16:16:52,677 - train - INFO - Iter: 700, Train-Loss:0.4425, Val-Loss:0.4413, Val-Acc: 0.00%, Macro-Score: 0.00%, Micro-Score: 0.00%, Time:0:00:04, Improve:
+2023-11-25 16:16:52,677 - train - INFO - No optimization for a long time, auto-stopping...
+2023-11-25 16:16:52,679 - train - INFO - ----------------------
+ <class 'models.TextCNNModel'>
+2023-11-25 16:36:45,385 - train - INFO - ----------------------
+ <class 'models.FastTextModel'>
+2023-11-25 16:36:48,606 - train - INFO - Epoch [1/5]
+2023-11-25 16:36:48,963 - train - INFO - Iter:   0, Train-Loss:0.6755, Val-Loss:0.6697, Val-Acc: 0.62%, Macro-Score:17.03%, Micro-Score: 0.82%, Time:0:00:00, Improve:*
+2023-11-25 16:36:49,500 - train - INFO - Iter: 100, Train-Loss:0.4948, Val-Loss:  0.49, Val-Acc: 0.00%, Macro-Score: 0.00%, Micro-Score: 0.00%, Time:0:00:01, Improve:
+2023-11-25 16:36:50,040 - train - INFO - Iter: 200, Train-Loss:0.4792, Val-Loss:0.4602, Val-Acc: 0.00%, Macro-Score: 0.00%, Micro-Score: 0.00%, Time:0:00:01, Improve:
+2023-11-25 16:36:50,580 - train - INFO - Iter: 300, Train-Loss: 0.454, Val-Loss:0.4507, Val-Acc: 0.00%, Macro-Score: 0.00%, Micro-Score: 0.00%, Time:0:00:02, Improve:
+2023-11-25 16:36:51,119 - train - INFO - Iter: 400, Train-Loss:0.4383, Val-Loss:0.4463, Val-Acc: 0.00%, Macro-Score: 0.00%, Micro-Score: 0.00%, Time:0:00:03, Improve:
+2023-11-25 16:36:51,391 - train - INFO - Epoch [2/5]
+2023-11-25 16:36:51,656 - train - INFO - Iter: 500, Train-Loss:0.4705, Val-Loss:0.4448, Val-Acc: 0.00%, Macro-Score: 0.00%, Micro-Score: 0.00%, Time:0:00:03, Improve:
+2023-11-25 16:36:52,199 - train - INFO - Iter: 600, Train-Loss:0.4706, Val-Loss:0.4439, Val-Acc: 0.00%, Macro-Score: 0.00%, Micro-Score: 0.00%, Time:0:00:04, Improve:
+2023-11-25 16:36:52,733 - train - INFO - Iter: 700, Train-Loss:0.4463, Val-Loss:0.4443, Val-Acc: 0.00%, Macro-Score: 0.00%, Micro-Score: 0.00%, Time:0:00:04, Improve:
+2023-11-25 16:36:52,734 - train - INFO - No optimization for a long time, auto-stopping...
+2023-11-25 16:36:52,736 - train - INFO - ----------------------
+ <class 'models.TextCNNModel'>
+2023-11-25 16:36:54,581 - train - INFO - Epoch [1/5]
+2023-11-25 16:36:54,906 - train - INFO - Iter:   0, Train-Loss: 0.757, Val-Loss: 0.614, Val-Acc: 3.67%, Macro-Score: 3.46%, Micro-Score: 8.58%, Time:0:00:00, Improve:*
+2023-11-25 16:39:07,834 - train - INFO - ----------------------
+ <class 'models.FastTextModel'>
+2023-11-25 16:39:12,402 - train - INFO - Epoch [1/5]
+2023-11-25 16:39:12,666 - train - INFO - Iter:   0, Train-Loss:0.6759, Val-Loss:0.6686, Val-Acc: 0.72%, Macro-Score: 0.36%, Micro-Score: 0.87%, Time:0:00:00, Improve:*
+2023-11-25 16:39:13,171 - train - INFO - Iter: 100, Train-Loss:0.4703, Val-Loss: 0.466, Val-Acc: 0.00%, Macro-Score: 0.00%, Micro-Score: 0.00%, Time:0:00:01, Improve:
+2023-11-25 16:39:13,678 - train - INFO - Iter: 200, Train-Loss: 0.466, Val-Loss:0.4424, Val-Acc: 0.00%, Macro-Score: 0.00%, Micro-Score: 0.00%, Time:0:00:01, Improve:
+2023-11-25 16:39:14,199 - train - INFO - Iter: 300, Train-Loss:0.4479, Val-Loss: 0.437, Val-Acc: 0.00%, Macro-Score: 0.00%, Micro-Score: 0.00%, Time:0:00:02, Improve:
+2023-11-25 16:39:14,672 - train - INFO - Iter: 400, Train-Loss:0.4187, Val-Loss:0.4344, Val-Acc: 0.00%, Macro-Score: 0.00%, Micro-Score: 0.00%, Time:0:00:02, Improve:
+2023-11-25 16:39:14,924 - train - INFO - Epoch [2/5]
+2023-11-25 16:39:15,183 - train - INFO - Iter: 500, Train-Loss:0.4747, Val-Loss:0.4336, Val-Acc: 0.00%, Macro-Score: 0.00%, Micro-Score: 0.00%, Time:0:00:03, Improve:
+2023-11-25 16:39:15,682 - train - INFO - Iter: 600, Train-Loss:0.4641, Val-Loss:0.4329, Val-Acc: 0.00%, Macro-Score: 0.00%, Micro-Score: 0.00%, Time:0:00:03, Improve:
+2023-11-25 16:39:16,199 - train - INFO - Iter: 700, Train-Loss:0.4325, Val-Loss:0.4334, Val-Acc: 0.00%, Macro-Score: 0.00%, Micro-Score: 0.00%, Time:0:00:04, Improve:
+2023-11-25 16:39:16,199 - train - INFO - No optimization for a long time, auto-stopping...
+2023-11-25 16:39:16,201 - train - INFO - ----------------------
+ <class 'models.TextCNNModel'>
+2023-11-25 16:41:45,966 - train - INFO - ----------------------
+ <class 'models.FastTextModel'>
+2023-11-25 16:41:49,175 - train - INFO - Epoch [1/5]
+2023-11-25 16:41:49,429 - train - INFO - Iter:   0, Train-Loss:0.6759, Val-Loss:0.6686, Val-Acc: 0.72%, Macro-Score: 0.36%, Micro-Score: 0.87%, Time:0:00:00, Improve:*
+2023-11-25 16:41:49,935 - train - INFO - Iter: 100, Train-Loss:0.4703, Val-Loss: 0.466, Val-Acc: 0.00%, Macro-Score: 0.00%, Micro-Score: 0.00%, Time:0:00:01, Improve:
+2023-11-25 16:41:50,466 - train - INFO - Iter: 200, Train-Loss: 0.466, Val-Loss:0.4424, Val-Acc: 0.00%, Macro-Score: 0.00%, Micro-Score: 0.00%, Time:0:00:01, Improve:
+2023-11-25 16:41:50,991 - train - INFO - Iter: 300, Train-Loss:0.4479, Val-Loss: 0.437, Val-Acc: 0.00%, Macro-Score: 0.00%, Micro-Score: 0.00%, Time:0:00:02, Improve:
+2023-11-25 16:41:51,516 - train - INFO - Iter: 400, Train-Loss:0.4187, Val-Loss:0.4344, Val-Acc: 0.00%, Macro-Score: 0.00%, Micro-Score: 0.00%, Time:0:00:02, Improve:
+2023-11-25 16:41:51,757 - train - INFO - Epoch [2/5]
+2023-11-25 16:41:52,019 - train - INFO - Iter: 500, Train-Loss:0.4747, Val-Loss:0.4336, Val-Acc: 0.00%, Macro-Score: 0.00%, Micro-Score: 0.00%, Time:0:00:03, Improve:
+2023-11-25 16:41:52,545 - train - INFO - Iter: 600, Train-Loss:0.4641, Val-Loss:0.4329, Val-Acc: 0.00%, Macro-Score: 0.00%, Micro-Score: 0.00%, Time:0:00:03, Improve:
+2023-11-25 16:41:53,077 - train - INFO - Iter: 700, Train-Loss:0.4325, Val-Loss:0.4334, Val-Acc: 0.00%, Macro-Score: 0.00%, Micro-Score: 0.00%, Time:0:00:04, Improve:
+2023-11-25 16:41:53,078 - train - INFO - No optimization for a long time, auto-stopping...
+2023-11-25 16:41:53,080 - train - INFO - ----------------------
+ <class 'models.TextCNNModel'>
+2023-11-25 16:41:54,938 - train - INFO - Epoch [1/5]
+2023-11-25 16:41:55,242 - train - INFO - Iter:   0, Train-Loss:0.7561, Val-Loss:0.5993, Val-Acc: 4.48%, Macro-Score: 3.95%, Micro-Score:10.04%, Time:0:00:00, Improve:*
+2023-11-25 16:41:56,940 - train - INFO - Iter: 100, Train-Loss:0.3655, Val-Loss:0.3957, Val-Acc:10.59%, Macro-Score:11.79%, Micro-Score:22.86%, Time:0:00:02, Improve:*
+2023-11-25 16:41:58,638 - train - INFO - Iter: 200, Train-Loss:0.3937, Val-Loss:0.3641, Val-Acc:19.36%, Macro-Score:22.08%, Micro-Score:36.63%, Time:0:00:04, Improve:*
+2023-11-25 16:42:00,359 - train - INFO - Iter: 300, Train-Loss: 0.315, Val-Loss: 0.344, Val-Acc:30.00%, Macro-Score:31.27%, Micro-Score:51.54%, Time:0:00:05, Improve:*
+2023-11-25 16:42:02,070 - train - INFO - Iter: 400, Train-Loss:0.3305, Val-Loss:0.3325, Val-Acc:39.68%, Macro-Score:37.81%, Micro-Score:59.65%, Time:0:00:07, Improve:*
+2023-11-25 16:42:02,984 - train - INFO - Epoch [2/5]
+2023-11-25 16:42:03,799 - train - INFO - Iter: 500, Train-Loss:0.3131, Val-Loss:0.3238, Val-Acc:35.34%, Macro-Score:39.55%, Micro-Score:59.17%, Time:0:00:09, Improve:*
+2023-11-25 16:42:05,440 - train - INFO - Iter: 600, Train-Loss:0.2895, Val-Loss:0.3179, Val-Acc:39.68%, Macro-Score:37.43%, Micro-Score:57.46%, Time:0:00:11, Improve:
+2023-11-25 16:42:07,125 - train - INFO - Iter: 700, Train-Loss:0.2937, Val-Loss:0.3044, Val-Acc:44.25%, Macro-Score:41.00%, Micro-Score:63.03%, Time:0:00:12, Improve:*
+2023-11-25 16:42:08,780 - train - INFO - Iter: 800, Train-Loss:0.2309, Val-Loss: 0.305, Val-Acc:44.06%, Macro-Score:40.53%, Micro-Score:62.02%, Time:0:00:14, Improve:
+2023-11-25 16:42:10,490 - train - INFO - Iter: 900, Train-Loss:0.3003, Val-Loss:0.2925, Val-Acc:45.68%, Macro-Score:44.33%, Micro-Score:65.94%, Time:0:00:16, Improve:*
+2023-11-25 16:42:10,749 - train - INFO - Epoch [3/5]
+2023-11-25 16:42:12,158 - train - INFO - Iter:1000, Train-Loss:0.2693, Val-Loss:0.2921, Val-Acc:44.68%, Macro-Score:44.46%, Micro-Score:65.32%, Time:0:00:17, Improve:*
+2023-11-25 16:42:13,797 - train - INFO - Iter:1100, Train-Loss:0.2794, Val-Loss:0.2886, Val-Acc:46.69%, Macro-Score:44.37%, Micro-Score:66.02%, Time:0:00:19, Improve:
+2023-11-25 16:42:15,486 - train - INFO - Iter:1200, Train-Loss:0.2687, Val-Loss:0.2813, Val-Acc:49.50%, Macro-Score:45.96%, Micro-Score:68.79%, Time:0:00:21, Improve:*
+2023-11-25 16:42:17,135 - train - INFO - Iter:1300, Train-Loss: 0.251, Val-Loss:0.2924, Val-Acc:47.73%, Macro-Score:45.20%, Micro-Score:68.39%, Time:0:00:22, Improve:
+2023-11-25 16:42:18,273 - train - INFO - Epoch [4/5]
+2023-11-25 16:42:18,820 - train - INFO - Iter:1400, Train-Loss:0.2288, Val-Loss: 0.282, Val-Acc:49.26%, Macro-Score:46.12%, Micro-Score:69.22%, Time:0:00:24, Improve:*
+2023-11-25 16:42:20,465 - train - INFO - Iter:1500, Train-Loss:0.2693, Val-Loss: 0.278, Val-Acc:50.41%, Macro-Score:45.62%, Micro-Score:68.11%, Time:0:00:26, Improve:
+2023-11-25 16:42:22,155 - train - INFO - Iter:1600, Train-Loss:0.3098, Val-Loss:0.2742, Val-Acc:51.31%, Macro-Score:47.38%, Micro-Score:70.47%, Time:0:00:27, Improve:*
+2023-11-25 16:42:23,853 - train - INFO - Iter:1700, Train-Loss:0.3231, Val-Loss:0.2736, Val-Acc:51.22%, Macro-Score:47.57%, Micro-Score:71.16%, Time:0:00:29, Improve:*
+2023-11-25 16:42:25,502 - train - INFO - Iter:1800, Train-Loss:0.3017, Val-Loss:0.2713, Val-Acc:52.36%, Macro-Score:47.51%, Micro-Score:71.29%, Time:0:00:31, Improve:
+2023-11-25 16:42:26,018 - train - INFO - Epoch [5/5]
+2023-11-25 16:42:27,135 - train - INFO - Iter:1900, Train-Loss:0.2633, Val-Loss:0.2739, Val-Acc:51.55%, Macro-Score:47.57%, Micro-Score:71.25%, Time:0:00:32, Improve:
+2023-11-25 16:42:28,830 - train - INFO - Iter:2000, Train-Loss:0.2985, Val-Loss: 0.274, Val-Acc:51.36%, Macro-Score:48.13%, Micro-Score:71.46%, Time:0:00:34, Improve:*
+2023-11-25 16:42:30,526 - train - INFO - Iter:2100, Train-Loss:0.2805, Val-Loss:0.2737, Val-Acc:50.60%, Macro-Score:46.91%, Micro-Score:70.11%, Time:0:00:36, Improve:
+2023-11-25 16:42:32,163 - train - INFO - Iter:2200, Train-Loss:0.2527, Val-Loss:0.2697, Val-Acc:52.89%, Macro-Score:47.82%, Micro-Score:71.70%, Time:0:00:37, Improve:
+2023-11-25 16:42:33,575 - train - INFO - ----------------------
+ <class 'models.RNNModel'>
+2023-11-25 16:42:35,444 - train - INFO - Epoch [1/5]
+2023-11-25 16:42:36,050 - train - INFO - Iter:   0, Train-Loss:0.6961, Val-Loss:0.6852, Val-Acc: 4.58%, Macro-Score:38.57%, Micro-Score:10.40%, Time:0:00:01, Improve:*
+2023-11-25 16:42:40,775 - train - INFO - Iter: 100, Train-Loss:0.4474, Val-Loss:0.4387, Val-Acc: 0.00%, Macro-Score: 0.00%, Micro-Score: 0.00%, Time:0:00:05, Improve:
+2023-11-25 16:42:45,417 - train - INFO - Iter: 200, Train-Loss:0.4495, Val-Loss:0.4352, Val-Acc: 0.00%, Macro-Score: 0.00%, Micro-Score: 0.00%, Time:0:00:10, Improve:
+2023-11-25 16:42:50,114 - train - INFO - Iter: 300, Train-Loss:  0.43, Val-Loss:0.4362, Val-Acc: 0.00%, Macro-Score: 0.00%, Micro-Score: 0.00%, Time:0:00:15, Improve:
+2023-11-25 16:42:54,916 - train - INFO - Iter: 400, Train-Loss:0.4358, Val-Loss:0.4362, Val-Acc: 0.29%, Macro-Score: 0.41%, Micro-Score: 0.53%, Time:0:00:19, Improve:
+2023-11-25 16:42:57,393 - train - INFO - Epoch [2/5]
+2023-11-25 16:42:59,576 - train - INFO - Iter: 500, Train-Loss:0.4038, Val-Loss:0.4352, Val-Acc: 0.52%, Macro-Score: 0.70%, Micro-Score: 0.90%, Time:0:00:24, Improve:
+2023-11-25 16:43:04,351 - train - INFO - Iter: 600, Train-Loss:0.4265, Val-Loss:0.4301, Val-Acc: 0.72%, Macro-Score: 0.98%, Micro-Score: 1.28%, Time:0:00:29, Improve:
+2023-11-25 16:43:09,265 - train - INFO - Iter: 700, Train-Loss:0.4402, Val-Loss:0.4352, Val-Acc: 0.00%, Macro-Score: 0.00%, Micro-Score: 0.00%, Time:0:00:34, Improve:
+2023-11-25 16:43:09,266 - train - INFO - No optimization for a long time, auto-stopping...
+2023-11-25 16:43:09,268 - train - INFO - ----------------------
+ xlm-roberta-base
+2023-11-25 16:55:28,742 - train - INFO - ----------------------
+ FastTextModel
+2023-11-25 16:55:32,022 - train - INFO - Epoch [1/5]
+2023-11-25 16:55:32,269 - train - INFO - Iter:   0, Train-Loss:0.7017, Val-Loss:0.6896, Val-Acc: 0.14%, Macro-Score: 1.29%, Micro-Score: 2.30%, Time:0:00:00, Improve:*
+2023-11-25 16:55:32,773 - train - INFO - Iter: 100, Train-Loss:0.4539, Val-Loss:0.4507, Val-Acc: 0.00%, Macro-Score: 0.00%, Micro-Score: 0.00%, Time:0:00:01, Improve:
+2023-11-25 16:55:33,290 - train - INFO - Iter: 200, Train-Loss:0.4609, Val-Loss:0.4389, Val-Acc: 0.00%, Macro-Score: 0.00%, Micro-Score: 0.00%, Time:0:00:01, Improve:
+2023-11-25 16:55:33,806 - train - INFO - Iter: 300, Train-Loss:0.4498, Val-Loss:0.4367, Val-Acc: 0.00%, Macro-Score: 0.00%, Micro-Score: 0.00%, Time:0:00:02, Improve:
+2023-11-25 16:55:34,335 - train - INFO - Iter: 400, Train-Loss:0.4171, Val-Loss:0.4353, Val-Acc: 0.00%, Macro-Score: 0.00%, Micro-Score: 0.00%, Time:0:00:02, Improve:
+2023-11-25 16:55:34,603 - train - INFO - Epoch [2/5]
+2023-11-25 16:55:34,868 - train - INFO - Iter: 500, Train-Loss:0.4755, Val-Loss:0.4348, Val-Acc: 0.00%, Macro-Score: 0.00%, Micro-Score: 0.00%, Time:0:00:03, Improve:
+2023-11-25 16:55:35,407 - train - INFO - Iter: 600, Train-Loss: 0.466, Val-Loss:0.4352, Val-Acc: 0.00%, Macro-Score: 0.00%, Micro-Score: 0.00%, Time:0:00:03, Improve:
+2023-11-25 16:55:35,931 - train - INFO - Iter: 700, Train-Loss:0.4341, Val-Loss:0.4366, Val-Acc: 0.00%, Macro-Score: 0.00%, Micro-Score: 0.00%, Time:0:00:04, Improve:
+2023-11-25 16:55:35,931 - train - INFO - No optimization for a long time, auto-stopping...
+2023-11-25 16:55:35,933 - train - INFO - ----------------------
+ TextCNNModel
+2023-11-25 16:55:37,837 - train - INFO - Epoch [1/5]
+2023-11-25 16:55:38,142 - train - INFO - Iter:   0, Train-Loss:0.7611, Val-Loss:0.5948, Val-Acc: 3.20%, Macro-Score: 3.09%, Micro-Score: 7.37%, Time:0:00:00, Improve:*
+2023-11-25 16:55:39,818 - train - INFO - Iter: 100, Train-Loss: 0.368, Val-Loss:0.4058, Val-Acc:14.50%, Macro-Score:14.88%, Micro-Score:26.41%, Time:0:00:02, Improve:*
+2023-11-25 16:55:41,481 - train - INFO - Iter: 200, Train-Loss:0.4301, Val-Loss:0.3886, Val-Acc:15.21%, Macro-Score:16.09%, Micro-Score:28.06%, Time:0:00:04, Improve:*
+2023-11-25 16:55:43,156 - train - INFO - Iter: 300, Train-Loss:0.3364, Val-Loss:0.3796, Val-Acc:25.80%, Macro-Score:23.78%, Micro-Score:43.94%, Time:0:00:05, Improve:*
+2023-11-25 16:55:44,827 - train - INFO - Iter: 400, Train-Loss:0.3923, Val-Loss:0.3729, Val-Acc:29.28%, Macro-Score:27.54%, Micro-Score:47.90%, Time:0:00:07, Improve:*
+2023-11-25 16:55:45,739 - train - INFO - Epoch [2/5]
+2023-11-25 16:55:46,562 - train - INFO - Iter: 500, Train-Loss:0.3403, Val-Loss:0.3675, Val-Acc:24.18%, Macro-Score:29.05%, Micro-Score:44.63%, Time:0:00:09, Improve:*
+2023-11-25 16:55:48,221 - train - INFO - Iter: 600, Train-Loss:0.3636, Val-Loss:0.3638, Val-Acc:28.99%, Macro-Score:27.79%, Micro-Score:45.89%, Time:0:00:10, Improve:
+2023-11-25 16:55:49,885 - train - INFO - Iter: 700, Train-Loss:0.3327, Val-Loss:0.3596, Val-Acc:33.29%, Macro-Score:30.52%, Micro-Score:50.74%, Time:0:00:12, Improve:*
+2023-11-25 16:55:51,533 - train - INFO - Iter: 800, Train-Loss:0.3063, Val-Loss:0.3698, Val-Acc:30.23%, Macro-Score:27.79%, Micro-Score:44.59%, Time:0:00:14, Improve:
+2023-11-25 16:55:53,213 - train - INFO - Iter: 900, Train-Loss:0.4093, Val-Loss:0.3529, Val-Acc:30.57%, Macro-Score:33.65%, Micro-Score:52.08%, Time:0:00:15, Improve:*
+2023-11-25 16:55:53,476 - train - INFO - Epoch [3/5]
+2023-11-25 16:55:54,896 - train - INFO - Iter:1000, Train-Loss:0.3227, Val-Loss: 0.351, Val-Acc:30.04%, Macro-Score:33.74%, Micro-Score:50.16%, Time:0:00:17, Improve:*
+2023-11-25 16:55:56,588 - train - INFO - Iter:1100, Train-Loss:0.2999, Val-Loss: 0.346, Val-Acc:34.72%, Macro-Score:35.84%, Micro-Score:55.05%, Time:0:00:19, Improve:*
+2023-11-25 16:55:58,256 - train - INFO - Iter:1200, Train-Loss:0.3211, Val-Loss:0.3451, Val-Acc:37.34%, Macro-Score:35.96%, Micro-Score:56.45%, Time:0:00:20, Improve:*
+2023-11-25 16:55:59,907 - train - INFO - Iter:1300, Train-Loss:0.3132, Val-Loss:0.3481, Val-Acc:36.29%, Macro-Score:35.69%, Micro-Score:57.09%, Time:0:00:22, Improve:
+2023-11-25 16:56:01,056 - train - INFO - Epoch [4/5]
+2023-11-25 16:56:01,594 - train - INFO - Iter:1400, Train-Loss:0.3279, Val-Loss:0.3437, Val-Acc:35.67%, Macro-Score:36.39%, Micro-Score:57.37%, Time:0:00:24, Improve:*
+2023-11-25 16:56:03,256 - train - INFO - Iter:1500, Train-Loss:0.3244, Val-Loss:0.3469, Val-Acc:35.24%, Macro-Score:34.07%, Micro-Score:53.31%, Time:0:00:25, Improve:
+2023-11-25 16:56:04,914 - train - INFO - Iter:1600, Train-Loss: 0.377, Val-Loss:0.3365, Val-Acc:37.43%, Macro-Score:37.24%, Micro-Score:57.79%, Time:0:00:27, Improve:*
+2023-11-25 16:56:06,598 - train - INFO - Iter:1700, Train-Loss:0.3473, Val-Loss:0.3361, Val-Acc:39.53%, Macro-Score:38.73%, Micro-Score:59.69%, Time:0:00:29, Improve:*
+2023-11-25 16:56:08,252 - train - INFO - Iter:1800, Train-Loss:0.3761, Val-Loss:0.3352, Val-Acc:38.20%, Macro-Score:38.42%, Micro-Score:59.17%, Time:0:00:30, Improve:
+2023-11-25 16:56:08,775 - train - INFO - Epoch [5/5]
+2023-11-25 16:56:09,901 - train - INFO - Iter:1900, Train-Loss:0.3578, Val-Loss:0.3462, Val-Acc:37.15%, Macro-Score:37.77%, Micro-Score:59.53%, Time:0:00:32, Improve:
+2023-11-25 16:56:11,484 - train - INFO - Iter:2000, Train-Loss:0.3496, Val-Loss:0.3363, Val-Acc:38.05%, Macro-Score:38.29%, Micro-Score:57.57%, Time:0:00:34, Improve:
+2023-11-25 16:56:13,135 - train - INFO - Iter:2100, Train-Loss:0.3042, Val-Loss:0.3344, Val-Acc:36.43%, Macro-Score:37.45%, Micro-Score:57.39%, Time:0:00:35, Improve:
+2023-11-25 16:56:14,802 - train - INFO - Iter:2200, Train-Loss:0.3558, Val-Loss:0.3385, Val-Acc:38.05%, Macro-Score:38.80%, Micro-Score:60.39%, Time:0:00:37, Improve:*
+2023-11-25 16:56:16,229 - train - INFO - ----------------------
+ RNNModel
+2023-11-25 16:56:18,177 - train - INFO - Epoch [1/5]
+2023-11-25 16:56:18,728 - train - INFO - Iter:   0, Train-Loss:0.6973, Val-Loss:0.6796, Val-Acc: 0.72%, Macro-Score:19.38%, Micro-Score: 2.74%, Time:0:00:01, Improve:*
+2023-11-25 16:56:23,410 - train - INFO - Iter: 100, Train-Loss: 0.451, Val-Loss:0.4394, Val-Acc: 0.00%, Macro-Score: 0.00%, Micro-Score: 0.00%, Time:0:00:05, Improve:
+2023-11-25 16:56:27,974 - train - INFO - Iter: 200, Train-Loss:0.4526, Val-Loss:0.4352, Val-Acc: 0.00%, Macro-Score: 0.00%, Micro-Score: 0.00%, Time:0:00:10, Improve:
+2023-11-25 16:56:32,595 - train - INFO - Iter: 300, Train-Loss:0.4289, Val-Loss:0.4357, Val-Acc: 0.43%, Macro-Score: 0.59%, Micro-Score: 0.75%, Time:0:00:14, Improve:
+2023-11-25 16:56:37,215 - train - INFO - Iter: 400, Train-Loss:0.4354, Val-Loss:0.4358, Val-Acc: 0.48%, Macro-Score: 0.65%, Micro-Score: 0.83%, Time:0:00:19, Improve:
+2023-11-25 16:56:39,600 - train - INFO - Epoch [2/5]
+2023-11-25 16:56:41,847 - train - INFO - Iter: 500, Train-Loss:0.4163, Val-Loss:0.4875, Val-Acc:13.30%, Macro-Score: 6.79%, Micro-Score:21.00%, Time:0:00:24, Improve:
+2023-11-25 16:56:46,559 - train - INFO - Iter: 600, Train-Loss:0.4332, Val-Loss: 0.428, Val-Acc: 1.00%, Macro-Score: 1.30%, Micro-Score: 1.72%, Time:0:00:28, Improve:
+2023-11-25 16:56:51,138 - train - INFO - Iter: 700, Train-Loss:0.4349, Val-Loss:0.4252, Val-Acc: 4.29%, Macro-Score: 4.91%, Micro-Score: 7.67%, Time:0:00:33, Improve:
+2023-11-25 16:56:51,138 - train - INFO - No optimization for a long time, auto-stopping...
+2023-11-25 16:56:51,141 - train - INFO - ----------------------
+ xlm-roberta-base
+2023-11-25 17:00:27,428 - train - INFO - ----------------------
+ FastTextModel
+2023-11-25 17:00:30,587 - train - INFO - Epoch [1/5]
+2023-11-25 17:00:30,845 - train - INFO - Iter:   0, Train-Loss:0.7017, Val-Loss:0.6896, Val-Acc: 0.14%, Macro-Score: 1.29%, Micro-Score: 2.30%, Time:0:00:00, Improve:*
+2023-11-25 17:00:31,346 - train - INFO - Iter: 100, Train-Loss:0.4539, Val-Loss:0.4507, Val-Acc: 0.00%, Macro-Score: 0.00%, Micro-Score: 0.00%, Time:0:00:01, Improve:
+2023-11-25 17:00:31,867 - train - INFO - Iter: 200, Train-Loss:0.4609, Val-Loss:0.4389, Val-Acc: 0.00%, Macro-Score: 0.00%, Micro-Score: 0.00%, Time:0:00:01, Improve:
+2023-11-25 17:00:32,397 - train - INFO - Iter: 300, Train-Loss:0.4498, Val-Loss:0.4367, Val-Acc: 0.00%, Macro-Score: 0.00%, Micro-Score: 0.00%, Time:0:00:02, Improve:
+2023-11-25 17:00:32,922 - train - INFO - Iter: 400, Train-Loss:0.4171, Val-Loss:0.4353, Val-Acc: 0.00%, Macro-Score: 0.00%, Micro-Score: 0.00%, Time:0:00:02, Improve:
+2023-11-25 17:00:33,185 - train - INFO - Epoch [2/5]
+2023-11-25 17:00:33,451 - train - INFO - Iter: 500, Train-Loss:0.4755, Val-Loss:0.4348, Val-Acc: 0.00%, Macro-Score: 0.00%, Micro-Score: 0.00%, Time:0:00:03, Improve:
+2023-11-25 17:00:33,975 - train - INFO - Iter: 600, Train-Loss: 0.466, Val-Loss:0.4352, Val-Acc: 0.00%, Macro-Score: 0.00%, Micro-Score: 0.00%, Time:0:00:03, Improve:
+2023-11-25 17:00:34,504 - train - INFO - Iter: 700, Train-Loss:0.4341, Val-Loss:0.4366, Val-Acc: 0.00%, Macro-Score: 0.00%, Micro-Score: 0.00%, Time:0:00:04, Improve:
+2023-11-25 17:00:34,505 - train - INFO - No optimization for a long time, auto-stopping...
+2023-11-25 17:00:34,507 - train - INFO - ----------------------
+ TextCNNModel
+2023-11-25 17:00:36,335 - train - INFO - Epoch [1/5]
+2023-11-25 17:00:36,635 - train - INFO - Iter:   0, Train-Loss:0.7611, Val-Loss:0.5948, Val-Acc: 3.20%, Macro-Score: 3.09%, Micro-Score: 7.37%, Time:0:00:00, Improve:*
+2023-11-25 17:00:38,285 - train - INFO - Iter: 100, Train-Loss: 0.368, Val-Loss:0.4058, Val-Acc:14.50%, Macro-Score:14.88%, Micro-Score:26.41%, Time:0:00:02, Improve:*
+2023-11-25 17:00:39,943 - train - INFO - Iter: 200, Train-Loss:0.4301, Val-Loss:0.3886, Val-Acc:15.21%, Macro-Score:16.09%, Micro-Score:28.06%, Time:0:00:04, Improve:*
+2023-11-25 17:00:41,598 - train - INFO - Iter: 300, Train-Loss:0.3364, Val-Loss:0.3796, Val-Acc:25.80%, Macro-Score:23.78%, Micro-Score:43.94%, Time:0:00:05, Improve:*
+2023-11-25 17:00:43,249 - train - INFO - Iter: 400, Train-Loss:0.3923, Val-Loss:0.3729, Val-Acc:29.28%, Macro-Score:27.54%, Micro-Score:47.90%, Time:0:00:07, Improve:*
+2023-11-25 17:00:44,165 - train - INFO - Epoch [2/5]
+2023-11-25 17:00:44,973 - train - INFO - Iter: 500, Train-Loss:0.3403, Val-Loss:0.3675, Val-Acc:24.18%, Macro-Score:29.05%, Micro-Score:44.63%, Time:0:00:09, Improve:*
+2023-11-25 17:02:06,299 - train - INFO - ----------------------
+ FastTextModel
+2023-11-25 17:02:09,482 - train - INFO - Epoch [1/5]
+2023-11-25 17:02:09,723 - train - INFO - Iter:   0, Train-Loss:0.7017, Val-Loss:0.6958, Val-Acc: 0.00%, Macro-Score: 1.31%, Micro-Score: 2.46%, Time:0:00:00, Improve:*
+2023-11-25 17:02:10,213 - train - INFO - Iter: 100, Train-Loss:0.5278, Val-Loss:0.5212, Val-Acc: 0.00%, Macro-Score: 0.00%, Micro-Score: 0.00%, Time:0:00:01, Improve:
+2023-11-25 17:02:10,731 - train - INFO - Iter: 200, Train-Loss:0.4876, Val-Loss:0.4727, Val-Acc: 0.00%, Macro-Score: 0.00%, Micro-Score: 0.00%, Time:0:00:01, Improve:
+2023-11-25 17:02:11,245 - train - INFO - Iter: 300, Train-Loss: 0.456, Val-Loss:0.4542, Val-Acc: 0.00%, Macro-Score: 0.00%, Micro-Score: 0.00%, Time:0:00:02, Improve:
+2023-11-25 17:02:11,761 - train - INFO - Iter: 400, Train-Loss:0.4364, Val-Loss:0.4454, Val-Acc: 0.00%, Macro-Score: 0.00%, Micro-Score: 0.00%, Time:0:00:02, Improve:
+2023-11-25 17:02:12,007 - train - INFO - Epoch [2/5]
+2023-11-25 17:02:12,272 - train - INFO - Iter: 500, Train-Loss:0.4698, Val-Loss:0.4414, Val-Acc: 0.00%, Macro-Score: 0.00%, Micro-Score: 0.00%, Time:0:00:03, Improve:
+2023-11-25 17:02:12,791 - train - INFO - Iter: 600, Train-Loss:0.4684, Val-Loss: 0.439, Val-Acc: 0.00%, Macro-Score: 0.00%, Micro-Score: 0.00%, Time:0:00:03, Improve:
+2023-11-25 17:02:13,305 - train - INFO - Iter: 700, Train-Loss:0.4382, Val-Loss:0.4383, Val-Acc: 0.00%, Macro-Score: 0.00%, Micro-Score: 0.00%, Time:0:00:04, Improve:
+2023-11-25 17:02:13,306 - train - INFO - No optimization for a long time, auto-stopping...
+2023-11-25 17:02:13,308 - train - INFO - ----------------------
+ TextCNNModel
+2023-11-25 17:02:15,174 - train - INFO - Epoch [1/5]
+2023-11-25 17:02:15,481 - train - INFO - Iter:   0, Train-Loss:0.7611, Val-Loss:0.6941, Val-Acc: 0.00%, Macro-Score:25.10%, Micro-Score:11.32%, Time:0:00:00, Improve:*
+2023-11-25 17:02:17,110 - train - INFO - Iter: 100, Train-Loss:0.3912, Val-Loss:0.4197, Val-Acc: 4.48%, Macro-Score: 4.83%, Micro-Score:11.02%, Time:0:00:02, Improve:
+2023-11-25 17:02:18,739 - train - INFO - Iter: 200, Train-Loss:0.4172, Val-Loss:0.4114, Val-Acc: 5.82%, Macro-Score: 7.02%, Micro-Score:11.75%, Time:0:00:04, Improve:
+2023-11-25 17:02:20,376 - train - INFO - Iter: 300, Train-Loss:0.3717, Val-Loss:0.4022, Val-Acc:23.61%, Macro-Score:16.67%, Micro-Score:39.92%, Time:0:00:05, Improve:
+2023-11-25 17:02:22,002 - train - INFO - Iter: 400, Train-Loss:0.3923, Val-Loss:0.3947, Val-Acc:21.98%, Macro-Score:19.15%, Micro-Score:38.54%, Time:0:00:07, Improve:
+2023-11-25 17:02:22,911 - train - INFO - Epoch [2/5]
+2023-11-25 17:02:23,679 - train - INFO - Iter: 500, Train-Loss:0.3551, Val-Loss:0.3874, Val-Acc:16.40%, Macro-Score:18.12%, Micro-Score:30.61%, Time:0:00:09, Improve:
+2023-11-25 17:02:25,315 - train - INFO - Iter: 600, Train-Loss:0.3848, Val-Loss:0.3829, Val-Acc:22.51%, Macro-Score:21.04%, Micro-Score:37.81%, Time:0:00:10, Improve:
+2023-11-25 17:02:26,949 - train - INFO - Iter: 700, Train-Loss:0.3571, Val-Loss:0.3789, Val-Acc:21.51%, Macro-Score:21.22%, Micro-Score:36.73%, Time:0:00:12, Improve:
+2023-11-25 17:02:26,949 - train - INFO - No optimization for a long time, auto-stopping...
+2023-11-25 17:02:26,952 - train - INFO - ----------------------
+ RNNModel
+2023-11-25 17:02:28,798 - train - INFO - Epoch [1/5]
+2023-11-25 17:02:29,367 - train - INFO - Iter:   0, Train-Loss:0.6899, Val-Loss:0.6848, Val-Acc: 1.38%, Macro-Score:40.40%, Micro-Score:44.33%, Time:0:00:01, Improve:*
+2023-11-25 17:04:57,496 - train - INFO - ----------------------
+ FastTextModel
+2023-11-25 17:05:00,750 - train - INFO - Epoch [1/5]
+2023-11-25 17:05:00,960 - train - INFO - Iter:   0, Train-Loss:0.7017, Val-Loss:0.6899, Val-Acc: 0.10%, Macro-Score: 1.30%, Micro-Score: 2.34%, Time:0:00:00, Improve:*
+2023-11-25 17:05:01,223 - train - INFO - Iter: 100, Train-Loss:0.4565, Val-Loss:0.4532, Val-Acc: 0.00%, Macro-Score: 0.00%, Micro-Score: 0.00%, Time:0:00:00, Improve:
+2023-11-25 17:05:01,488 - train - INFO - Iter: 200, Train-Loss:0.4613, Val-Loss:  0.44, Val-Acc: 0.00%, Macro-Score: 0.00%, Micro-Score: 0.00%, Time:0:00:01, Improve:
+2023-11-25 17:05:01,782 - train - INFO - Iter: 300, Train-Loss:0.4496, Val-Loss:0.4374, Val-Acc: 0.00%, Macro-Score: 0.00%, Micro-Score: 0.00%, Time:0:00:01, Improve:
+2023-11-25 17:05:02,110 - train - INFO - Iter: 400, Train-Loss:0.4187, Val-Loss: 0.436, Val-Acc: 0.00%, Macro-Score: 0.00%, Micro-Score: 0.00%, Time:0:00:01, Improve:
+2023-11-25 17:05:02,249 - train - INFO - Epoch [2/5]
+2023-11-25 17:05:02,409 - train - INFO - Iter: 500, Train-Loss:0.4755, Val-Loss:0.4357, Val-Acc: 0.00%, Macro-Score: 0.00%, Micro-Score: 0.00%, Time:0:00:02, Improve:
+2023-11-25 17:05:02,680 - train - INFO - Iter: 600, Train-Loss:0.4669, Val-Loss: 0.436, Val-Acc: 0.00%, Macro-Score: 0.00%, Micro-Score: 0.00%, Time:0:00:02, Improve:
+2023-11-25 17:05:02,943 - train - INFO - Iter: 700, Train-Loss:0.4347, Val-Loss:0.4376, Val-Acc: 0.00%, Macro-Score: 0.00%, Micro-Score: 0.00%, Time:0:00:02, Improve:
+2023-11-25 17:05:02,943 - train - INFO - No optimization for a long time, auto-stopping...
+2023-11-25 17:05:02,945 - train - INFO - ----------------------
+ TextCNNModel
+2023-11-25 17:05:04,808 - train - INFO - Epoch [1/5]
+2023-11-25 17:05:05,177 - train - INFO - Iter:   0, Train-Loss:0.7611, Val-Loss:0.5948, Val-Acc: 3.20%, Macro-Score: 3.09%, Micro-Score: 7.37%, Time:0:00:00, Improve:*
+2023-11-25 17:05:06,804 - train - INFO - Iter: 100, Train-Loss: 0.368, Val-Loss:0.4058, Val-Acc:14.50%, Macro-Score:14.88%, Micro-Score:26.41%, Time:0:00:02, Improve:*
+2023-11-25 17:05:08,430 - train - INFO - Iter: 200, Train-Loss:0.4301, Val-Loss:0.3886, Val-Acc:15.21%, Macro-Score:16.09%, Micro-Score:28.06%, Time:0:00:04, Improve:*
+2023-11-25 17:05:10,063 - train - INFO - Iter: 300, Train-Loss:0.3364, Val-Loss:0.3796, Val-Acc:25.80%, Macro-Score:23.78%, Micro-Score:43.94%, Time:0:00:05, Improve:*
+2023-11-25 17:05:11,713 - train - INFO - Iter: 400, Train-Loss:0.3923, Val-Loss:0.3729, Val-Acc:29.28%, Macro-Score:27.54%, Micro-Score:47.90%, Time:0:00:07, Improve:*
+2023-11-25 17:06:07,049 - train - INFO - ----------------------
+ FastTextModel
+2023-11-25 17:06:10,273 - train - INFO - Epoch [1/5]
+2023-11-25 17:06:10,520 - train - INFO - Iter:   0, Train-Loss:0.7171, Val-Loss:0.6901, Val-Acc: 0.14%, Macro-Score: 1.30%, Micro-Score: 2.30%, Time:0:00:00, Improve:*
+2023-11-25 17:06:11,031 - train - INFO - Iter: 100, Train-Loss:0.4579, Val-Loss: 0.451, Val-Acc: 0.00%, Macro-Score: 0.00%, Micro-Score: 0.00%, Time:0:00:01, Improve:
+2023-11-25 17:06:11,568 - train - INFO - Iter: 200, Train-Loss:0.4582, Val-Loss:0.4389, Val-Acc: 0.00%, Macro-Score: 0.00%, Micro-Score: 0.00%, Time:0:00:01, Improve:
+2023-11-25 17:06:12,107 - train - INFO - Iter: 300, Train-Loss:0.4573, Val-Loss:0.4367, Val-Acc: 0.00%, Macro-Score: 0.00%, Micro-Score: 0.00%, Time:0:00:02, Improve:
+2023-11-25 17:06:12,647 - train - INFO - Iter: 400, Train-Loss:0.4253, Val-Loss:0.4354, Val-Acc: 0.00%, Macro-Score: 0.00%, Micro-Score: 0.00%, Time:0:00:02, Improve:
+2023-11-25 17:08:55,745 - train - INFO - ----------------------
+ FastTextModel
+2023-11-25 17:08:58,986 - train - INFO - Epoch [1/5]
+2023-11-25 17:08:59,213 - train - INFO - Iter:   0, Train-Loss:0.7171, Val-Loss:0.6703, Val-Acc: 0.86%, Macro-Score: 0.36%, Micro-Score: 0.97%, Time:0:00:00, Improve:*
+2023-11-25 17:08:59,702 - train - INFO - Iter: 100, Train-Loss:0.4432, Val-Loss:0.4359, Val-Acc: 0.00%, Macro-Score: 0.00%, Micro-Score: 0.00%, Time:0:00:01, Improve:
+2023-11-25 17:09:00,196 - train - INFO - Iter: 200, Train-Loss:0.4537, Val-Loss:0.4348, Val-Acc: 0.00%, Macro-Score: 0.00%, Micro-Score: 0.00%, Time:0:00:01, Improve:
+2023-11-25 17:09:00,722 - train - INFO - Iter: 300, Train-Loss:0.4544, Val-Loss:0.4353, Val-Acc: 0.00%, Macro-Score: 0.00%, Micro-Score: 0.00%, Time:0:00:02, Improve:
+2023-11-25 17:09:01,241 - train - INFO - Iter: 400, Train-Loss: 0.418, Val-Loss: 0.432, Val-Acc: 0.00%, Macro-Score: 0.00%, Micro-Score: 0.00%, Time:0:00:02, Improve:
+2023-11-25 17:09:01,503 - train - INFO - Epoch [2/5]
+2023-11-25 17:09:01,770 - train - INFO - Iter: 500, Train-Loss:0.4804, Val-Loss:0.4316, Val-Acc: 0.05%, Macro-Score: 0.06%, Micro-Score: 0.08%, Time:0:00:03, Improve:
+2023-11-25 17:09:02,302 - train - INFO - Iter: 600, Train-Loss:0.4714, Val-Loss: 0.431, Val-Acc: 0.10%, Macro-Score: 0.12%, Micro-Score: 0.15%, Time:0:00:03, Improve:
+2023-11-25 17:09:02,783 - train - INFO - Iter: 700, Train-Loss:0.4284, Val-Loss:0.4296, Val-Acc: 1.34%, Macro-Score: 1.75%, Micro-Score: 3.54%, Time:0:00:04, Improve:*
+2023-11-25 17:09:03,104 - train - INFO - Iter: 800, Train-Loss:0.4146, Val-Loss:0.4243, Val-Acc: 7.77%, Macro-Score: 7.22%, Micro-Score:18.18%, Time:0:00:04, Improve:*
+2023-11-25 17:09:03,574 - train - INFO - Iter: 900, Train-Loss:0.4054, Val-Loss:0.4213, Val-Acc: 5.48%, Macro-Score: 5.88%, Micro-Score:12.47%, Time:0:00:05, Improve:
+2023-11-25 17:09:03,610 - train - INFO - Epoch [3/5]
+2023-11-25 17:09:04,034 - train - INFO - Iter:1000, Train-Loss:0.4353, Val-Loss:0.4187, Val-Acc: 6.77%, Macro-Score: 7.58%, Micro-Score:14.93%, Time:0:00:05, Improve:*
+2023-11-25 17:09:04,437 - train - INFO - Iter:1100, Train-Loss:0.4659, Val-Loss:0.4181, Val-Acc: 6.91%, Macro-Score: 7.20%, Micro-Score:15.35%, Time:0:00:05, Improve:
+2023-11-25 17:09:04,792 - train - INFO - Iter:1200, Train-Loss:0.3973, Val-Loss:0.4141, Val-Acc: 8.44%, Macro-Score: 9.10%, Micro-Score:18.24%, Time:0:00:06, Improve:*
+2023-11-25 17:09:05,165 - train - INFO - Iter:1300, Train-Loss:0.3891, Val-Loss: 0.412, Val-Acc:10.30%, Macro-Score:10.34%, Micro-Score:21.80%, Time:0:00:06, Improve:*
+2023-11-25 17:09:05,460 - train - INFO - Epoch [4/5]
+2023-11-25 17:09:05,643 - train - INFO - Iter:1400, Train-Loss: 0.371, Val-Loss:0.4114, Val-Acc:11.06%, Macro-Score:11.22%, Micro-Score:23.00%, Time:0:00:07, Improve:*
+2023-11-25 17:09:05,985 - train - INFO - Iter:1500, Train-Loss:0.3973, Val-Loss:0.4106, Val-Acc:10.06%, Macro-Score:10.53%, Micro-Score:20.95%, Time:0:00:07, Improve:
+2023-11-25 17:09:06,451 - train - INFO - Iter:1600, Train-Loss:0.3923, Val-Loss:0.4084, Val-Acc:10.44%, Macro-Score:10.95%, Micro-Score:21.55%, Time:0:00:07, Improve:
+2023-11-25 17:09:06,730 - train - INFO - Iter:1700, Train-Loss:0.3958, Val-Loss:0.4089, Val-Acc: 9.11%, Macro-Score:10.26%, Micro-Score:18.72%, Time:0:00:08, Improve:
+2023-11-25 17:09:07,034 - train - INFO - Iter:1800, Train-Loss:0.3698, Val-Loss:0.4069, Val-Acc:11.16%, Macro-Score:11.54%, Micro-Score:23.05%, Time:0:00:08, Improve:*
+2023-11-25 17:09:07,172 - train - INFO - Epoch [5/5]
+2023-11-25 17:09:07,505 - train - INFO - Iter:1900, Train-Loss:0.3906, Val-Loss:0.4065, Val-Acc:13.07%, Macro-Score:13.03%, Micro-Score:26.23%, Time:0:00:09, Improve:*
+2023-11-25 17:09:07,868 - train - INFO - Iter:2000, Train-Loss:0.3837, Val-Loss:0.4055, Val-Acc:12.16%, Macro-Score:13.49%, Micro-Score:25.70%, Time:0:00:09, Improve:*
+2023-11-25 17:09:08,204 - train - INFO - Iter:2100, Train-Loss:0.4264, Val-Loss:0.4049, Val-Acc:13.54%, Macro-Score:15.20%, Micro-Score:28.17%, Time:0:00:09, Improve:*
+2023-11-25 17:09:08,548 - train - INFO - Iter:2200, Train-Loss:0.3559, Val-Loss: 0.406, Val-Acc:10.87%, Macro-Score:12.17%, Micro-Score:21.78%, Time:0:00:10, Improve:
+2023-11-25 17:09:08,824 - train - INFO - ----------------------
+ TextCNNModel
+2023-11-25 17:09:11,103 - train - INFO - Epoch [1/5]
+2023-11-25 17:09:11,478 - train - INFO - Iter:   0, Train-Loss:0.7476, Val-Loss:0.4578, Val-Acc: 0.00%, Macro-Score: 0.00%, Micro-Score: 0.00%, Time:0:00:00, Improve:*
+2023-11-25 17:09:13,021 - train - INFO - Iter: 100, Train-Loss:0.3607, Val-Loss:0.4042, Val-Acc:17.31%, Macro-Score:17.00%, Micro-Score:27.22%, Time:0:00:02, Improve:*
+2023-11-25 17:09:14,536 - train - INFO - Iter: 200, Train-Loss:0.4564, Val-Loss:0.3768, Val-Acc:26.90%, Macro-Score:29.47%, Micro-Score:45.57%, Time:0:00:03, Improve:*
+2023-11-25 17:09:16,012 - train - INFO - Iter: 300, Train-Loss:0.4235, Val-Loss: 0.372, Val-Acc:26.18%, Macro-Score:25.83%, Micro-Score:40.15%, Time:0:00:05, Improve:
+2023-11-25 17:09:17,514 - train - INFO - Iter: 400, Train-Loss:0.3897, Val-Loss:0.3626, Val-Acc:34.62%, Macro-Score:30.97%, Micro-Score:50.84%, Time:0:00:06, Improve:*
+2023-11-25 17:09:18,338 - train - INFO - Epoch [2/5]
+2023-11-25 17:09:19,080 - train - INFO - Iter: 500, Train-Loss:0.3777, Val-Loss: 0.356, Val-Acc:36.05%, Macro-Score:33.10%, Micro-Score:53.02%, Time:0:00:08, Improve:*
+2023-11-25 17:09:20,583 - train - INFO - Iter: 600, Train-Loss:0.3468, Val-Loss:0.3586, Val-Acc:33.95%, Macro-Score:32.98%, Micro-Score:51.24%, Time:0:00:09, Improve:
+2023-11-25 17:09:22,103 - train - INFO - Iter: 700, Train-Loss: 0.428, Val-Loss:0.3476, Val-Acc:32.71%, Macro-Score:34.64%, Micro-Score:53.08%, Time:0:00:11, Improve:*
+2023-11-25 17:09:23,557 - train - INFO - Iter: 800, Train-Loss: 0.422, Val-Loss:0.3632, Val-Acc:31.33%, Macro-Score:30.17%, Micro-Score:46.76%, Time:0:00:12, Improve:
+2023-11-25 17:09:25,052 - train - INFO - Iter: 900, Train-Loss:0.3655, Val-Loss:0.3533, Val-Acc:33.95%, Macro-Score:31.84%, Micro-Score:50.49%, Time:0:00:14, Improve:
+2023-11-25 17:09:25,272 - train - INFO - Epoch [3/5]
+2023-11-25 17:09:26,480 - train - INFO - Iter:1000, Train-Loss:0.3625, Val-Loss:0.3497, Val-Acc:32.00%, Macro-Score:32.99%, Micro-Score:49.71%, Time:0:00:15, Improve:
+2023-11-25 17:09:28,039 - train - INFO - Iter:1100, Train-Loss:0.3133, Val-Loss: 0.347, Val-Acc:34.48%, Macro-Score:36.24%, Micro-Score:54.26%, Time:0:00:17, Improve:*
+2023-11-25 17:09:29,526 - train - INFO - Iter:1200, Train-Loss:0.3898, Val-Loss:0.3418, Val-Acc:34.91%, Macro-Score:36.11%, Micro-Score:56.09%, Time:0:00:18, Improve:
+2023-11-25 17:09:31,011 - train - INFO - Iter:1300, Train-Loss: 0.302, Val-Loss:0.3384, Val-Acc:37.34%, Macro-Score:38.03%, Micro-Score:58.62%, Time:0:00:20, Improve:*
+2023-11-25 17:09:32,050 - train - INFO - Epoch [4/5]
+2023-11-25 17:09:32,529 - train - INFO - Iter:1400, Train-Loss:0.3656, Val-Loss:0.3376, Val-Acc:33.71%, Macro-Score:37.17%, Micro-Score:55.67%, Time:0:00:21, Improve:
+2023-11-25 17:09:33,972 - train - INFO - Iter:1500, Train-Loss:0.3509, Val-Loss: 0.339, Val-Acc:34.62%, Macro-Score:36.84%, Micro-Score:55.82%, Time:0:00:23, Improve:
+2023-11-25 17:09:35,520 - train - INFO - Iter:1600, Train-Loss:0.3113, Val-Loss:0.3378, Val-Acc:39.20%, Macro-Score:38.42%, Micro-Score:58.93%, Time:0:00:24, Improve:*
+2023-11-25 17:09:36,848 - train - INFO - Iter:1700, Train-Loss:0.3614, Val-Loss:0.3372, Val-Acc:38.48%, Macro-Score:37.45%, Micro-Score:58.00%, Time:0:00:26, Improve:
+2023-11-25 17:09:38,332 - train - INFO - Iter:1800, Train-Loss:0.3804, Val-Loss: 0.354, Val-Acc:32.95%, Macro-Score:37.52%, Micro-Score:58.85%, Time:0:00:27, Improve:
+2023-11-25 17:09:38,804 - train - INFO - Epoch [5/5]
+2023-11-25 17:09:39,931 - train - INFO - Iter:1900, Train-Loss:0.3651, Val-Loss: 0.336, Val-Acc:35.43%, Macro-Score:38.59%, Micro-Score:57.00%, Time:0:00:29, Improve:*
+2023-11-25 17:09:41,483 - train - INFO - Iter:2000, Train-Loss:0.3624, Val-Loss:0.3327, Val-Acc:36.39%, Macro-Score:38.61%, Micro-Score:58.54%, Time:0:00:30, Improve:*
+2023-11-25 17:09:42,979 - train - INFO - Iter:2100, Train-Loss:0.4012, Val-Loss:0.3324, Val-Acc:39.77%, Macro-Score:38.42%, Micro-Score:59.24%, Time:0:00:32, Improve:
+2023-11-25 17:09:44,485 - train - INFO - Iter:2200, Train-Loss:0.3065, Val-Loss:0.3333, Val-Acc:40.06%, Macro-Score:38.62%, Micro-Score:59.11%, Time:0:00:33, Improve:*
+2023-11-25 17:09:45,736 - train - INFO - ----------------------
+ RNNModel
+2023-11-25 17:09:48,068 - train - INFO - Epoch [1/5]
+2023-11-25 17:09:48,763 - train - INFO - Iter:   0, Train-Loss:0.6874, Val-Loss:0.6317, Val-Acc: 0.43%, Macro-Score: 0.64%, Micro-Score: 0.83%, Time:0:00:01, Improve:*
+2023-11-25 17:09:52,686 - train - INFO - Iter: 100, Train-Loss:0.4598, Val-Loss:0.4389, Val-Acc: 0.00%, Macro-Score: 0.00%, Micro-Score: 0.00%, Time:0:00:05, Improve:
+2023-11-25 17:09:56,634 - train - INFO - Iter: 200, Train-Loss:0.3978, Val-Loss:0.4412, Val-Acc: 0.00%, Macro-Score: 0.00%, Micro-Score: 0.00%, Time:0:00:09, Improve:
+2023-11-25 17:10:00,567 - train - INFO - Iter: 300, Train-Loss:0.4704, Val-Loss:0.4369, Val-Acc: 0.86%, Macro-Score: 1.14%, Micro-Score: 1.50%, Time:0:00:13, Improve:*
+2023-11-25 17:10:04,699 - train - INFO - Iter: 400, Train-Loss:0.4115, Val-Loss:0.4292, Val-Acc: 5.67%, Macro-Score: 6.14%, Micro-Score:10.25%, Time:0:00:17, Improve:*
+2023-11-25 17:10:06,679 - train - INFO - Epoch [2/5]
+2023-11-25 17:10:08,767 - train - INFO - Iter: 500, Train-Loss:0.4232, Val-Loss:0.4257, Val-Acc: 1.72%, Macro-Score: 2.28%, Micro-Score: 3.11%, Time:0:00:21, Improve:
+2023-11-25 17:10:12,284 - train - INFO - Iter: 600, Train-Loss:0.4005, Val-Loss:0.4274, Val-Acc: 5.82%, Macro-Score: 6.30%, Micro-Score:10.43%, Time:0:00:24, Improve:*
+2023-11-25 17:10:16,229 - train - INFO - Iter: 700, Train-Loss:0.3611, Val-Loss:0.4125, Val-Acc:12.11%, Macro-Score:12.74%, Micro-Score:24.33%, Time:0:00:28, Improve:*
+2023-11-25 17:10:20,369 - train - INFO - Iter: 800, Train-Loss:0.4116, Val-Loss:0.4148, Val-Acc:18.03%, Macro-Score:17.84%, Micro-Score:29.02%, Time:0:00:32, Improve:*
+2023-11-25 17:10:24,570 - train - INFO - Iter: 900, Train-Loss:0.4236, Val-Loss:0.4047, Val-Acc:22.03%, Macro-Score:20.52%, Micro-Score:34.89%, Time:0:00:37, Improve:*
+2023-11-25 17:10:25,234 - train - INFO - Epoch [3/5]
+2023-11-25 17:10:28,707 - train - INFO - Iter:1000, Train-Loss:0.4207, Val-Loss:0.3994, Val-Acc:29.04%, Macro-Score:23.34%, Micro-Score:42.71%, Time:0:00:41, Improve:*
+2023-11-25 17:10:32,736 - train - INFO - Iter:1100, Train-Loss:0.3802, Val-Loss:0.3966, Val-Acc:27.56%, Macro-Score:22.84%, Micro-Score:42.15%, Time:0:00:45, Improve:
+2023-11-25 17:10:36,604 - train - INFO - Iter:1200, Train-Loss:0.4411, Val-Loss:0.3967, Val-Acc:26.75%, Macro-Score:21.39%, Micro-Score:42.45%, Time:0:00:49, Improve:
+2023-11-25 17:10:40,710 - train - INFO - Iter:1300, Train-Loss:0.3851, Val-Loss:0.3917, Val-Acc:28.28%, Macro-Score:23.77%, Micro-Score:42.45%, Time:0:00:53, Improve:*
+2023-11-25 17:10:43,058 - train - INFO - Epoch [4/5]
+2023-11-25 17:10:44,438 - train - INFO - Iter:1400, Train-Loss:0.3385, Val-Loss:0.3949, Val-Acc:30.76%, Macro-Score:23.79%, Micro-Score:45.20%, Time:0:00:56, Improve:*
+2023-11-25 17:10:48,384 - train - INFO - Iter:1500, Train-Loss:0.3552, Val-Loss:0.4022, Val-Acc:27.85%, Macro-Score:23.02%, Micro-Score:39.46%, Time:0:01:00, Improve:
+2023-11-25 17:10:52,203 - train - INFO - Iter:1600, Train-Loss:0.3877, Val-Loss:0.3875, Val-Acc:26.75%, Macro-Score:23.39%, Micro-Score:41.34%, Time:0:01:04, Improve:
+2023-11-25 17:10:56,240 - train - INFO - Iter:1700, Train-Loss:0.3529, Val-Loss:0.3859, Val-Acc:29.28%, Macro-Score:24.47%, Micro-Score:43.43%, Time:0:01:08, Improve:*
+2023-11-25 17:11:00,222 - train - INFO - Iter:1800, Train-Loss:0.3651, Val-Loss:0.3941, Val-Acc:31.19%, Macro-Score:24.61%, Micro-Score:43.49%, Time:0:01:12, Improve:*
+2023-11-25 17:11:01,483 - train - INFO - Epoch [5/5]
+2023-11-25 17:11:04,243 - train - INFO - Iter:1900, Train-Loss:0.3941, Val-Loss:0.3833, Val-Acc:31.28%, Macro-Score:25.60%, Micro-Score:46.30%, Time:0:01:16, Improve:*
+2023-11-25 17:11:08,261 - train - INFO - Iter:2000, Train-Loss:0.3699, Val-Loss:0.3775, Val-Acc:33.09%, Macro-Score:42.65%, Micro-Score:47.07%, Time:0:01:20, Improve:*
+2023-11-25 17:11:12,268 - train - INFO - Iter:2100, Train-Loss:0.3462, Val-Loss:0.3802, Val-Acc:31.43%, Macro-Score:25.29%, Micro-Score:45.58%, Time:0:01:24, Improve:
+2023-11-25 17:11:16,377 - train - INFO - Iter:2200, Train-Loss: 0.389, Val-Loss:0.3819, Val-Acc:29.28%, Macro-Score:41.35%, Micro-Score:45.09%, Time:0:01:28, Improve:
+2023-11-25 17:11:41,874 - train - INFO - ----------------------
+ FastTextModel
+2023-11-25 17:11:45,601 - train - INFO - Epoch [1/5]
+2023-11-25 17:11:45,813 - train - INFO - Iter:   0, Train-Loss:0.7042, Val-Loss:0.6688, Val-Acc: 0.86%, Macro-Score: 0.36%, Micro-Score: 0.97%, Time:0:00:00, Improve:*
+2023-11-25 17:11:46,141 - train - INFO - Iter: 100, Train-Loss:0.4424, Val-Loss:0.4359, Val-Acc: 0.00%, Macro-Score: 0.00%, Micro-Score: 0.00%, Time:0:00:01, Improve:
+2023-11-25 17:11:46,477 - train - INFO - Iter: 200, Train-Loss:0.4301, Val-Loss:0.4351, Val-Acc: 0.00%, Macro-Score: 0.00%, Micro-Score: 0.00%, Time:0:00:01, Improve:
+2023-11-25 17:11:46,598 - train - INFO - Epoch [2/5]
+2023-11-25 17:11:46,903 - train - INFO - Iter: 300, Train-Loss: 0.429, Val-Loss:0.4323, Val-Acc: 0.00%, Macro-Score: 0.00%, Micro-Score: 0.00%, Time:0:00:01, Improve:
+2023-11-25 17:11:47,404 - train - INFO - Iter: 400, Train-Loss:0.4173, Val-Loss:0.4307, Val-Acc: 0.10%, Macro-Score: 0.10%, Micro-Score: 0.15%, Time:0:00:02, Improve:
+2023-11-25 17:11:47,578 - train - INFO - Epoch [3/5]
+2023-11-25 17:11:47,797 - train - INFO - Iter: 500, Train-Loss:0.4211, Val-Loss: 0.427, Val-Acc: 0.43%, Macro-Score: 0.54%, Micro-Score: 1.05%, Time:0:00:02, Improve:*
+2023-11-25 17:11:48,198 - train - INFO - Iter: 600, Train-Loss:0.4279, Val-Loss:0.4257, Val-Acc: 0.81%, Macro-Score: 1.02%, Micro-Score: 1.57%, Time:0:00:03, Improve:*
+2023-11-25 17:11:48,588 - train - INFO - Epoch [4/5]
+2023-11-25 17:11:48,684 - train - INFO - Iter: 700, Train-Loss:0.4053, Val-Loss:0.4219, Val-Acc: 1.81%, Macro-Score: 2.30%, Micro-Score: 3.61%, Time:0:00:03, Improve:*
+2023-11-25 17:11:49,063 - train - INFO - Iter: 800, Train-Loss:0.3874, Val-Loss:0.4187, Val-Acc: 5.01%, Macro-Score: 5.49%, Micro-Score:10.91%, Time:0:00:03, Improve:*
+2023-11-25 17:11:49,409 - train - INFO - Iter: 900, Train-Loss: 0.434, Val-Loss:0.4149, Val-Acc: 5.58%, Macro-Score: 6.51%, Micro-Score:11.99%, Time:0:00:04, Improve:*
+2023-11-25 17:11:49,462 - train - INFO - Epoch [5/5]
+2023-11-25 17:11:49,794 - train - INFO - Iter:1000, Train-Loss:0.4041, Val-Loss:0.4167, Val-Acc: 5.58%, Macro-Score: 6.88%, Micro-Score:11.93%, Time:0:00:04, Improve:*
+2023-11-25 17:11:50,214 - train - INFO - Iter:1100, Train-Loss:0.4186, Val-Loss:0.4101, Val-Acc:10.68%, Macro-Score:10.82%, Micro-Score:22.43%, Time:0:00:05, Improve:*
+2023-11-25 17:11:50,388 - train - INFO - ----------------------
+ TextCNNModel
+2023-11-25 17:11:52,728 - train - INFO - Epoch [1/5]
+2023-11-25 17:11:53,085 - train - INFO - Iter:   0, Train-Loss: 0.739, Val-Loss:0.4629, Val-Acc: 0.00%, Macro-Score: 0.00%, Micro-Score: 0.00%, Time:0:00:00, Improve:*
+2023-11-25 17:11:54,618 - train - INFO - Iter: 100, Train-Loss:0.4007, Val-Loss: 0.385, Val-Acc:25.99%, Macro-Score:27.72%, Micro-Score:45.53%, Time:0:00:02, Improve:*
+2023-11-25 17:13:19,674 - train - INFO - ----------------------
+ FastTextModel
+2023-11-25 17:13:23,427 - train - INFO - Epoch [1/20]
+2023-11-25 17:13:23,686 - train - INFO - Iter:   0, Train-Loss:0.7171, Val-Loss:0.6703, Val-Acc: 0.86%, Macro-Score: 0.36%, Micro-Score: 0.97%, Time:0:00:00, Improve:*
+2023-11-25 17:13:24,016 - train - INFO - Iter: 100, Train-Loss:0.4432, Val-Loss:0.4359, Val-Acc: 0.00%, Macro-Score: 0.00%, Micro-Score: 0.00%, Time:0:00:01, Improve:
+2023-11-25 17:13:24,415 - train - INFO - Iter: 200, Train-Loss:0.4537, Val-Loss:0.4348, Val-Acc: 0.00%, Macro-Score: 0.00%, Micro-Score: 0.00%, Time:0:00:01, Improve:
+2023-11-25 17:13:24,770 - train - INFO - Iter: 300, Train-Loss:0.4544, Val-Loss:0.4353, Val-Acc: 0.00%, Macro-Score: 0.00%, Micro-Score: 0.00%, Time:0:00:01, Improve:
+2023-11-25 17:13:25,071 - train - INFO - Iter: 400, Train-Loss: 0.418, Val-Loss: 0.432, Val-Acc: 0.00%, Macro-Score: 0.00%, Micro-Score: 0.00%, Time:0:00:02, Improve:
+2023-11-25 17:13:25,241 - train - INFO - Epoch [2/20]
+2023-11-25 17:13:25,486 - train - INFO - Iter: 500, Train-Loss:0.4804, Val-Loss:0.4316, Val-Acc: 0.05%, Macro-Score: 0.06%, Micro-Score: 0.08%, Time:0:00:02, Improve:
+2023-11-25 17:13:25,819 - train - INFO - Iter: 600, Train-Loss:0.4714, Val-Loss: 0.431, Val-Acc: 0.10%, Macro-Score: 0.12%, Micro-Score: 0.15%, Time:0:00:02, Improve:
+2023-11-25 17:13:26,361 - train - INFO - Iter: 700, Train-Loss:0.4284, Val-Loss:0.4296, Val-Acc: 1.34%, Macro-Score: 1.75%, Micro-Score: 3.54%, Time:0:00:03, Improve:*
+2023-11-25 17:13:26,734 - train - INFO - Iter: 800, Train-Loss:0.4146, Val-Loss:0.4243, Val-Acc: 7.77%, Macro-Score: 7.22%, Micro-Score:18.18%, Time:0:00:03, Improve:*
+2023-11-25 17:13:27,105 - train - INFO - Iter: 900, Train-Loss:0.4054, Val-Loss:0.4213, Val-Acc: 5.48%, Macro-Score: 5.88%, Micro-Score:12.47%, Time:0:00:04, Improve:
+2023-11-25 17:13:27,150 - train - INFO - Epoch [3/20]
+2023-11-25 17:13:27,620 - train - INFO - Iter:1000, Train-Loss:0.4353, Val-Loss:0.4187, Val-Acc: 6.77%, Macro-Score: 7.58%, Micro-Score:14.93%, Time:0:00:04, Improve:*
+2023-11-25 17:13:27,981 - train - INFO - Iter:1100, Train-Loss:0.4659, Val-Loss:0.4181, Val-Acc: 6.91%, Macro-Score: 7.20%, Micro-Score:15.35%, Time:0:00:05, Improve:
+2023-11-25 17:13:28,382 - train - INFO - Iter:1200, Train-Loss:0.3973, Val-Loss:0.4141, Val-Acc: 8.44%, Macro-Score: 9.10%, Micro-Score:18.24%, Time:0:00:05, Improve:*
+2023-11-25 17:13:28,925 - train - INFO - Iter:1300, Train-Loss:0.3891, Val-Loss: 0.412, Val-Acc:10.30%, Macro-Score:10.34%, Micro-Score:21.80%, Time:0:00:05, Improve:*
+2023-11-25 17:13:29,174 - train - INFO - Epoch [4/20]
+2023-11-25 17:13:29,311 - train - INFO - Iter:1400, Train-Loss: 0.371, Val-Loss:0.4114, Val-Acc:11.06%, Macro-Score:11.22%, Micro-Score:23.00%, Time:0:00:06, Improve:*
+2023-11-25 17:13:29,705 - train - INFO - Iter:1500, Train-Loss:0.3973, Val-Loss:0.4106, Val-Acc:10.06%, Macro-Score:10.53%, Micro-Score:20.95%, Time:0:00:06, Improve:
+2023-11-25 17:13:30,117 - train - INFO - Iter:1600, Train-Loss:0.3923, Val-Loss:0.4084, Val-Acc:10.44%, Macro-Score:10.95%, Micro-Score:21.55%, Time:0:00:07, Improve:
+2023-11-25 17:13:30,431 - train - INFO - Iter:1700, Train-Loss:0.3958, Val-Loss:0.4089, Val-Acc: 9.11%, Macro-Score:10.26%, Micro-Score:18.72%, Time:0:00:07, Improve:
+2023-11-25 17:13:30,821 - train - INFO - Iter:1800, Train-Loss:0.3698, Val-Loss:0.4069, Val-Acc:11.16%, Macro-Score:11.54%, Micro-Score:23.05%, Time:0:00:07, Improve:*
+2023-11-25 17:13:30,941 - train - INFO - Epoch [5/20]
+2023-11-25 17:13:31,331 - train - INFO - Iter:1900, Train-Loss:0.3906, Val-Loss:0.4065, Val-Acc:13.07%, Macro-Score:13.03%, Micro-Score:26.23%, Time:0:00:08, Improve:*
+2023-11-25 17:13:31,637 - train - INFO - Iter:2000, Train-Loss:0.3837, Val-Loss:0.4055, Val-Acc:12.16%, Macro-Score:13.49%, Micro-Score:25.70%, Time:0:00:08, Improve:*
+2023-11-25 17:13:32,058 - train - INFO - Iter:2100, Train-Loss:0.4264, Val-Loss:0.4049, Val-Acc:13.54%, Macro-Score:15.20%, Micro-Score:28.17%, Time:0:00:09, Improve:*
+2023-11-25 17:13:32,535 - train - INFO - Iter:2200, Train-Loss:0.3559, Val-Loss: 0.406, Val-Acc:10.87%, Macro-Score:12.17%, Micro-Score:21.78%, Time:0:00:09, Improve:
+2023-11-25 17:13:32,753 - train - INFO - Epoch [6/20]
+2023-11-25 17:13:32,843 - train - INFO - Iter:2300, Train-Loss:0.4228, Val-Loss:0.4024, Val-Acc:13.30%, Macro-Score:14.99%, Micro-Score:27.51%, Time:0:00:09, Improve:
+2023-11-25 17:13:33,263 - train - INFO - Iter:2400, Train-Loss:0.3833, Val-Loss:0.4027, Val-Acc:14.12%, Macro-Score:14.93%, Micro-Score:27.94%, Time:0:00:10, Improve:
+2023-11-25 17:13:33,813 - train - INFO - Iter:2500, Train-Loss:0.3783, Val-Loss:0.4013, Val-Acc:15.74%, Macro-Score:16.85%, Micro-Score:31.57%, Time:0:00:10, Improve:*
+2023-11-25 17:13:34,153 - train - INFO - Iter:2600, Train-Loss:0.3975, Val-Loss:0.4019, Val-Acc:14.40%, Macro-Score:14.89%, Micro-Score:27.78%, Time:0:00:11, Improve:
+2023-11-25 17:13:34,521 - train - INFO - Iter:2700, Train-Loss:0.4485, Val-Loss:0.4004, Val-Acc:15.59%, Macro-Score:16.16%, Micro-Score:30.81%, Time:0:00:11, Improve:
+2023-11-25 17:13:34,744 - train - INFO - Epoch [7/20]
+2023-11-25 17:13:34,975 - train - INFO - Iter:2800, Train-Loss:0.4133, Val-Loss:0.4007, Val-Acc:13.54%, Macro-Score:15.82%, Micro-Score:27.24%, Time:0:00:12, Improve:
+2023-11-25 17:13:35,392 - train - INFO - Iter:2900, Train-Loss:0.4144, Val-Loss:0.3996, Val-Acc:14.97%, Macro-Score:16.67%, Micro-Score:30.46%, Time:0:00:12, Improve:
+2023-11-25 17:13:35,797 - train - INFO - Iter:3000, Train-Loss:0.4147, Val-Loss:0.4001, Val-Acc:13.73%, Macro-Score:15.92%, Micro-Score:27.36%, Time:0:00:12, Improve:
+2023-11-25 17:13:36,209 - train - INFO - Iter:3100, Train-Loss:0.3921, Val-Loss:0.4001, Val-Acc:20.03%, Macro-Score:17.98%, Micro-Score:37.22%, Time:0:00:13, Improve:*
+2023-11-25 17:13:36,614 - train - INFO - Iter:3200, Train-Loss:0.3996, Val-Loss: 0.399, Val-Acc:15.45%, Macro-Score:18.08%, Micro-Score:30.25%, Time:0:00:13, Improve:*
+2023-11-25 17:13:36,662 - train - INFO - Epoch [8/20]
+2023-11-25 17:13:37,017 - train - INFO - Iter:3300, Train-Loss:0.3953, Val-Loss:0.3991, Val-Acc:17.31%, Macro-Score:18.58%, Micro-Score:32.31%, Time:0:00:14, Improve:*
+2023-11-25 17:13:37,429 - train - INFO - Iter:3400, Train-Loss:0.4093, Val-Loss:0.3988, Val-Acc:16.69%, Macro-Score:18.41%, Micro-Score:31.45%, Time:0:00:14, Improve:
+2023-11-25 17:13:37,806 - train - INFO - Iter:3500, Train-Loss:0.3996, Val-Loss:0.3975, Val-Acc:16.98%, Macro-Score:19.51%, Micro-Score:33.18%, Time:0:00:14, Improve:*
+2023-11-25 17:13:38,190 - train - INFO - Iter:3600, Train-Loss:0.4421, Val-Loss:0.3966, Val-Acc:16.64%, Macro-Score:18.79%, Micro-Score:33.18%, Time:0:00:15, Improve:
+2023-11-25 17:13:38,479 - train - INFO - Epoch [9/20]
+2023-11-25 17:13:38,616 - train - INFO - Iter:3700, Train-Loss:0.4694, Val-Loss:0.3984, Val-Acc:15.16%, Macro-Score:17.34%, Micro-Score:28.77%, Time:0:00:15, Improve:
+2023-11-25 17:13:39,055 - train - INFO - Iter:3800, Train-Loss:0.3449, Val-Loss:0.3972, Val-Acc:16.31%, Macro-Score:18.95%, Micro-Score:32.15%, Time:0:00:16, Improve:
+2023-11-25 17:13:39,509 - train - INFO - Iter:3900, Train-Loss:0.3899, Val-Loss:0.3968, Val-Acc:16.98%, Macro-Score:19.72%, Micro-Score:32.61%, Time:0:00:16, Improve:*
+2023-11-25 17:13:39,949 - train - INFO - Iter:4000, Train-Loss:0.3884, Val-Loss:0.3965, Val-Acc:18.22%, Macro-Score:20.66%, Micro-Score:34.69%, Time:0:00:17, Improve:*
+2023-11-25 17:13:40,351 - train - INFO - Iter:4100, Train-Loss:0.4146, Val-Loss:0.3965, Val-Acc:18.36%, Macro-Score:19.81%, Micro-Score:33.91%, Time:0:00:17, Improve:
+2023-11-25 17:13:40,460 - train - INFO - Epoch [10/20]
+2023-11-25 17:13:40,712 - train - INFO - Iter:4200, Train-Loss:0.3488, Val-Loss:0.3992, Val-Acc:16.21%, Macro-Score:18.82%, Micro-Score:30.17%, Time:0:00:17, Improve:
+2023-11-25 17:13:41,224 - train - INFO - Iter:4300, Train-Loss:0.3925, Val-Loss:0.3954, Val-Acc:17.64%, Macro-Score:19.61%, Micro-Score:33.49%, Time:0:00:18, Improve:
+2023-11-25 17:13:41,617 - train - INFO - Iter:4400, Train-Loss:0.4209, Val-Loss:0.3955, Val-Acc:18.17%, Macro-Score:19.87%, Micro-Score:34.09%, Time:0:00:18, Improve:
+2023-11-25 17:13:41,938 - train - INFO - Iter:4500, Train-Loss:0.3384, Val-Loss:0.3953, Val-Acc:18.93%, Macro-Score:20.57%, Micro-Score:36.19%, Time:0:00:19, Improve:
+2023-11-25 17:13:42,247 - train - INFO - Epoch [11/20]
+2023-11-25 17:13:42,332 - train - INFO - Iter:4600, Train-Loss:0.3668, Val-Loss:0.3986, Val-Acc:18.74%, Macro-Score:19.45%, Micro-Score:33.46%, Time:0:00:19, Improve:
+2023-11-25 17:13:42,808 - train - INFO - Iter:4700, Train-Loss:0.3979, Val-Loss: 0.396, Val-Acc:17.69%, Macro-Score:20.74%, Micro-Score:33.59%, Time:0:00:19, Improve:*
+2023-11-25 17:13:43,226 - train - INFO - Iter:4800, Train-Loss:0.3813, Val-Loss:0.3954, Val-Acc:18.60%, Macro-Score:19.58%, Micro-Score:34.36%, Time:0:00:20, Improve:
+2023-11-25 17:13:43,716 - train - INFO - Iter:4900, Train-Loss:0.3825, Val-Loss:0.3953, Val-Acc:18.69%, Macro-Score:20.92%, Micro-Score:34.87%, Time:0:00:20, Improve:*
+2023-11-25 17:13:44,109 - train - INFO - Iter:5000, Train-Loss:0.3558, Val-Loss:0.3947, Val-Acc:18.55%, Macro-Score:20.60%, Micro-Score:34.97%, Time:0:00:21, Improve:
+2023-11-25 17:13:44,277 - train - INFO - Epoch [12/20]
+2023-11-25 17:13:44,444 - train - INFO - Iter:5100, Train-Loss:0.4217, Val-Loss:0.3971, Val-Acc:20.41%, Macro-Score:21.97%, Micro-Score:36.90%, Time:0:00:21, Improve:*
+2023-11-25 17:13:44,895 - train - INFO - Iter:5200, Train-Loss:0.3493, Val-Loss:0.3948, Val-Acc:18.79%, Macro-Score:20.94%, Micro-Score:35.02%, Time:0:00:21, Improve:
+2023-11-25 17:13:45,301 - train - INFO - Iter:5300, Train-Loss:0.3803, Val-Loss:0.3952, Val-Acc:17.79%, Macro-Score:20.79%, Micro-Score:33.55%, Time:0:00:22, Improve:
+2023-11-25 17:13:45,668 - train - INFO - Iter:5400, Train-Loss: 0.399, Val-Loss:0.3942, Val-Acc:18.65%, Macro-Score:20.61%, Micro-Score:35.12%, Time:0:00:22, Improve:
+2023-11-25 17:13:46,149 - train - INFO - Iter:5500, Train-Loss:0.3557, Val-Loss:0.3942, Val-Acc:19.12%, Macro-Score:20.85%, Micro-Score:36.25%, Time:0:00:23, Improve:
+2023-11-25 17:13:46,173 - train - INFO - Epoch [13/20]
+2023-11-25 17:13:46,530 - train - INFO - Iter:5600, Train-Loss:0.4037, Val-Loss:0.3945, Val-Acc:17.41%, Macro-Score:20.61%, Micro-Score:33.37%, Time:0:00:23, Improve:
+2023-11-25 17:13:46,913 - train - INFO - Iter:5700, Train-Loss:0.3612, Val-Loss:0.3956, Val-Acc:21.75%, Macro-Score:21.66%, Micro-Score:38.29%, Time:0:00:23, Improve:
+2023-11-25 17:13:47,366 - train - INFO - Iter:5800, Train-Loss:0.4224, Val-Loss:0.3947, Val-Acc:20.12%, Macro-Score:21.26%, Micro-Score:37.54%, Time:0:00:24, Improve:
+2023-11-25 17:13:47,366 - train - INFO - No optimization for a long time, auto-stopping...
+2023-11-25 17:13:47,367 - train - INFO - ----------------------
+ TextCNNModel
+2023-11-25 17:13:49,668 - train - INFO - Epoch [1/20]
+2023-11-25 17:13:50,020 - train - INFO - Iter:   0, Train-Loss:0.7426, Val-Loss:0.4574, Val-Acc: 0.00%, Macro-Score: 0.00%, Micro-Score: 0.00%, Time:0:00:00, Improve:*
+2023-11-25 17:14:21,730 - train - INFO - ----------------------
+ FastTextModel
+2023-11-25 17:14:25,511 - train - INFO - Epoch [1/20]
+2023-11-25 17:14:25,789 - train - INFO - Iter:   0, Train-Loss:0.7171, Val-Loss:0.6703, Val-Acc: 0.86%, Macro-Score: 0.36%, Micro-Score: 0.97%, Time:0:00:00, Improve:*
+2023-11-25 17:14:26,215 - train - INFO - Iter: 100, Train-Loss:0.4432, Val-Loss:0.4359, Val-Acc: 0.00%, Macro-Score: 0.00%, Micro-Score: 0.00%, Time:0:00:01, Improve:
+2023-11-25 17:14:26,561 - train - INFO - Iter: 200, Train-Loss:0.4537, Val-Loss:0.4348, Val-Acc: 0.00%, Macro-Score: 0.00%, Micro-Score: 0.00%, Time:0:00:01, Improve:
+2023-11-25 17:14:27,006 - train - INFO - Iter: 300, Train-Loss:0.4544, Val-Loss:0.4353, Val-Acc: 0.00%, Macro-Score: 0.00%, Micro-Score: 0.00%, Time:0:00:01, Improve:
+2023-11-25 17:14:27,350 - train - INFO - Iter: 400, Train-Loss: 0.418, Val-Loss: 0.432, Val-Acc: 0.00%, Macro-Score: 0.00%, Micro-Score: 0.00%, Time:0:00:02, Improve:
+2023-11-25 17:14:27,604 - train - INFO - Epoch [2/20]
+2023-11-25 17:14:27,839 - train - INFO - Iter: 500, Train-Loss:0.4804, Val-Loss:0.4316, Val-Acc: 0.05%, Macro-Score: 0.06%, Micro-Score: 0.08%, Time:0:00:02, Improve:
+2023-11-25 17:14:28,230 - train - INFO - Iter: 600, Train-Loss:0.4714, Val-Loss: 0.431, Val-Acc: 0.10%, Macro-Score: 0.12%, Micro-Score: 0.15%, Time:0:00:03, Improve:
+2023-11-25 17:14:28,554 - train - INFO - Iter: 700, Train-Loss:0.4284, Val-Loss:0.4296, Val-Acc: 1.34%, Macro-Score: 1.75%, Micro-Score: 3.54%, Time:0:00:03, Improve:*
+2023-11-25 17:14:29,099 - train - INFO - Iter: 800, Train-Loss:0.4146, Val-Loss:0.4243, Val-Acc: 7.77%, Macro-Score: 7.22%, Micro-Score:18.18%, Time:0:00:04, Improve:*
+2023-11-25 17:14:29,399 - train - INFO - Iter: 900, Train-Loss:0.4054, Val-Loss:0.4213, Val-Acc: 5.48%, Macro-Score: 5.88%, Micro-Score:12.47%, Time:0:00:04, Improve:
+2023-11-25 17:14:29,460 - train - INFO - Epoch [3/20]
+2023-11-25 17:14:29,831 - train - INFO - Iter:1000, Train-Loss:0.4353, Val-Loss:0.4187, Val-Acc: 6.77%, Macro-Score: 7.58%, Micro-Score:14.93%, Time:0:00:04, Improve:*
+2023-11-25 17:14:30,335 - train - INFO - Iter:1100, Train-Loss:0.4659, Val-Loss:0.4181, Val-Acc: 6.91%, Macro-Score: 7.20%, Micro-Score:15.35%, Time:0:00:05, Improve:
+2023-11-25 17:14:30,619 - train - INFO - Iter:1200, Train-Loss:0.3973, Val-Loss:0.4141, Val-Acc: 8.44%, Macro-Score: 9.10%, Micro-Score:18.24%, Time:0:00:05, Improve:*
+2023-11-25 17:14:31,106 - train - INFO - Iter:1300, Train-Loss:0.3891, Val-Loss: 0.412, Val-Acc:10.30%, Macro-Score:10.34%, Micro-Score:21.80%, Time:0:00:06, Improve:*
+2023-11-25 17:14:31,426 - train - INFO - Epoch [4/20]
+2023-11-25 17:14:31,657 - train - INFO - Iter:1400, Train-Loss: 0.371, Val-Loss:0.4114, Val-Acc:11.06%, Macro-Score:11.22%, Micro-Score:23.00%, Time:0:00:06, Improve:*
+2023-11-25 17:14:32,063 - train - INFO - Iter:1500, Train-Loss:0.3973, Val-Loss:0.4106, Val-Acc:10.06%, Macro-Score:10.53%, Micro-Score:20.95%, Time:0:00:07, Improve:
+2023-11-25 17:14:32,435 - train - INFO - Iter:1600, Train-Loss:0.3923, Val-Loss:0.4084, Val-Acc:10.44%, Macro-Score:10.95%, Micro-Score:21.55%, Time:0:00:07, Improve:
+2023-11-25 17:14:32,882 - train - INFO - Iter:1700, Train-Loss:0.3958, Val-Loss:0.4089, Val-Acc: 9.11%, Macro-Score:10.26%, Micro-Score:18.72%, Time:0:00:07, Improve:
+2023-11-25 17:14:33,282 - train - INFO - Iter:1800, Train-Loss:0.3698, Val-Loss:0.4069, Val-Acc:11.16%, Macro-Score:11.54%, Micro-Score:23.05%, Time:0:00:08, Improve:*
+2023-11-25 17:14:33,411 - train - INFO - Epoch [5/20]
+2023-11-25 17:14:33,639 - train - INFO - Iter:1900, Train-Loss:0.3906, Val-Loss:0.4065, Val-Acc:13.07%, Macro-Score:13.03%, Micro-Score:26.23%, Time:0:00:08, Improve:*
+2023-11-25 17:14:34,076 - train - INFO - Iter:2000, Train-Loss:0.3837, Val-Loss:0.4055, Val-Acc:12.16%, Macro-Score:13.49%, Micro-Score:25.70%, Time:0:00:09, Improve:*
+2023-11-25 17:14:34,437 - train - INFO - Iter:2100, Train-Loss:0.4264, Val-Loss:0.4049, Val-Acc:13.54%, Macro-Score:15.20%, Micro-Score:28.17%, Time:0:00:09, Improve:*
+2023-11-25 17:14:34,851 - train - INFO - Iter:2200, Train-Loss:0.3559, Val-Loss: 0.406, Val-Acc:10.87%, Macro-Score:12.17%, Micro-Score:21.78%, Time:0:00:09, Improve:
+2023-11-25 17:14:35,205 - train - INFO - Epoch [6/20]
+2023-11-25 17:14:35,267 - train - INFO - Iter:2300, Train-Loss:0.4228, Val-Loss:0.4024, Val-Acc:13.30%, Macro-Score:14.99%, Micro-Score:27.51%, Time:0:00:10, Improve:
+2023-11-25 17:14:35,686 - train - INFO - Iter:2400, Train-Loss:0.3833, Val-Loss:0.4027, Val-Acc:14.12%, Macro-Score:14.93%, Micro-Score:27.94%, Time:0:00:10, Improve:
+2023-11-25 17:14:36,044 - train - INFO - Iter:2500, Train-Loss:0.3783, Val-Loss:0.4013, Val-Acc:15.74%, Macro-Score:16.85%, Micro-Score:31.57%, Time:0:00:11, Improve:*
+2023-11-25 17:14:36,481 - train - INFO - Iter:2600, Train-Loss:0.3975, Val-Loss:0.4019, Val-Acc:14.40%, Macro-Score:14.89%, Micro-Score:27.78%, Time:0:00:11, Improve:
+2023-11-25 17:14:36,808 - train - INFO - Iter:2700, Train-Loss:0.4485, Val-Loss:0.4004, Val-Acc:15.59%, Macro-Score:16.16%, Micro-Score:30.81%, Time:0:00:11, Improve:
+2023-11-25 17:14:37,002 - train - INFO - Epoch [7/20]
+2023-11-25 17:14:37,191 - train - INFO - Iter:2800, Train-Loss:0.4133, Val-Loss:0.4007, Val-Acc:13.54%, Macro-Score:15.82%, Micro-Score:27.24%, Time:0:00:12, Improve:
+2023-11-25 17:14:37,624 - train - INFO - Iter:2900, Train-Loss:0.4144, Val-Loss:0.3996, Val-Acc:14.97%, Macro-Score:16.67%, Micro-Score:30.46%, Time:0:00:12, Improve:
+2023-11-25 17:14:38,011 - train - INFO - Iter:3000, Train-Loss:0.4147, Val-Loss:0.4001, Val-Acc:13.73%, Macro-Score:15.92%, Micro-Score:27.36%, Time:0:00:13, Improve:
+2023-11-25 17:14:38,388 - train - INFO - Iter:3100, Train-Loss:0.3921, Val-Loss:0.4001, Val-Acc:20.03%, Macro-Score:17.98%, Micro-Score:37.22%, Time:0:00:13, Improve:*
+2023-11-25 17:14:38,873 - train - INFO - Iter:3200, Train-Loss:0.3996, Val-Loss: 0.399, Val-Acc:15.45%, Macro-Score:18.08%, Micro-Score:30.25%, Time:0:00:13, Improve:*
+2023-11-25 17:14:38,910 - train - INFO - Epoch [8/20]
+2023-11-25 17:14:39,200 - train - INFO - Iter:3300, Train-Loss:0.3953, Val-Loss:0.3991, Val-Acc:17.31%, Macro-Score:18.58%, Micro-Score:32.31%, Time:0:00:14, Improve:*
+2023-11-25 17:14:39,634 - train - INFO - Iter:3400, Train-Loss:0.4093, Val-Loss:0.3988, Val-Acc:16.69%, Macro-Score:18.41%, Micro-Score:31.45%, Time:0:00:14, Improve:
+2023-11-25 17:14:39,923 - train - INFO - Iter:3500, Train-Loss:0.3996, Val-Loss:0.3975, Val-Acc:16.98%, Macro-Score:19.51%, Micro-Score:33.18%, Time:0:00:14, Improve:*
+2023-11-25 17:14:40,229 - train - INFO - Iter:3600, Train-Loss:0.4421, Val-Loss:0.3966, Val-Acc:16.64%, Macro-Score:18.79%, Micro-Score:33.18%, Time:0:00:15, Improve:
+2023-11-25 17:14:40,359 - train - INFO - Epoch [9/20]
+2023-11-25 17:14:40,541 - train - INFO - Iter:3700, Train-Loss:0.4694, Val-Loss:0.3984, Val-Acc:15.16%, Macro-Score:17.34%, Micro-Score:28.77%, Time:0:00:15, Improve:
+2023-11-25 17:14:40,915 - train - INFO - Iter:3800, Train-Loss:0.3449, Val-Loss:0.3972, Val-Acc:16.31%, Macro-Score:18.95%, Micro-Score:32.15%, Time:0:00:15, Improve:
+2023-11-25 17:14:41,389 - train - INFO - Iter:3900, Train-Loss:0.3899, Val-Loss:0.3968, Val-Acc:16.98%, Macro-Score:19.72%, Micro-Score:32.61%, Time:0:00:16, Improve:*
+2023-11-25 17:14:41,758 - train - INFO - Iter:4000, Train-Loss:0.3884, Val-Loss:0.3965, Val-Acc:18.22%, Macro-Score:20.66%, Micro-Score:34.69%, Time:0:00:16, Improve:*
+2023-11-25 17:14:42,058 - train - INFO - Iter:4100, Train-Loss:0.4146, Val-Loss:0.3965, Val-Acc:18.36%, Macro-Score:19.81%, Micro-Score:33.91%, Time:0:00:17, Improve:
+2023-11-25 17:14:42,180 - train - INFO - Epoch [10/20]
+2023-11-25 17:14:42,462 - train - INFO - Iter:4200, Train-Loss:0.3488, Val-Loss:0.3992, Val-Acc:16.21%, Macro-Score:18.82%, Micro-Score:30.17%, Time:0:00:17, Improve:
+2023-11-25 17:14:42,808 - train - INFO - Iter:4300, Train-Loss:0.3925, Val-Loss:0.3954, Val-Acc:17.64%, Macro-Score:19.61%, Micro-Score:33.49%, Time:0:00:17, Improve:
+2023-11-25 17:14:43,145 - train - INFO - Iter:4400, Train-Loss:0.4209, Val-Loss:0.3955, Val-Acc:18.17%, Macro-Score:19.87%, Micro-Score:34.09%, Time:0:00:18, Improve:
+2023-11-25 17:14:43,640 - train - INFO - Iter:4500, Train-Loss:0.3384, Val-Loss:0.3953, Val-Acc:18.93%, Macro-Score:20.57%, Micro-Score:36.19%, Time:0:00:18, Improve:
+2023-11-25 17:14:43,873 - train - INFO - Epoch [11/20]
+2023-11-25 17:14:43,968 - train - INFO - Iter:4600, Train-Loss:0.3668, Val-Loss:0.3986, Val-Acc:18.74%, Macro-Score:19.45%, Micro-Score:33.46%, Time:0:00:18, Improve:
+2023-11-25 17:14:44,455 - train - INFO - Iter:4700, Train-Loss:0.3979, Val-Loss: 0.396, Val-Acc:17.69%, Macro-Score:20.74%, Micro-Score:33.59%, Time:0:00:19, Improve:*
+2023-11-25 17:14:44,843 - train - INFO - Iter:4800, Train-Loss:0.3813, Val-Loss:0.3954, Val-Acc:18.60%, Macro-Score:19.58%, Micro-Score:34.36%, Time:0:00:19, Improve:
+2023-11-25 17:14:45,112 - train - INFO - Iter:4900, Train-Loss:0.3825, Val-Loss:0.3953, Val-Acc:18.69%, Macro-Score:20.92%, Micro-Score:34.87%, Time:0:00:20, Improve:*
+2023-11-25 17:14:45,400 - train - INFO - Iter:5000, Train-Loss:0.3558, Val-Loss:0.3947, Val-Acc:18.55%, Macro-Score:20.60%, Micro-Score:34.97%, Time:0:00:20, Improve:
+2023-11-25 17:14:45,561 - train - INFO - Epoch [12/20]
+2023-11-25 17:14:45,735 - train - INFO - Iter:5100, Train-Loss:0.4217, Val-Loss:0.3971, Val-Acc:20.41%, Macro-Score:21.97%, Micro-Score:36.90%, Time:0:00:20, Improve:*
+2023-11-25 17:14:46,182 - train - INFO - Iter:5200, Train-Loss:0.3493, Val-Loss:0.3948, Val-Acc:18.79%, Macro-Score:20.94%, Micro-Score:35.02%, Time:0:00:21, Improve:
+2023-11-25 17:14:46,541 - train - INFO - Iter:5300, Train-Loss:0.3803, Val-Loss:0.3952, Val-Acc:17.79%, Macro-Score:20.79%, Micro-Score:33.55%, Time:0:00:21, Improve:
+2023-11-25 17:14:46,836 - train - INFO - Iter:5400, Train-Loss: 0.399, Val-Loss:0.3942, Val-Acc:18.65%, Macro-Score:20.61%, Micro-Score:35.12%, Time:0:00:21, Improve:
+2023-11-25 17:14:47,289 - train - INFO - Iter:5500, Train-Loss:0.3557, Val-Loss:0.3942, Val-Acc:19.12%, Macro-Score:20.85%, Micro-Score:36.25%, Time:0:00:22, Improve:
+2023-11-25 17:14:47,303 - train - INFO - Epoch [13/20]
+2023-11-25 17:14:47,633 - train - INFO - Iter:5600, Train-Loss:0.4037, Val-Loss:0.3945, Val-Acc:17.41%, Macro-Score:20.61%, Micro-Score:33.37%, Time:0:00:22, Improve:
+2023-11-25 17:14:47,969 - train - INFO - Iter:5700, Train-Loss:0.3612, Val-Loss:0.3956, Val-Acc:21.75%, Macro-Score:21.66%, Micro-Score:38.29%, Time:0:00:22, Improve:
+2023-11-25 17:14:48,397 - train - INFO - Iter:5800, Train-Loss:0.4224, Val-Loss:0.3947, Val-Acc:20.12%, Macro-Score:21.26%, Micro-Score:37.54%, Time:0:00:23, Improve:
+2023-11-25 17:14:48,712 - train - INFO - Iter:5900, Train-Loss:0.4405, Val-Loss:0.3961, Val-Acc:17.98%, Macro-Score:20.44%, Micro-Score:32.70%, Time:0:00:23, Improve:
+2023-11-25 17:14:48,936 - train - INFO - Epoch [14/20]
+2023-11-25 17:14:49,059 - train - INFO - Iter:6000, Train-Loss: 0.394, Val-Loss:0.3947, Val-Acc:18.74%, Macro-Score:21.65%, Micro-Score:35.56%, Time:0:00:24, Improve:
+2023-11-25 17:14:49,531 - train - INFO - Iter:6100, Train-Loss:0.4121, Val-Loss:0.3947, Val-Acc:18.45%, Macro-Score:21.14%, Micro-Score:33.88%, Time:0:00:24, Improve:
+2023-11-25 17:14:49,532 - train - INFO - No optimization for a long time, auto-stopping...
+2023-11-25 17:14:49,533 - train - INFO - ----------------------
+ TextCNNModel
+2023-11-25 17:14:51,981 - train - INFO - Epoch [1/20]
+2023-11-25 17:14:52,323 - train - INFO - Iter:   0, Train-Loss:  0.75, Val-Loss:0.4515, Val-Acc: 0.00%, Macro-Score: 0.00%, Micro-Score: 0.00%, Time:0:00:00, Improve:*
+2023-11-25 17:14:53,832 - train - INFO - Iter: 100, Train-Loss:0.4043, Val-Loss: 0.395, Val-Acc:17.88%, Macro-Score:17.92%, Micro-Score:32.66%, Time:0:00:02, Improve:*
+2023-11-25 17:14:55,214 - train - INFO - Iter: 200, Train-Loss:0.4662, Val-Loss:0.4051, Val-Acc:26.23%, Macro-Score:22.14%, Micro-Score:44.18%, Time:0:00:03, Improve:*
+2023-11-25 17:14:56,722 - train - INFO - Iter: 300, Train-Loss:0.4085, Val-Loss:0.3719, Val-Acc:27.75%, Macro-Score:28.70%, Micro-Score:44.23%, Time:0:00:05, Improve:*
+2023-11-25 17:14:58,149 - train - INFO - Iter: 400, Train-Loss:0.3304, Val-Loss:0.3722, Val-Acc:31.62%, Macro-Score:30.87%, Micro-Score:52.28%, Time:0:00:06, Improve:*
+2023-11-25 17:14:58,986 - train - INFO - Epoch [2/20]
+2023-11-25 17:14:59,657 - train - INFO - Iter: 500, Train-Loss:0.3016, Val-Loss:0.3616, Val-Acc:25.18%, Macro-Score:29.33%, Micro-Score:45.05%, Time:0:00:08, Improve:
+2023-11-25 17:15:01,124 - train - INFO - Iter: 600, Train-Loss:0.3615, Val-Loss:0.3541, Val-Acc:33.71%, Macro-Score:36.70%, Micro-Score:56.37%, Time:0:00:09, Improve:*
+2023-11-25 17:15:02,613 - train - INFO - Iter: 700, Train-Loss:0.3952, Val-Loss: 0.348, Val-Acc:36.34%, Macro-Score:35.28%, Micro-Score:55.48%, Time:0:00:11, Improve:
+2023-11-25 17:15:04,071 - train - INFO - Iter: 800, Train-Loss:0.2822, Val-Loss:0.3457, Val-Acc:32.47%, Macro-Score:35.83%, Micro-Score:53.64%, Time:0:00:12, Improve:
+2023-11-25 17:15:05,504 - train - INFO - Iter: 900, Train-Loss:0.3757, Val-Loss:0.3547, Val-Acc:37.63%, Macro-Score:33.95%, Micro-Score:53.87%, Time:0:00:14, Improve:
+2023-11-25 17:15:05,710 - train - INFO - Epoch [3/20]
+2023-11-25 17:15:06,915 - train - INFO - Iter:1000, Train-Loss:0.3505, Val-Loss:0.3444, Val-Acc:35.67%, Macro-Score:35.73%, Micro-Score:55.36%, Time:0:00:15, Improve:
+2023-11-25 17:15:08,328 - train - INFO - Iter:1100, Train-Loss:0.4028, Val-Loss:0.3424, Val-Acc:35.67%, Macro-Score:35.78%, Micro-Score:54.36%, Time:0:00:16, Improve:
+2023-11-25 17:15:09,690 - train - INFO - Iter:1200, Train-Loss:0.3468, Val-Loss:0.3448, Val-Acc:35.67%, Macro-Score:33.68%, Micro-Score:54.32%, Time:0:00:18, Improve:
+2023-11-25 17:15:11,076 - train - INFO - Iter:1300, Train-Loss:0.3531, Val-Loss:0.3414, Val-Acc:33.76%, Macro-Score:33.00%, Micro-Score:51.83%, Time:0:00:19, Improve:
+2023-11-25 17:15:12,053 - train - INFO - Epoch [4/20]
+2023-11-25 17:15:12,483 - train - INFO - Iter:1400, Train-Loss:0.3713, Val-Loss:0.3369, Val-Acc:36.81%, Macro-Score:36.49%, Micro-Score:56.07%, Time:0:00:21, Improve:
+2023-11-25 17:15:13,967 - train - INFO - Iter:1500, Train-Loss:0.3562, Val-Loss:0.3374, Val-Acc:33.09%, Macro-Score:36.79%, Micro-Score:54.25%, Time:0:00:22, Improve:*
+2023-11-25 17:15:15,475 - train - INFO - Iter:1600, Train-Loss:0.3417, Val-Loss:0.3378, Val-Acc:36.86%, Macro-Score:37.80%, Micro-Score:57.44%, Time:0:00:24, Improve:*
+2023-11-25 17:15:16,957 - train - INFO - Iter:1700, Train-Loss:0.3981, Val-Loss: 0.344, Val-Acc:37.77%, Macro-Score:36.03%, Micro-Score:54.88%, Time:0:00:25, Improve:
+2023-11-25 17:15:18,415 - train - INFO - Iter:1800, Train-Loss:0.2937, Val-Loss:0.3348, Val-Acc:39.15%, Macro-Score:38.90%, Micro-Score:58.91%, Time:0:00:26, Improve:*
+2023-11-25 17:15:18,867 - train - INFO - Epoch [5/20]
+2023-11-25 17:15:19,821 - train - INFO - Iter:1900, Train-Loss:0.2965, Val-Loss:0.3353, Val-Acc:34.53%, Macro-Score:36.80%, Micro-Score:54.89%, Time:0:00:28, Improve:
+2023-11-25 17:15:21,242 - train - INFO - Iter:2000, Train-Loss:0.2893, Val-Loss:0.3324, Val-Acc:39.10%, Macro-Score:37.68%, Micro-Score:57.69%, Time:0:00:29, Improve:
+2023-11-25 17:15:22,711 - train - INFO - Iter:2100, Train-Loss:0.3165, Val-Loss:0.3378, Val-Acc:37.77%, Macro-Score:35.37%, Micro-Score:56.47%, Time:0:00:31, Improve:
+2023-11-25 17:15:24,104 - train - INFO - Iter:2200, Train-Loss:  0.32, Val-Loss:0.3353, Val-Acc:40.34%, Macro-Score:38.67%, Micro-Score:58.42%, Time:0:00:32, Improve:
+2023-11-25 17:15:25,330 - train - INFO - Epoch [6/20]
+2023-11-25 17:15:25,546 - train - INFO - Iter:2300, Train-Loss:0.2749, Val-Loss:0.3361, Val-Acc:38.48%, Macro-Score:38.24%, Micro-Score:59.16%, Time:0:00:34, Improve:
+2023-11-25 17:15:26,972 - train - INFO - Iter:2400, Train-Loss:0.3962, Val-Loss:0.3339, Val-Acc:35.57%, Macro-Score:36.29%, Micro-Score:54.67%, Time:0:00:35, Improve:
+2023-11-25 17:15:28,467 - train - INFO - Iter:2500, Train-Loss:0.3462, Val-Loss:0.3365, Val-Acc:35.15%, Macro-Score:36.77%, Micro-Score:54.16%, Time:0:00:36, Improve:
+2023-11-25 17:15:29,915 - train - INFO - Iter:2600, Train-Loss:0.4004, Val-Loss: 0.338, Val-Acc:38.72%, Macro-Score:38.75%, Micro-Score:60.09%, Time:0:00:38, Improve:
+2023-11-25 17:15:31,400 - train - INFO - Iter:2700, Train-Loss:0.2833, Val-Loss:0.3279, Val-Acc:38.82%, Macro-Score:38.69%, Micro-Score:58.96%, Time:0:00:39, Improve:
+2023-11-25 17:15:32,128 - train - INFO - Epoch [7/20]
+2023-11-25 17:15:32,902 - train - INFO - Iter:2800, Train-Loss:0.3145, Val-Loss:0.3317, Val-Acc:39.06%, Macro-Score:39.11%, Micro-Score:59.00%, Time:0:00:41, Improve:*
+2023-11-25 17:15:34,367 - train - INFO - Iter:2900, Train-Loss:0.2473, Val-Loss:0.3315, Val-Acc:37.72%, Macro-Score:37.95%, Micro-Score:57.86%, Time:0:00:42, Improve:
+2023-11-25 17:15:35,771 - train - INFO - Iter:3000, Train-Loss:0.3662, Val-Loss:0.3292, Val-Acc:39.25%, Macro-Score:44.55%, Micro-Score:60.21%, Time:0:00:44, Improve:*
+2023-11-25 17:15:37,179 - train - INFO - Iter:3100, Train-Loss:0.2345, Val-Loss:0.3284, Val-Acc:38.29%, Macro-Score:38.52%, Micro-Score:59.02%, Time:0:00:45, Improve:
+2023-11-25 17:15:38,611 - train - INFO - Iter:3200, Train-Loss:0.3084, Val-Loss:0.3277, Val-Acc:39.48%, Macro-Score:40.66%, Micro-Score:60.63%, Time:0:00:47, Improve:
+2023-11-25 17:15:38,755 - train - INFO - Epoch [8/20]
+2023-11-25 17:15:40,026 - train - INFO - Iter:3300, Train-Loss:0.3035, Val-Loss:0.3321, Val-Acc:40.30%, Macro-Score:38.81%, Micro-Score:60.16%, Time:0:00:48, Improve:
+2023-11-25 17:15:41,505 - train - INFO - Iter:3400, Train-Loss:0.3206, Val-Loss:0.3305, Val-Acc:39.72%, Macro-Score:39.68%, Micro-Score:59.80%, Time:0:00:50, Improve:
+2023-11-25 17:15:42,955 - train - INFO - Iter:3500, Train-Loss:0.2993, Val-Loss:0.3281, Val-Acc:36.67%, Macro-Score:38.31%, Micro-Score:57.90%, Time:0:00:51, Improve:
+2023-11-25 17:15:44,384 - train - INFO - Iter:3600, Train-Loss:0.2891, Val-Loss:0.3375, Val-Acc:37.91%, Macro-Score:35.84%, Micro-Score:55.42%, Time:0:00:52, Improve:
+2023-11-25 17:15:45,337 - train - INFO - Epoch [9/20]
+2023-11-25 17:15:45,867 - train - INFO - Iter:3700, Train-Loss:0.3734, Val-Loss:0.3305, Val-Acc:39.77%, Macro-Score:39.89%, Micro-Score:59.54%, Time:0:00:54, Improve:
+2023-11-25 17:15:47,386 - train - INFO - Iter:3800, Train-Loss:0.3815, Val-Loss:0.3318, Val-Acc:40.49%, Macro-Score:41.14%, Micro-Score:59.45%, Time:0:00:55, Improve:
+2023-11-25 17:15:48,850 - train - INFO - Iter:3900, Train-Loss:0.3271, Val-Loss:0.3308, Val-Acc:39.58%, Macro-Score:38.28%, Micro-Score:57.81%, Time:0:00:57, Improve:
+2023-11-25 17:15:50,330 - train - INFO - Iter:4000, Train-Loss:0.3601, Val-Loss:0.3304, Val-Acc:39.20%, Macro-Score:39.30%, Micro-Score:58.66%, Time:0:00:58, Improve:
+2023-11-25 17:15:50,331 - train - INFO - No optimization for a long time, auto-stopping...
+2023-11-25 17:15:50,333 - train - INFO - ----------------------
+ RNNModel
+2023-11-25 17:15:52,625 - train - INFO - Epoch [1/20]
+2023-11-25 17:15:53,328 - train - INFO - Iter:   0, Train-Loss:0.6924, Val-Loss:0.6375, Val-Acc: 0.48%, Macro-Score: 0.71%, Micro-Score: 0.90%, Time:0:00:01, Improve:*
+2023-11-25 17:15:57,399 - train - INFO - Iter: 100, Train-Loss:0.4049, Val-Loss:0.4397, Val-Acc: 0.00%, Macro-Score: 0.00%, Micro-Score: 0.00%, Time:0:00:05, Improve:
+2023-11-25 17:16:01,373 - train - INFO - Iter: 200, Train-Loss:0.4302, Val-Loss:0.4351, Val-Acc: 0.57%, Macro-Score: 0.76%, Micro-Score: 0.98%, Time:0:00:09, Improve:*
+2023-11-25 17:16:05,351 - train - INFO - Iter: 300, Train-Loss:0.4262, Val-Loss:0.4333, Val-Acc: 0.81%, Macro-Score: 1.08%, Micro-Score: 1.42%, Time:0:00:13, Improve:*
+2023-11-25 17:16:09,390 - train - INFO - Iter: 400, Train-Loss:0.4159, Val-Loss: 0.429, Val-Acc: 6.53%, Macro-Score: 6.56%, Micro-Score:11.78%, Time:0:00:17, Improve:*
+2023-11-25 17:16:11,258 - train - INFO - Epoch [2/20]
+2023-11-25 17:16:13,399 - train - INFO - Iter: 500, Train-Loss:0.4479, Val-Loss:0.4225, Val-Acc:10.16%, Macro-Score:10.92%, Micro-Score:19.63%, Time:0:00:21, Improve:*
+2023-11-25 17:16:17,494 - train - INFO - Iter: 600, Train-Loss:0.3748, Val-Loss:0.4182, Val-Acc:17.12%, Macro-Score:14.21%, Micro-Score:31.91%, Time:0:00:25, Improve:*
+2023-11-25 17:16:21,514 - train - INFO - Iter: 700, Train-Loss: 0.382, Val-Loss:0.4142, Val-Acc:15.50%, Macro-Score:14.64%, Micro-Score:29.04%, Time:0:00:29, Improve:*
+2023-11-25 17:16:25,699 - train - INFO - Iter: 800, Train-Loss:0.3842, Val-Loss:0.4092, Val-Acc:19.74%, Macro-Score:16.34%, Micro-Score:34.74%, Time:0:00:33, Improve:*
+2023-11-25 17:16:29,688 - train - INFO - Iter: 900, Train-Loss:0.4059, Val-Loss:0.4088, Val-Acc:22.94%, Macro-Score:20.32%, Micro-Score:35.43%, Time:0:00:37, Improve:*
+2023-11-25 17:16:30,384 - train - INFO - Epoch [3/20]
+2023-11-25 17:16:33,908 - train - INFO - Iter:1000, Train-Loss:0.3481, Val-Loss: 0.404, Val-Acc:29.57%, Macro-Score:22.48%, Micro-Score:43.38%, Time:0:00:41, Improve:*
+2023-11-25 17:16:38,152 - train - INFO - Iter:1100, Train-Loss: 0.366, Val-Loss: 0.398, Val-Acc:28.61%, Macro-Score:23.07%, Micro-Score:42.91%, Time:0:00:46, Improve:*
+2023-11-25 17:16:42,352 - train - INFO - Iter:1200, Train-Loss:0.4137, Val-Loss:0.4033, Val-Acc:21.27%, Macro-Score:20.20%, Micro-Score:33.67%, Time:0:00:50, Improve:
+2023-11-25 17:16:46,288 - train - INFO - Iter:1300, Train-Loss:0.3768, Val-Loss:0.4007, Val-Acc:26.47%, Macro-Score:22.49%, Micro-Score:41.24%, Time:0:00:54, Improve:
+2023-11-25 17:16:48,999 - train - INFO - Epoch [4/20]
+2023-11-25 17:16:50,232 - train - INFO - Iter:1400, Train-Loss:0.3751, Val-Loss:0.3984, Val-Acc:27.80%, Macro-Score:22.31%, Micro-Score:42.51%, Time:0:00:58, Improve:
+2023-11-25 17:16:54,251 - train - INFO - Iter:1500, Train-Loss:0.3686, Val-Loss:0.3944, Val-Acc:31.71%, Macro-Score:24.48%, Micro-Score:45.18%, Time:0:01:02, Improve:*
+2023-11-25 17:16:58,213 - train - INFO - Iter:1600, Train-Loss:0.3584, Val-Loss:0.3909, Val-Acc:29.57%, Macro-Score:24.61%, Micro-Score:44.22%, Time:0:01:06, Improve:*
+2023-11-25 17:17:02,265 - train - INFO - Iter:1700, Train-Loss:0.2899, Val-Loss: 0.387, Val-Acc:26.85%, Macro-Score:26.62%, Micro-Score:43.78%, Time:0:01:10, Improve:*
+2023-11-25 17:17:06,331 - train - INFO - Iter:1800, Train-Loss:0.3878, Val-Loss:0.3902, Val-Acc:32.09%, Macro-Score:25.56%, Micro-Score:46.14%, Time:0:01:14, Improve:
+2023-11-25 17:17:07,634 - train - INFO - Epoch [5/20]
+2023-11-25 17:17:10,336 - train - INFO - Iter:1900, Train-Loss:0.3716, Val-Loss:0.3827, Val-Acc:29.80%, Macro-Score:25.36%, Micro-Score:44.58%, Time:0:01:18, Improve:
+2023-11-25 17:17:14,433 - train - INFO - Iter:2000, Train-Loss: 0.465, Val-Loss:0.3789, Val-Acc:33.09%, Macro-Score:26.79%, Micro-Score:47.55%, Time:0:01:22, Improve:*
+2023-11-25 17:17:18,584 - train - INFO - Iter:2100, Train-Loss:0.3477, Val-Loss:0.3816, Val-Acc:33.67%, Macro-Score:25.38%, Micro-Score:47.99%, Time:0:01:26, Improve:
+2023-11-25 17:17:22,620 - train - INFO - Iter:2200, Train-Loss:0.3196, Val-Loss: 0.374, Val-Acc:31.71%, Macro-Score:25.48%, Micro-Score:46.30%, Time:0:01:30, Improve:
+2023-11-25 17:17:26,010 - train - INFO - Epoch [6/20]
+2023-11-25 17:17:26,836 - train - INFO - Iter:2300, Train-Loss:0.4696, Val-Loss:0.3762, Val-Acc:33.71%, Macro-Score:26.71%, Micro-Score:47.10%, Time:0:01:34, Improve:
+2023-11-25 17:17:30,773 - train - INFO - Iter:2400, Train-Loss:0.4224, Val-Loss:0.3733, Val-Acc:36.62%, Macro-Score:28.37%, Micro-Score:50.03%, Time:0:01:38, Improve:*
+2023-11-25 17:17:34,652 - train - INFO - Iter:2500, Train-Loss:0.3645, Val-Loss:0.3733, Val-Acc:34.10%, Macro-Score:27.62%, Micro-Score:47.56%, Time:0:01:42, Improve:
+2023-11-25 17:17:38,652 - train - INFO - Iter:2600, Train-Loss:0.3832, Val-Loss:0.3657, Val-Acc:35.81%, Macro-Score:28.02%, Micro-Score:50.31%, Time:0:01:46, Improve:
+2023-11-25 17:17:42,666 - train - INFO - Iter:2700, Train-Loss:0.2885, Val-Loss:0.3658, Val-Acc:37.29%, Macro-Score:33.26%, Micro-Score:52.83%, Time:0:01:50, Improve:*
+2023-11-25 17:17:44,564 - train - INFO - Epoch [7/20]
+2023-11-25 17:17:46,776 - train - INFO - Iter:2800, Train-Loss:0.2911, Val-Loss:0.3654, Val-Acc:33.81%, Macro-Score:30.33%, Micro-Score:49.02%, Time:0:01:54, Improve:
+2023-11-25 17:17:50,720 - train - INFO - Iter:2900, Train-Loss:0.3248, Val-Loss:0.3627, Val-Acc:36.29%, Macro-Score:32.45%, Micro-Score:51.72%, Time:0:01:58, Improve:
+2023-11-25 17:17:54,664 - train - INFO - Iter:3000, Train-Loss:0.3306, Val-Loss:0.3622, Val-Acc:37.24%, Macro-Score:33.80%, Micro-Score:53.28%, Time:0:02:02, Improve:*
+2023-11-25 17:17:58,315 - train - INFO - Iter:3100, Train-Loss:0.4489, Val-Loss:0.3566, Val-Acc:37.24%, Macro-Score:31.68%, Micro-Score:53.21%, Time:0:02:06, Improve:
+2023-11-25 17:18:02,034 - train - INFO - Iter:3200, Train-Loss:0.2961, Val-Loss:0.3638, Val-Acc:37.15%, Macro-Score:37.06%, Micro-Score:56.90%, Time:0:02:09, Improve:*
+2023-11-25 17:18:02,500 - train - INFO - Epoch [8/20]
+2023-11-25 17:18:05,757 - train - INFO - Iter:3300, Train-Loss: 0.271, Val-Loss:0.3635, Val-Acc:37.24%, Macro-Score:33.23%, Micro-Score:52.40%, Time:0:02:13, Improve:
+2023-11-25 17:18:09,717 - train - INFO - Iter:3400, Train-Loss:0.3133, Val-Loss:0.3587, Val-Acc:37.53%, Macro-Score:35.46%, Micro-Score:56.16%, Time:0:02:17, Improve:
+2023-11-25 17:18:13,638 - train - INFO - Iter:3500, Train-Loss: 0.374, Val-Loss:0.3567, Val-Acc:39.15%, Macro-Score:35.67%, Micro-Score:56.55%, Time:0:02:21, Improve:
+2023-11-25 17:18:17,435 - train - INFO - Iter:3600, Train-Loss:0.3208, Val-Loss:0.3557, Val-Acc:36.81%, Macro-Score:35.64%, Micro-Score:55.39%, Time:0:02:25, Improve:
+2023-11-25 17:18:19,910 - train - INFO - Epoch [9/20]
+2023-11-25 17:18:21,423 - train - INFO - Iter:3700, Train-Loss: 0.352, Val-Loss:0.3736, Val-Acc:35.10%, Macro-Score:28.45%, Micro-Score:49.71%, Time:0:02:29, Improve:
+2023-11-25 17:18:25,516 - train - INFO - Iter:3800, Train-Loss:0.2705, Val-Loss:0.3615, Val-Acc:36.96%, Macro-Score:28.48%, Micro-Score:51.38%, Time:0:02:33, Improve:
+2023-11-25 17:18:29,454 - train - INFO - Iter:3900, Train-Loss: 0.354, Val-Loss:0.3595, Val-Acc:39.15%, Macro-Score:30.23%, Micro-Score:52.65%, Time:0:02:37, Improve:
+2023-11-25 17:18:33,439 - train - INFO - Iter:4000, Train-Loss: 0.373, Val-Loss:0.3578, Val-Acc:36.43%, Macro-Score:28.76%, Micro-Score:51.66%, Time:0:02:41, Improve:
+2023-11-25 17:18:37,494 - train - INFO - Iter:4100, Train-Loss:0.3314, Val-Loss:0.3579, Val-Acc:36.67%, Macro-Score:34.64%, Micro-Score:54.19%, Time:0:02:45, Improve:
+2023-11-25 17:18:38,582 - train - INFO - Epoch [10/20]
+2023-11-25 17:18:41,210 - train - INFO - Iter:4200, Train-Loss:0.2905, Val-Loss:0.3639, Val-Acc:39.10%, Macro-Score:31.61%, Micro-Score:53.31%, Time:0:02:49, Improve:
+2023-11-25 17:18:41,210 - train - INFO - No optimization for a long time, auto-stopping...
+2023-11-25 17:18:41,212 - train - INFO - ----------------------
+ xlm-roberta-base
+2023-11-25 17:18:53,508 - train - INFO - ----------------------
+ FastTextModel
+2023-11-25 17:18:57,357 - train - INFO - Epoch [1/20]
+2023-11-25 17:18:57,629 - train - INFO - Iter:   0, Train-Loss:0.7041, Val-Loss:0.6652, Val-Acc: 0.86%, Macro-Score: 0.36%, Micro-Score: 0.97%, Time:0:00:00, Improve:*
+2023-11-25 17:18:58,129 - train - INFO - Iter: 100, Train-Loss: 0.436, Val-Loss: 0.435, Val-Acc: 0.00%, Macro-Score: 0.00%, Micro-Score: 0.00%, Time:0:00:01, Improve:
+2023-11-25 17:18:58,451 - train - INFO - Iter: 200, Train-Loss: 0.453, Val-Loss:0.4337, Val-Acc: 0.00%, Macro-Score: 0.00%, Micro-Score: 0.00%, Time:0:00:01, Improve:
+2023-11-25 17:18:58,852 - train - INFO - Iter: 300, Train-Loss:0.4553, Val-Loss: 0.433, Val-Acc: 0.00%, Macro-Score: 0.00%, Micro-Score: 0.00%, Time:0:00:01, Improve:
+2023-11-25 17:18:59,325 - train - INFO - Iter: 400, Train-Loss: 0.414, Val-Loss:0.4298, Val-Acc: 0.14%, Macro-Score: 0.21%, Micro-Score: 0.38%, Time:0:00:02, Improve:
+2023-11-25 17:18:59,583 - train - INFO - Epoch [2/20]
+2023-11-25 17:18:59,782 - train - INFO - Iter: 500, Train-Loss:0.4741, Val-Loss:0.4279, Val-Acc: 0.10%, Macro-Score: 0.10%, Micro-Score: 0.15%, Time:0:00:02, Improve:
+2023-11-25 17:19:00,196 - train - INFO - Iter: 600, Train-Loss:0.4695, Val-Loss:0.4276, Val-Acc: 0.33%, Macro-Score: 0.43%, Micro-Score: 0.60%, Time:0:00:03, Improve:*
+2023-11-25 17:19:00,595 - train - INFO - Iter: 700, Train-Loss:0.4257, Val-Loss:0.4253, Val-Acc: 4.43%, Macro-Score: 4.73%, Micro-Score:10.13%, Time:0:00:03, Improve:*
+2023-11-25 17:19:01,034 - train - INFO - Iter: 800, Train-Loss:0.4099, Val-Loss:0.4191, Val-Acc: 9.44%, Macro-Score: 8.28%, Micro-Score:20.40%, Time:0:00:04, Improve:*
+2023-11-25 17:19:01,358 - train - INFO - Iter: 900, Train-Loss:0.3931, Val-Loss:0.4167, Val-Acc: 9.39%, Macro-Score: 8.78%, Micro-Score:19.87%, Time:0:00:04, Improve:*
+2023-11-25 17:19:01,449 - train - INFO - Epoch [3/20]
+2023-11-25 17:19:01,847 - train - INFO - Iter:1000, Train-Loss:0.4213, Val-Loss:0.4136, Val-Acc:10.54%, Macro-Score:10.41%, Micro-Score:21.48%, Time:0:00:04, Improve:*
+2023-11-25 17:19:02,233 - train - INFO - Iter:1100, Train-Loss:0.4579, Val-Loss:0.4126, Val-Acc: 9.92%, Macro-Score: 9.61%, Micro-Score:21.03%, Time:0:00:05, Improve:
+2023-11-25 17:19:02,577 - train - INFO - Iter:1200, Train-Loss:0.3936, Val-Loss:0.4093, Val-Acc:10.54%, Macro-Score:10.58%, Micro-Score:21.31%, Time:0:00:05, Improve:*
+2023-11-25 17:19:03,053 - train - INFO - Iter:1300, Train-Loss:0.3795, Val-Loss:0.4072, Val-Acc:12.49%, Macro-Score:11.86%, Micro-Score:25.27%, Time:0:00:06, Improve:*
+2023-11-25 17:19:03,297 - train - INFO - Epoch [4/20]
+2023-11-25 17:19:03,485 - train - INFO - Iter:1400, Train-Loss:0.3708, Val-Loss:0.4064, Val-Acc:13.16%, Macro-Score:12.64%, Micro-Score:26.23%, Time:0:00:06, Improve:*
+2023-11-25 17:19:03,951 - train - INFO - Iter:1500, Train-Loss:0.3886, Val-Loss:0.4057, Val-Acc:12.59%, Macro-Score:12.60%, Micro-Score:25.50%, Time:0:00:07, Improve:
+2023-11-25 17:19:04,376 - train - INFO - Iter:1600, Train-Loss:0.3891, Val-Loss:0.4043, Val-Acc:12.16%, Macro-Score:12.08%, Micro-Score:24.02%, Time:0:00:07, Improve:
+2023-11-25 17:19:04,802 - train - INFO - Iter:1700, Train-Loss:0.3953, Val-Loss:0.4038, Val-Acc:12.49%, Macro-Score:12.72%, Micro-Score:24.10%, Time:0:00:07, Improve:*
+2023-11-25 17:19:05,309 - train - INFO - Iter:1800, Train-Loss:0.3603, Val-Loss:0.4027, Val-Acc:13.54%, Macro-Score:13.62%, Micro-Score:26.47%, Time:0:00:08, Improve:*
+2023-11-25 17:19:05,410 - train - INFO - Epoch [5/20]
+2023-11-25 17:19:05,741 - train - INFO - Iter:1900, Train-Loss:0.3887, Val-Loss:0.4018, Val-Acc:14.97%, Macro-Score:14.70%, Micro-Score:28.92%, Time:0:00:08, Improve:*
+2023-11-25 17:19:06,202 - train - INFO - Iter:2000, Train-Loss:0.3826, Val-Loss:0.4002, Val-Acc:14.45%, Macro-Score:15.31%, Micro-Score:29.43%, Time:0:00:09, Improve:*
+2023-11-25 17:19:06,603 - train - INFO - Iter:2100, Train-Loss:0.4283, Val-Loss:0.3998, Val-Acc:14.88%, Macro-Score:17.36%, Micro-Score:31.67%, Time:0:00:09, Improve:*
+2023-11-25 17:19:06,978 - train - INFO - Iter:2200, Train-Loss:0.3574, Val-Loss:0.4005, Val-Acc:13.07%, Macro-Score:13.93%, Micro-Score:25.34%, Time:0:00:10, Improve:
+2023-11-25 17:19:07,213 - train - INFO - Epoch [6/20]
+2023-11-25 17:19:07,284 - train - INFO - Iter:2300, Train-Loss:0.4183, Val-Loss:0.3971, Val-Acc:15.12%, Macro-Score:16.57%, Micro-Score:30.31%, Time:0:00:10, Improve:
+2023-11-25 17:19:07,725 - train - INFO - Iter:2400, Train-Loss: 0.371, Val-Loss:0.3975, Val-Acc:15.88%, Macro-Score:16.57%, Micro-Score:30.26%, Time:0:00:10, Improve:
+2023-11-25 17:19:08,086 - train - INFO - Iter:2500, Train-Loss:0.3803, Val-Loss:0.3959, Val-Acc:16.83%, Macro-Score:18.07%, Micro-Score:33.09%, Time:0:00:11, Improve:*
+2023-11-25 17:19:08,535 - train - INFO - Iter:2600, Train-Loss:0.3945, Val-Loss: 0.397, Val-Acc:15.83%, Macro-Score:16.49%, Micro-Score:29.89%, Time:0:00:11, Improve:
+2023-11-25 17:19:08,905 - train - INFO - Iter:2700, Train-Loss:0.4499, Val-Loss: 0.395, Val-Acc:16.64%, Macro-Score:17.74%, Micro-Score:31.84%, Time:0:00:12, Improve:
+2023-11-25 17:19:09,067 - train - INFO - Epoch [7/20]
+2023-11-25 17:19:09,268 - train - INFO - Iter:2800, Train-Loss:0.4103, Val-Loss:0.3952, Val-Acc:16.50%, Macro-Score:18.44%, Micro-Score:31.31%, Time:0:00:12, Improve:*
+2023-11-25 17:19:09,734 - train - INFO - Iter:2900, Train-Loss:0.4111, Val-Loss:0.3939, Val-Acc:15.78%, Macro-Score:18.39%, Micro-Score:32.82%, Time:0:00:12, Improve:
+2023-11-25 17:19:10,132 - train - INFO - Iter:3000, Train-Loss: 0.415, Val-Loss:0.3944, Val-Acc:16.55%, Macro-Score:18.67%, Micro-Score:31.44%, Time:0:00:13, Improve:*
+2023-11-25 17:19:10,576 - train - INFO - Iter:3100, Train-Loss:0.3759, Val-Loss:0.3939, Val-Acc:20.27%, Macro-Score:19.65%, Micro-Score:38.07%, Time:0:00:13, Improve:*
+2023-11-25 17:19:11,108 - train - INFO - Iter:3200, Train-Loss:0.4049, Val-Loss: 0.393, Val-Acc:17.41%, Macro-Score:20.21%, Micro-Score:33.35%, Time:0:00:14, Improve:*
+2023-11-25 17:19:11,135 - train - INFO - Epoch [8/20]
+2023-11-25 17:19:11,479 - train - INFO - Iter:3300, Train-Loss:0.3897, Val-Loss:0.3933, Val-Acc:18.74%, Macro-Score:20.48%, Micro-Score:34.23%, Time:0:00:14, Improve:*
+2023-11-25 17:19:11,882 - train - INFO - Iter:3400, Train-Loss:0.4041, Val-Loss:0.3929, Val-Acc:18.65%, Macro-Score:20.56%, Micro-Score:34.20%, Time:0:00:15, Improve:*
+2023-11-25 17:19:12,386 - train - INFO - Iter:3500, Train-Loss:0.4005, Val-Loss:0.3917, Val-Acc:19.03%, Macro-Score:21.18%, Micro-Score:35.69%, Time:0:00:15, Improve:*
+2023-11-25 17:19:12,793 - train - INFO - Iter:3600, Train-Loss:0.4257, Val-Loss:0.3911, Val-Acc:19.12%, Macro-Score:21.69%, Micro-Score:37.27%, Time:0:00:15, Improve:*
+2023-11-25 17:19:13,032 - train - INFO - Epoch [9/20]
+2023-11-25 17:19:13,162 - train - INFO - Iter:3700, Train-Loss:0.4595, Val-Loss:0.3926, Val-Acc:17.31%, Macro-Score:20.17%, Micro-Score:32.29%, Time:0:00:16, Improve:
+2023-11-25 17:19:13,628 - train - INFO - Iter:3800, Train-Loss:0.3453, Val-Loss: 0.391, Val-Acc:18.79%, Macro-Score:21.12%, Micro-Score:35.69%, Time:0:00:16, Improve:
+2023-11-25 17:19:13,979 - train - INFO - Iter:3900, Train-Loss:0.3903, Val-Loss:0.3911, Val-Acc:18.98%, Macro-Score:21.82%, Micro-Score:35.44%, Time:0:00:17, Improve:*
+2023-11-25 17:19:14,416 - train - INFO - Iter:4000, Train-Loss:0.3856, Val-Loss:0.3906, Val-Acc:19.84%, Macro-Score:22.66%, Micro-Score:37.07%, Time:0:00:17, Improve:*
+2023-11-25 17:19:14,871 - train - INFO - Iter:4100, Train-Loss:0.3957, Val-Loss:0.3907, Val-Acc:20.79%, Macro-Score:22.18%, Micro-Score:37.13%, Time:0:00:18, Improve:
+2023-11-25 17:19:14,959 - train - INFO - Epoch [10/20]
+2023-11-25 17:19:15,257 - train - INFO - Iter:4200, Train-Loss:0.3356, Val-Loss:0.3933, Val-Acc:17.84%, Macro-Score:21.19%, Micro-Score:33.05%, Time:0:00:18, Improve:
+2023-11-25 17:19:15,688 - train - INFO - Iter:4300, Train-Loss:0.3986, Val-Loss:0.3899, Val-Acc:19.65%, Macro-Score:21.77%, Micro-Score:36.05%, Time:0:00:18, Improve:
+2023-11-25 17:19:16,129 - train - INFO - Iter:4400, Train-Loss:0.4128, Val-Loss:0.3898, Val-Acc:20.60%, Macro-Score:22.11%, Micro-Score:37.34%, Time:0:00:19, Improve:
+2023-11-25 17:19:16,459 - train - INFO - Iter:4500, Train-Loss:0.3442, Val-Loss:0.3894, Val-Acc:20.65%, Macro-Score:22.42%, Micro-Score:38.16%, Time:0:00:19, Improve:
+2023-11-25 17:19:16,737 - train - INFO - Epoch [11/20]
+2023-11-25 17:19:16,840 - train - INFO - Iter:4600, Train-Loss:0.3585, Val-Loss: 0.393, Val-Acc:20.79%, Macro-Score:21.56%, Micro-Score:36.30%, Time:0:00:19, Improve:
+2023-11-25 17:19:17,382 - train - INFO - Iter:4700, Train-Loss:0.3953, Val-Loss:0.3902, Val-Acc:19.65%, Macro-Score:22.90%, Micro-Score:36.45%, Time:0:00:20, Improve:*
+2023-11-25 17:19:17,740 - train - INFO - Iter:4800, Train-Loss:0.3844, Val-Loss:0.3895, Val-Acc:20.79%, Macro-Score:22.11%, Micro-Score:37.37%, Time:0:00:20, Improve:
+2023-11-25 17:19:18,059 - train - INFO - Iter:4900, Train-Loss:0.3687, Val-Loss:0.3897, Val-Acc:20.65%, Macro-Score:22.86%, Micro-Score:37.38%, Time:0:00:21, Improve:
+2023-11-25 17:19:18,438 - train - INFO - Iter:5000, Train-Loss:0.3694, Val-Loss:0.3891, Val-Acc:20.74%, Macro-Score:22.71%, Micro-Score:37.70%, Time:0:00:21, Improve:
+2023-11-25 17:19:18,634 - train - INFO - Epoch [12/20]
+2023-11-25 17:19:18,850 - train - INFO - Iter:5100, Train-Loss:0.4158, Val-Loss:0.3908, Val-Acc:22.46%, Macro-Score:23.54%, Micro-Score:39.01%, Time:0:00:21, Improve:*
+2023-11-25 17:19:19,185 - train - INFO - Iter:5200, Train-Loss:0.3435, Val-Loss:0.3891, Val-Acc:20.70%, Macro-Score:22.80%, Micro-Score:37.73%, Time:0:00:22, Improve:
+2023-11-25 17:19:19,492 - train - INFO - Iter:5300, Train-Loss:0.3767, Val-Loss:0.3895, Val-Acc:19.79%, Macro-Score:22.81%, Micro-Score:36.23%, Time:0:00:22, Improve:
+2023-11-25 17:19:19,930 - train - INFO - Iter:5400, Train-Loss:0.3963, Val-Loss:0.3887, Val-Acc:20.79%, Macro-Score:22.49%, Micro-Score:37.61%, Time:0:00:23, Improve:
+2023-11-25 17:19:20,315 - train - INFO - Iter:5500, Train-Loss:0.3412, Val-Loss:0.3884, Val-Acc:20.55%, Macro-Score:22.66%, Micro-Score:37.76%, Time:0:00:23, Improve:
+2023-11-25 17:19:20,336 - train - INFO - Epoch [13/20]
+2023-11-25 17:19:20,652 - train - INFO - Iter:5600, Train-Loss:0.4001, Val-Loss:0.3889, Val-Acc:19.03%, Macro-Score:22.92%, Micro-Score:36.29%, Time:0:00:23, Improve:
+2023-11-25 17:19:21,116 - train - INFO - Iter:5700, Train-Loss:0.3557, Val-Loss:0.3897, Val-Acc:23.27%, Macro-Score:23.35%, Micro-Score:39.60%, Time:0:00:24, Improve:
+2023-11-25 17:19:21,517 - train - INFO - Iter:5800, Train-Loss:0.4047, Val-Loss:0.3888, Val-Acc:21.55%, Macro-Score:22.62%, Micro-Score:38.58%, Time:0:00:24, Improve:
+2023-11-25 17:19:21,906 - train - INFO - Iter:5900, Train-Loss:0.4171, Val-Loss:0.3909, Val-Acc:20.08%, Macro-Score:22.52%, Micro-Score:35.35%, Time:0:00:25, Improve:
+2023-11-25 17:19:22,113 - train - INFO - Epoch [14/20]
+2023-11-25 17:19:22,315 - train - INFO - Iter:6000, Train-Loss:0.3931, Val-Loss:0.3891, Val-Acc:20.84%, Macro-Score:23.80%, Micro-Score:38.48%, Time:0:00:25, Improve:*
+2023-11-25 17:19:22,618 - train - INFO - Iter:6100, Train-Loss:0.3971, Val-Loss:0.3888, Val-Acc:20.46%, Macro-Score:23.02%, Micro-Score:36.86%, Time:0:00:25, Improve:
+2023-11-25 17:19:23,058 - train - INFO - Iter:6200, Train-Loss:0.4146, Val-Loss:0.3885, Val-Acc:21.22%, Macro-Score:22.76%, Micro-Score:37.84%, Time:0:00:26, Improve:
+2023-11-25 17:19:23,484 - train - INFO - Iter:6300, Train-Loss: 0.364, Val-Loss:0.3896, Val-Acc:20.17%, Macro-Score:23.04%, Micro-Score:36.77%, Time:0:00:26, Improve:
+2023-11-25 17:19:23,822 - train - INFO - Iter:6400, Train-Loss: 0.417, Val-Loss:0.3885, Val-Acc:20.84%, Macro-Score:23.08%, Micro-Score:37.62%, Time:0:00:26, Improve:
+2023-11-25 17:19:23,927 - train - INFO - Epoch [15/20]
+2023-11-25 17:19:24,269 - train - INFO - Iter:6500, Train-Loss:0.4415, Val-Loss:0.3876, Val-Acc:21.36%, Macro-Score:23.21%, Micro-Score:38.45%, Time:0:00:27, Improve:
+2023-11-25 17:19:24,671 - train - INFO - Iter:6600, Train-Loss:0.3617, Val-Loss:0.3886, Val-Acc:20.55%, Macro-Score:22.95%, Micro-Score:36.89%, Time:0:00:27, Improve:
+2023-11-25 17:19:25,014 - train - INFO - Iter:6700, Train-Loss:  0.44, Val-Loss:0.3887, Val-Acc:22.79%, Macro-Score:23.17%, Micro-Score:39.98%, Time:0:00:28, Improve:
+2023-11-25 17:19:25,445 - train - INFO - Iter:6800, Train-Loss:0.3918, Val-Loss:0.3893, Val-Acc:22.17%, Macro-Score:23.86%, Micro-Score:38.47%, Time:0:00:28, Improve:*
+2023-11-25 17:19:25,673 - train - INFO - Epoch [16/20]
+2023-11-25 17:19:25,795 - train - INFO - Iter:6900, Train-Loss:0.3317, Val-Loss:0.3887, Val-Acc:22.56%, Macro-Score:23.42%, Micro-Score:39.02%, Time:0:00:28, Improve:
+2023-11-25 17:19:26,162 - train - INFO - Iter:7000, Train-Loss:0.3432, Val-Loss:0.3877, Val-Acc:22.08%, Macro-Score:23.65%, Micro-Score:39.41%, Time:0:00:29, Improve:
+2023-11-25 17:19:26,534 - train - INFO - Iter:7100, Train-Loss:0.3831, Val-Loss:0.3904, Val-Acc:20.46%, Macro-Score:24.23%, Micro-Score:37.68%, Time:0:00:29, Improve:*
+2023-11-25 17:19:26,891 - train - INFO - Iter:7200, Train-Loss:0.3338, Val-Loss:0.3887, Val-Acc:21.08%, Macro-Score:23.39%, Micro-Score:37.29%, Time:0:00:30, Improve:
+2023-11-25 17:19:27,352 - train - INFO - Iter:7300, Train-Loss:0.3758, Val-Loss:0.3877, Val-Acc:20.27%, Macro-Score:23.76%, Micro-Score:37.50%, Time:0:00:30, Improve:
+2023-11-25 17:19:27,485 - train - INFO - Epoch [17/20]
+2023-11-25 17:19:27,765 - train - INFO - Iter:7400, Train-Loss: 0.411, Val-Loss:0.3875, Val-Acc:22.75%, Macro-Score:24.62%, Micro-Score:40.58%, Time:0:00:30, Improve:*
+2023-11-25 17:19:28,121 - train - INFO - Iter:7500, Train-Loss:0.3787, Val-Loss: 0.389, Val-Acc:20.31%, Macro-Score:23.22%, Micro-Score:36.18%, Time:0:00:31, Improve:
+2023-11-25 17:19:28,428 - train - INFO - Iter:7600, Train-Loss: 0.438, Val-Loss:0.3882, Val-Acc:21.55%, Macro-Score:23.61%, Micro-Score:38.29%, Time:0:00:31, Improve:
+2023-11-25 17:19:28,757 - train - INFO - Iter:7700, Train-Loss:0.3372, Val-Loss:0.3883, Val-Acc:22.65%, Macro-Score:23.98%, Micro-Score:39.14%, Time:0:00:31, Improve:
+2023-11-25 17:19:29,101 - train - INFO - Iter:7800, Train-Loss:0.3776, Val-Loss:0.3872, Val-Acc:22.13%, Macro-Score:23.86%, Micro-Score:39.28%, Time:0:00:32, Improve:
+2023-11-25 17:19:29,109 - train - INFO - Epoch [18/20]
+2023-11-25 17:19:29,574 - train - INFO - Iter:7900, Train-Loss:0.3842, Val-Loss:0.3874, Val-Acc:21.84%, Macro-Score:24.46%, Micro-Score:39.23%, Time:0:00:32, Improve:
+2023-11-25 17:19:30,004 - train - INFO - Iter:8000, Train-Loss:0.3853, Val-Loss:0.3904, Val-Acc:22.27%, Macro-Score:23.86%, Micro-Score:37.39%, Time:0:00:33, Improve:
+2023-11-25 17:19:30,336 - train - INFO - Iter:8100, Train-Loss:0.4252, Val-Loss:0.3871, Val-Acc:21.51%, Macro-Score:23.63%, Micro-Score:38.61%, Time:0:00:33, Improve:
+2023-11-25 17:19:30,809 - train - INFO - Iter:8200, Train-Loss:0.3033, Val-Loss:0.3878, Val-Acc:21.70%, Macro-Score:24.07%, Micro-Score:38.48%, Time:0:00:33, Improve:
+2023-11-25 17:19:30,964 - train - INFO - Epoch [19/20]
+2023-11-25 17:19:31,197 - train - INFO - Iter:8300, Train-Loss:0.4054, Val-Loss:0.3878, Val-Acc:22.03%, Macro-Score:24.11%, Micro-Score:38.84%, Time:0:00:34, Improve:
+2023-11-25 17:19:31,517 - train - INFO - Iter:8400, Train-Loss:0.3588, Val-Loss:0.3894, Val-Acc:20.79%, Macro-Score:23.59%, Micro-Score:36.84%, Time:0:00:34, Improve:
+2023-11-25 17:19:31,518 - train - INFO - No optimization for a long time, auto-stopping...
+2023-11-25 17:19:31,519 - train - INFO - ----------------------
+ TextCNNModel
+2023-11-25 17:19:33,798 - train - INFO - Epoch [1/20]
+2023-11-25 17:19:34,196 - train - INFO - Iter:   0, Train-Loss: 0.734, Val-Loss:0.4631, Val-Acc: 0.00%, Macro-Score: 0.00%, Micro-Score: 0.00%, Time:0:00:00, Improve:*
+2023-11-25 17:19:35,732 - train - INFO - Iter: 100, Train-Loss:0.4309, Val-Loss:0.3766, Val-Acc:20.55%, Macro-Score:20.11%, Micro-Score:38.69%, Time:0:00:02, Improve:*
+2023-11-25 17:19:37,270 - train - INFO - Iter: 200, Train-Loss:0.4037, Val-Loss:0.3879, Val-Acc:24.70%, Macro-Score:23.19%, Micro-Score:37.20%, Time:0:00:03, Improve:*
+2023-11-25 17:19:38,764 - train - INFO - Iter: 300, Train-Loss:0.4358, Val-Loss:  0.34, Val-Acc:35.67%, Macro-Score:33.88%, Micro-Score:55.13%, Time:0:00:05, Improve:*
+2023-11-25 17:19:40,226 - train - INFO - Iter: 400, Train-Loss:0.3321, Val-Loss:0.3349, Val-Acc:37.20%, Macro-Score:39.09%, Micro-Score:57.35%, Time:0:00:06, Improve:*
+2023-11-25 17:19:41,009 - train - INFO - Epoch [2/20]
+2023-11-25 17:19:41,743 - train - INFO - Iter: 500, Train-Loss:0.2778, Val-Loss:0.3311, Val-Acc:37.48%, Macro-Score:40.10%, Micro-Score:58.60%, Time:0:00:08, Improve:*
+2023-11-25 17:19:43,318 - train - INFO - Iter: 600, Train-Loss: 0.301, Val-Loss:0.3146, Val-Acc:40.87%, Macro-Score:40.96%, Micro-Score:61.34%, Time:0:00:10, Improve:*
+2023-11-25 17:19:44,753 - train - INFO - Iter: 700, Train-Loss:0.3119, Val-Loss:0.3153, Val-Acc:41.87%, Macro-Score:40.52%, Micro-Score:60.76%, Time:0:00:11, Improve:
+2023-11-25 17:19:46,191 - train - INFO - Iter: 800, Train-Loss:0.3061, Val-Loss:0.3188, Val-Acc:43.35%, Macro-Score:40.58%, Micro-Score:62.82%, Time:0:00:12, Improve:
+2023-11-25 17:19:47,705 - train - INFO - Iter: 900, Train-Loss:0.2975, Val-Loss:0.3126, Val-Acc:41.96%, Macro-Score:41.42%, Micro-Score:61.25%, Time:0:00:14, Improve:*
+2023-11-25 17:19:47,918 - train - INFO - Epoch [3/20]
+2023-11-25 17:19:49,214 - train - INFO - Iter:1000, Train-Loss:0.3061, Val-Loss:0.3067, Val-Acc:44.59%, Macro-Score:43.92%, Micro-Score:66.34%, Time:0:00:15, Improve:*
+2023-11-25 17:19:50,705 - train - INFO - Iter:1100, Train-Loss:0.2143, Val-Loss:0.3223, Val-Acc:42.97%, Macro-Score:41.55%, Micro-Score:62.39%, Time:0:00:17, Improve:
+2023-11-25 17:19:52,192 - train - INFO - Iter:1200, Train-Loss:0.2383, Val-Loss:0.2987, Val-Acc:45.21%, Macro-Score:44.03%, Micro-Score:66.09%, Time:0:00:18, Improve:*
+2023-11-25 17:19:53,670 - train - INFO - Iter:1300, Train-Loss:0.2352, Val-Loss:0.3126, Val-Acc:44.16%, Macro-Score:41.36%, Micro-Score:61.44%, Time:0:00:20, Improve:
+2023-11-25 17:19:54,698 - train - INFO - Epoch [4/20]
+2023-11-25 17:19:55,129 - train - INFO - Iter:1400, Train-Loss:0.2805, Val-Loss:0.3034, Val-Acc:46.26%, Macro-Score:43.46%, Micro-Score:64.77%, Time:0:00:21, Improve:
+2023-11-25 17:19:56,612 - train - INFO - Iter:1500, Train-Loss:0.3268, Val-Loss:   0.3, Val-Acc:45.73%, Macro-Score:43.12%, Micro-Score:64.40%, Time:0:00:23, Improve:
+2023-11-25 17:19:58,065 - train - INFO - Iter:1600, Train-Loss:0.2614, Val-Loss:0.2999, Val-Acc:45.68%, Macro-Score:41.88%, Micro-Score:64.01%, Time:0:00:24, Improve:
+2023-11-25 17:19:59,568 - train - INFO - Iter:1700, Train-Loss:0.2616, Val-Loss:0.2933, Val-Acc:46.11%, Macro-Score:46.16%, Micro-Score:65.87%, Time:0:00:26, Improve:*
+2023-11-25 17:20:01,036 - train - INFO - Iter:1800, Train-Loss:0.2915, Val-Loss:0.2973, Val-Acc:48.78%, Macro-Score:44.16%, Micro-Score:66.10%, Time:0:00:27, Improve:
+2023-11-25 17:20:01,449 - train - INFO - Epoch [5/20]
+2023-11-25 17:20:02,489 - train - INFO - Iter:1900, Train-Loss:0.3456, Val-Loss:0.2893, Val-Acc:47.88%, Macro-Score:45.54%, Micro-Score:65.68%, Time:0:00:29, Improve:
+2023-11-25 17:20:03,974 - train - INFO - Iter:2000, Train-Loss: 0.298, Val-Loss:0.2905, Val-Acc:46.97%, Macro-Score:45.78%, Micro-Score:66.07%, Time:0:00:30, Improve:
+2023-11-25 17:20:05,420 - train - INFO - Iter:2100, Train-Loss:0.2757, Val-Loss:0.2952, Val-Acc:48.55%, Macro-Score:45.93%, Micro-Score:66.58%, Time:0:00:32, Improve:
+2023-11-25 17:20:06,983 - train - INFO - Iter:2200, Train-Loss:0.3907, Val-Loss:0.2943, Val-Acc:47.97%, Macro-Score:45.55%, Micro-Score:67.01%, Time:0:00:33, Improve:
+2023-11-25 17:20:08,232 - train - INFO - Epoch [6/20]
+2023-11-25 17:20:08,448 - train - INFO - Iter:2300, Train-Loss:0.2818, Val-Loss:0.2938, Val-Acc:46.21%, Macro-Score:44.44%, Micro-Score:64.50%, Time:0:00:35, Improve:
+2023-11-25 17:20:10,035 - train - INFO - Iter:2400, Train-Loss: 0.272, Val-Loss:0.2887, Val-Acc:48.59%, Macro-Score:46.80%, Micro-Score:67.31%, Time:0:00:36, Improve:*
+2023-11-25 17:20:11,573 - train - INFO - Iter:2500, Train-Loss:0.3536, Val-Loss:0.2877, Val-Acc:47.69%, Macro-Score:47.69%, Micro-Score:67.22%, Time:0:00:38, Improve:*
+2023-11-25 17:20:13,117 - train - INFO - Iter:2600, Train-Loss:  0.24, Val-Loss:0.2936, Val-Acc:45.92%, Macro-Score:46.88%, Micro-Score:67.08%, Time:0:00:39, Improve:
+2023-11-25 17:20:14,622 - train - INFO - Iter:2700, Train-Loss:0.2624, Val-Loss:0.2912, Val-Acc:48.69%, Macro-Score:46.51%, Micro-Score:66.93%, Time:0:00:41, Improve:
+2023-11-25 17:20:15,299 - train - INFO - Epoch [7/20]
+2023-11-25 17:20:16,103 - train - INFO - Iter:2800, Train-Loss:0.2104, Val-Loss:0.2921, Val-Acc:47.93%, Macro-Score:48.33%, Micro-Score:65.69%, Time:0:00:42, Improve:*
+2023-11-25 17:20:17,507 - train - INFO - Iter:2900, Train-Loss:0.2903, Val-Loss:0.2934, Val-Acc:48.40%, Macro-Score:47.09%, Micro-Score:68.53%, Time:0:00:44, Improve:
+2023-11-25 17:20:18,964 - train - INFO - Iter:3000, Train-Loss:0.2545, Val-Loss: 0.296, Val-Acc:48.88%, Macro-Score:46.62%, Micro-Score:68.23%, Time:0:00:45, Improve:
+2023-11-25 17:20:20,398 - train - INFO - Iter:3100, Train-Loss:0.2673, Val-Loss:0.2868, Val-Acc:49.55%, Macro-Score:47.13%, Micro-Score:67.56%, Time:0:00:47, Improve:
+2023-11-25 17:20:21,848 - train - INFO - Iter:3200, Train-Loss:0.2324, Val-Loss:0.2829, Val-Acc:49.36%, Macro-Score:47.86%, Micro-Score:69.23%, Time:0:00:48, Improve:
+2023-11-25 17:20:21,990 - train - INFO - Epoch [8/20]
+2023-11-25 17:20:23,297 - train - INFO - Iter:3300, Train-Loss:0.3482, Val-Loss:0.2922, Val-Acc:48.07%, Macro-Score:46.28%, Micro-Score:65.20%, Time:0:00:49, Improve:
+2023-11-25 17:20:24,808 - train - INFO - Iter:3400, Train-Loss:0.2403, Val-Loss:0.2871, Val-Acc:49.59%, Macro-Score:49.46%, Micro-Score:67.44%, Time:0:00:51, Improve:*
+2023-11-25 17:20:26,204 - train - INFO - Iter:3500, Train-Loss:0.3055, Val-Loss:0.2877, Val-Acc:47.93%, Macro-Score:48.66%, Micro-Score:67.05%, Time:0:00:52, Improve:
+2023-11-25 17:20:27,688 - train - INFO - Iter:3600, Train-Loss:0.2321, Val-Loss:0.2922, Val-Acc:49.07%, Macro-Score:45.20%, Micro-Score:66.82%, Time:0:00:54, Improve:
+2023-11-25 17:20:28,663 - train - INFO - Epoch [9/20]
+2023-11-25 17:20:29,201 - train - INFO - Iter:3700, Train-Loss:0.2897, Val-Loss:0.2875, Val-Acc:49.12%, Macro-Score:47.46%, Micro-Score:68.75%, Time:0:00:55, Improve:
+2023-11-25 17:20:30,720 - train - INFO - Iter:3800, Train-Loss:0.3288, Val-Loss:0.2874, Val-Acc:47.88%, Macro-Score:50.76%, Micro-Score:68.00%, Time:0:00:57, Improve:*
+2023-11-25 17:20:32,179 - train - INFO - Iter:3900, Train-Loss:0.2652, Val-Loss: 0.286, Val-Acc:49.36%, Macro-Score:47.39%, Micro-Score:68.44%, Time:0:00:58, Improve:
+2023-11-25 17:20:33,628 - train - INFO - Iter:4000, Train-Loss:0.3633, Val-Loss:0.2852, Val-Acc:48.93%, Macro-Score:45.25%, Micro-Score:67.37%, Time:0:01:00, Improve:
+2023-11-25 17:20:35,178 - train - INFO - Iter:4100, Train-Loss:0.2663, Val-Loss:0.2822, Val-Acc:49.83%, Macro-Score:48.75%, Micro-Score:69.86%, Time:0:01:01, Improve:
+2023-11-25 17:20:35,590 - train - INFO - Epoch [10/20]
+2023-11-25 17:20:36,623 - train - INFO - Iter:4200, Train-Loss:0.2453, Val-Loss:0.2871, Val-Acc:49.55%, Macro-Score:48.03%, Micro-Score:68.75%, Time:0:01:03, Improve:
+2023-11-25 17:20:38,118 - train - INFO - Iter:4300, Train-Loss:0.2218, Val-Loss: 0.287, Val-Acc:49.17%, Macro-Score:47.43%, Micro-Score:67.62%, Time:0:01:04, Improve:
+2023-11-25 17:20:39,566 - train - INFO - Iter:4400, Train-Loss:0.3624, Val-Loss:0.2858, Val-Acc:49.83%, Macro-Score:47.67%, Micro-Score:68.67%, Time:0:01:06, Improve:
+2023-11-25 17:20:41,057 - train - INFO - Iter:4500, Train-Loss:0.2751, Val-Loss:0.2858, Val-Acc:48.69%, Macro-Score:48.72%, Micro-Score:66.98%, Time:0:01:07, Improve:
+2023-11-25 17:20:42,288 - train - INFO - Epoch [11/20]
+2023-11-25 17:20:42,540 - train - INFO - Iter:4600, Train-Loss:0.2471, Val-Loss:0.2795, Val-Acc:50.26%, Macro-Score:49.93%, Micro-Score:69.03%, Time:0:01:09, Improve:
+2023-11-25 17:20:44,020 - train - INFO - Iter:4700, Train-Loss: 0.302, Val-Loss:0.2844, Val-Acc:48.40%, Macro-Score:47.62%, Micro-Score:69.58%, Time:0:01:10, Improve:
+2023-11-25 17:20:45,478 - train - INFO - Iter:4800, Train-Loss:0.2398, Val-Loss:0.2854, Val-Acc:48.69%, Macro-Score:46.67%, Micro-Score:67.53%, Time:0:01:12, Improve:
+2023-11-25 17:20:45,478 - train - INFO - No optimization for a long time, auto-stopping...
+2023-11-25 17:20:45,480 - train - INFO - ----------------------
+ RNNModel
+2023-11-25 17:20:47,676 - train - INFO - Epoch [1/20]
+2023-11-25 17:20:48,357 - train - INFO - Iter:   0, Train-Loss:0.6965, Val-Loss:0.6472, Val-Acc: 0.57%, Macro-Score: 0.81%, Micro-Score: 1.05%, Time:0:00:01, Improve:*
+2023-11-25 17:20:52,480 - train - INFO - Iter: 100, Train-Loss:0.4855, Val-Loss:0.4367, Val-Acc: 0.00%, Macro-Score: 0.00%, Micro-Score: 0.00%, Time:0:00:05, Improve:
+2023-11-25 17:20:56,558 - train - INFO - Iter: 200, Train-Loss:0.4364, Val-Loss:0.4356, Val-Acc: 0.00%, Macro-Score: 0.00%, Micro-Score: 0.00%, Time:0:00:09, Improve:
+2023-11-25 17:21:00,545 - train - INFO - Iter: 300, Train-Loss:0.4327, Val-Loss:0.4347, Val-Acc: 0.76%, Macro-Score: 0.98%, Micro-Score: 1.28%, Time:0:00:13, Improve:*
+2023-11-25 17:21:04,439 - train - INFO - Iter: 400, Train-Loss:0.4181, Val-Loss:0.4406, Val-Acc: 0.00%, Macro-Score: 0.00%, Micro-Score: 0.00%, Time:0:00:17, Improve:
+2023-11-25 17:21:46,029 - train - INFO - ----------------------
+ FastTextModel
+2023-11-25 17:21:49,876 - train - INFO - Epoch [1/20]
+2023-11-25 17:21:50,217 - train - INFO - Iter:   0, Train-Loss: 0.699, Val-Loss:0.6654, Val-Acc: 0.81%, Macro-Score: 3.66%, Micro-Score: 3.99%, Time:0:00:00, Improve:*
+2023-11-25 17:21:50,581 - train - INFO - Iter: 100, Train-Loss: 0.435, Val-Loss:0.4352, Val-Acc: 0.00%, Macro-Score: 0.00%, Micro-Score: 0.00%, Time:0:00:01, Improve:
+2023-11-25 17:21:50,972 - train - INFO - Iter: 200, Train-Loss:0.4587, Val-Loss:0.4334, Val-Acc: 0.00%, Macro-Score: 0.00%, Micro-Score: 0.00%, Time:0:00:01, Improve:
+2023-11-25 17:21:51,433 - train - INFO - Iter: 300, Train-Loss: 0.456, Val-Loss:0.4322, Val-Acc: 0.00%, Macro-Score: 0.00%, Micro-Score: 0.00%, Time:0:00:02, Improve:
+2023-11-25 17:21:51,820 - train - INFO - Iter: 400, Train-Loss:0.4082, Val-Loss:0.4287, Val-Acc: 0.10%, Macro-Score: 0.11%, Micro-Score: 0.23%, Time:0:00:02, Improve:
+2023-11-25 17:21:52,052 - train - INFO - Epoch [2/20]
+2023-11-25 17:21:52,262 - train - INFO - Iter: 500, Train-Loss:0.4734, Val-Loss:0.4253, Val-Acc: 0.14%, Macro-Score: 0.17%, Micro-Score: 0.30%, Time:0:00:02, Improve:
+2023-11-25 17:21:52,729 - train - INFO - Iter: 600, Train-Loss:0.4593, Val-Loss:0.4244, Val-Acc: 0.57%, Macro-Score: 0.70%, Micro-Score: 0.98%, Time:0:00:03, Improve:
+2023-11-25 17:21:53,133 - train - INFO - Iter: 700, Train-Loss:0.4244, Val-Loss:0.4215, Val-Acc: 4.43%, Macro-Score: 5.14%, Micro-Score:10.74%, Time:0:00:03, Improve:*
+2023-11-25 17:21:53,542 - train - INFO - Iter: 800, Train-Loss:0.4065, Val-Loss:0.4145, Val-Acc: 9.78%, Macro-Score: 9.09%, Micro-Score:21.46%, Time:0:00:04, Improve:*
+2023-11-25 17:21:54,078 - train - INFO - Iter: 900, Train-Loss:0.3828, Val-Loss:0.4122, Val-Acc:11.02%, Macro-Score:10.21%, Micro-Score:23.63%, Time:0:00:04, Improve:*
+2023-11-25 17:21:54,141 - train - INFO - Epoch [3/20]
+2023-11-25 17:21:54,480 - train - INFO - Iter:1000, Train-Loss:0.4249, Val-Loss:0.4083, Val-Acc:11.06%, Macro-Score:11.10%, Micro-Score:22.90%, Time:0:00:05, Improve:*
+2023-11-25 17:21:54,869 - train - INFO - Iter:1100, Train-Loss:0.4468, Val-Loss: 0.407, Val-Acc:10.97%, Macro-Score:27.52%, Micro-Score:23.57%, Time:0:00:05, Improve:*
+2023-11-25 17:21:55,312 - train - INFO - Iter:1200, Train-Loss:0.3822, Val-Loss:0.4038, Val-Acc:12.11%, Macro-Score:12.00%, Micro-Score:24.90%, Time:0:00:05, Improve:
+2023-11-25 17:21:55,685 - train - INFO - Iter:1300, Train-Loss:0.3777, Val-Loss:0.4018, Val-Acc:14.31%, Macro-Score:13.43%, Micro-Score:28.61%, Time:0:00:06, Improve:
+2023-11-25 17:21:55,960 - train - INFO - Epoch [4/20]
+2023-11-25 17:21:56,103 - train - INFO - Iter:1400, Train-Loss:0.3634, Val-Loss:0.4007, Val-Acc:14.88%, Macro-Score:13.88%, Micro-Score:29.54%, Time:0:00:06, Improve:
+2023-11-25 17:21:56,503 - train - INFO - Iter:1500, Train-Loss:0.3863, Val-Loss:0.4002, Val-Acc:14.26%, Macro-Score:15.33%, Micro-Score:30.03%, Time:0:00:07, Improve:
+2023-11-25 17:21:56,909 - train - INFO - Iter:1600, Train-Loss:0.3842, Val-Loss:0.3989, Val-Acc:13.35%, Macro-Score:13.66%, Micro-Score:26.78%, Time:0:00:07, Improve:
+2023-11-25 17:21:57,363 - train - INFO - Iter:1700, Train-Loss:0.4005, Val-Loss:0.3974, Val-Acc:15.02%, Macro-Score:15.88%, Micro-Score:29.68%, Time:0:00:07, Improve:
+2023-11-25 17:21:57,873 - train - INFO - Iter:1800, Train-Loss:0.3576, Val-Loss:0.3969, Val-Acc:15.16%, Macro-Score:15.80%, Micro-Score:29.83%, Time:0:00:08, Improve:
+2023-11-25 17:21:57,980 - train - INFO - Epoch [5/20]
+2023-11-25 17:21:58,227 - train - INFO - Iter:1900, Train-Loss:0.3798, Val-Loss:0.3957, Val-Acc:17.26%, Macro-Score:17.22%, Micro-Score:33.15%, Time:0:00:08, Improve:
+2023-11-25 17:21:58,709 - train - INFO - Iter:2000, Train-Loss:0.3743, Val-Loss:0.3946, Val-Acc:16.26%, Macro-Score:18.33%, Micro-Score:33.87%, Time:0:00:09, Improve:
+2023-11-25 17:21:59,100 - train - INFO - Iter:2100, Train-Loss:0.4226, Val-Loss:0.3938, Val-Acc:17.36%, Macro-Score:20.51%, Micro-Score:36.15%, Time:0:00:09, Improve:
+2023-11-25 17:21:59,101 - train - INFO - No optimization for a long time, auto-stopping...
+2023-11-25 17:21:59,102 - train - INFO - ----------------------
+ TextCNNModel
+2023-11-25 17:22:01,428 - train - INFO - Epoch [1/20]
+2023-11-25 17:22:01,803 - train - INFO - Iter:   0, Train-Loss:0.7269, Val-Loss:0.4726, Val-Acc: 0.00%, Macro-Score: 0.00%, Micro-Score: 0.00%, Time:0:00:00, Improve:*
+2023-11-25 17:22:03,388 - train - INFO - Iter: 100, Train-Loss:0.3889, Val-Loss:0.3704, Val-Acc:23.80%, Macro-Score:29.31%, Micro-Score:50.08%, Time:0:00:02, Improve:*
+2023-11-25 17:22:04,932 - train - INFO - Iter: 200, Train-Loss:0.4089, Val-Loss:0.3627, Val-Acc:28.42%, Macro-Score:34.24%, Micro-Score:55.83%, Time:0:00:04, Improve:*
+2023-11-25 17:22:06,474 - train - INFO - Iter: 300, Train-Loss:0.2441, Val-Loss: 0.322, Val-Acc:39.25%, Macro-Score:36.89%, Micro-Score:57.10%, Time:0:00:05, Improve:*
+2023-11-25 17:22:08,001 - train - INFO - Iter: 400, Train-Loss:0.3491, Val-Loss:0.3332, Val-Acc:40.87%, Macro-Score:36.50%, Micro-Score:56.22%, Time:0:00:07, Improve:
+2023-11-25 17:22:08,807 - train - INFO - Epoch [2/20]
+2023-11-25 17:22:09,588 - train - INFO - Iter: 500, Train-Loss:0.3776, Val-Loss:0.3205, Val-Acc:42.87%, Macro-Score:39.39%, Micro-Score:62.39%, Time:0:00:08, Improve:*
+2023-11-25 17:22:11,183 - train - INFO - Iter: 600, Train-Loss: 0.289, Val-Loss:0.3026, Val-Acc:45.83%, Macro-Score:41.02%, Micro-Score:63.58%, Time:0:00:10, Improve:*
+2023-11-25 17:22:12,713 - train - INFO - Iter: 700, Train-Loss:0.2898, Val-Loss:0.2929, Val-Acc:47.93%, Macro-Score:45.80%, Micro-Score:68.23%, Time:0:00:11, Improve:*
+2023-11-25 17:22:14,185 - train - INFO - Iter: 800, Train-Loss:0.2065, Val-Loss:0.2905, Val-Acc:47.64%, Macro-Score:46.70%, Micro-Score:68.10%, Time:0:00:13, Improve:*
+2023-11-25 17:22:15,699 - train - INFO - Iter: 900, Train-Loss:0.2735, Val-Loss:0.2848, Val-Acc:51.17%, Macro-Score:44.16%, Micro-Score:67.32%, Time:0:00:14, Improve:
+2023-11-25 17:22:15,932 - train - INFO - Epoch [3/20]
+2023-11-25 17:22:17,147 - train - INFO - Iter:1000, Train-Loss:0.3334, Val-Loss:0.3187, Val-Acc:44.64%, Macro-Score:38.38%, Micro-Score:58.98%, Time:0:00:16, Improve:
+2023-11-25 17:22:18,613 - train - INFO - Iter:1100, Train-Loss:0.2508, Val-Loss:0.2822, Val-Acc:48.02%, Macro-Score:45.81%, Micro-Score:66.91%, Time:0:00:17, Improve:
+2023-11-25 17:22:20,198 - train - INFO - Iter:1200, Train-Loss:0.1993, Val-Loss: 0.279, Val-Acc:49.59%, Macro-Score:46.95%, Micro-Score:69.26%, Time:0:00:19, Improve:*
+2023-11-25 17:22:21,712 - train - INFO - Iter:1300, Train-Loss:0.2699, Val-Loss:0.3078, Val-Acc:48.12%, Macro-Score:41.51%, Micro-Score:64.08%, Time:0:00:20, Improve:
+2023-11-25 17:22:22,729 - train - INFO - Epoch [4/20]
+2023-11-25 17:22:23,272 - train - INFO - Iter:1400, Train-Loss:0.3189, Val-Loss:0.2767, Val-Acc:50.93%, Macro-Score:48.18%, Micro-Score:68.91%, Time:0:00:22, Improve:*
+2023-11-25 17:22:24,752 - train - INFO - Iter:1500, Train-Loss:0.2236, Val-Loss:0.2823, Val-Acc:50.50%, Macro-Score:48.11%, Micro-Score:70.28%, Time:0:00:23, Improve:
+2023-11-25 17:22:26,367 - train - INFO - Iter:1600, Train-Loss:0.2856, Val-Loss:0.2787, Val-Acc:51.31%, Macro-Score:49.41%, Micro-Score:69.46%, Time:0:00:25, Improve:*
+2023-11-25 17:22:27,927 - train - INFO - Iter:1700, Train-Loss:0.3143, Val-Loss:0.2792, Val-Acc:50.79%, Macro-Score:49.55%, Micro-Score:71.35%, Time:0:00:27, Improve:*
+2023-11-25 17:22:29,421 - train - INFO - Iter:1800, Train-Loss:0.2451, Val-Loss:0.2714, Val-Acc:52.60%, Macro-Score:48.05%, Micro-Score:70.20%, Time:0:00:28, Improve:
+2023-11-25 17:22:29,845 - train - INFO - Epoch [5/20]
+2023-11-25 17:22:30,833 - train - INFO - Iter:1900, Train-Loss:0.2597, Val-Loss:0.2671, Val-Acc:52.60%, Macro-Score:49.23%, Micro-Score:71.33%, Time:0:00:29, Improve:
+2023-11-25 17:22:32,292 - train - INFO - Iter:2000, Train-Loss: 0.196, Val-Loss:0.2697, Val-Acc:51.60%, Macro-Score:48.70%, Micro-Score:70.29%, Time:0:00:31, Improve:
+2023-11-25 17:22:33,828 - train - INFO - Iter:2100, Train-Loss:0.3117, Val-Loss:0.2708, Val-Acc:51.12%, Macro-Score:49.80%, Micro-Score:70.19%, Time:0:00:32, Improve:*
+2023-11-25 17:22:35,325 - train - INFO - Iter:2200, Train-Loss:0.2835, Val-Loss:0.2846, Val-Acc:51.17%, Macro-Score:46.34%, Micro-Score:67.69%, Time:0:00:34, Improve:
+2023-11-25 17:22:36,576 - train - INFO - Epoch [6/20]
+2023-11-25 17:22:36,827 - train - INFO - Iter:2300, Train-Loss:0.2429, Val-Loss:0.2638, Val-Acc:53.70%, Macro-Score:49.77%, Micro-Score:71.97%, Time:0:00:35, Improve:
+2023-11-25 17:22:38,422 - train - INFO - Iter:2400, Train-Loss:0.2369, Val-Loss:0.2691, Val-Acc:53.74%, Macro-Score:49.95%, Micro-Score:72.50%, Time:0:00:37, Improve:*
+2023-11-25 17:22:39,903 - train - INFO - Iter:2500, Train-Loss:0.2645, Val-Loss:0.2776, Val-Acc:50.55%, Macro-Score:46.92%, Micro-Score:67.39%, Time:0:00:38, Improve:
+2023-11-25 17:22:41,394 - train - INFO - Iter:2600, Train-Loss:0.2813, Val-Loss:0.2661, Val-Acc:52.98%, Macro-Score:48.83%, Micro-Score:70.86%, Time:0:00:40, Improve:
+2023-11-25 17:22:42,907 - train - INFO - Iter:2700, Train-Loss: 0.246, Val-Loss:0.2662, Val-Acc:53.70%, Macro-Score:49.22%, Micro-Score:71.50%, Time:0:00:41, Improve:
+2023-11-25 17:22:43,656 - train - INFO - Epoch [7/20]
+2023-11-25 17:22:44,485 - train - INFO - Iter:2800, Train-Loss:0.3104, Val-Loss:0.2619, Val-Acc:53.12%, Macro-Score:51.23%, Micro-Score:71.67%, Time:0:00:43, Improve:*
+2023-11-25 17:22:45,916 - train - INFO - Iter:2900, Train-Loss:0.2508, Val-Loss:0.2628, Val-Acc:52.93%, Macro-Score:50.88%, Micro-Score:71.37%, Time:0:00:44, Improve:
+2023-11-25 17:22:47,388 - train - INFO - Iter:3000, Train-Loss:0.3619, Val-Loss:0.2628, Val-Acc:54.12%, Macro-Score:52.53%, Micro-Score:71.98%, Time:0:00:46, Improve:*
+2023-11-25 17:22:48,824 - train - INFO - Iter:3100, Train-Loss:0.2075, Val-Loss:0.2665, Val-Acc:53.31%, Macro-Score:51.29%, Micro-Score:71.27%, Time:0:00:47, Improve:
+2023-11-25 17:22:50,272 - train - INFO - Iter:3200, Train-Loss: 0.237, Val-Loss: 0.268, Val-Acc:52.84%, Macro-Score:51.71%, Micro-Score:72.27%, Time:0:00:49, Improve:
+2023-11-25 17:22:50,427 - train - INFO - Epoch [8/20]
+2023-11-25 17:22:51,693 - train - INFO - Iter:3300, Train-Loss:0.2125, Val-Loss:0.2713, Val-Acc:51.26%, Macro-Score:50.38%, Micro-Score:72.11%, Time:0:00:50, Improve:
+2023-11-25 17:22:53,103 - train - INFO - Iter:3400, Train-Loss:0.2347, Val-Loss: 0.269, Val-Acc:52.74%, Macro-Score:52.25%, Micro-Score:70.83%, Time:0:00:52, Improve:
+2023-11-25 17:22:54,551 - train - INFO - Iter:3500, Train-Loss:0.2211, Val-Loss:0.2666, Val-Acc:53.46%, Macro-Score:51.89%, Micro-Score:70.20%, Time:0:00:53, Improve:
+2023-11-25 17:22:56,097 - train - INFO - Iter:3600, Train-Loss:0.1992, Val-Loss:0.2632, Val-Acc:55.84%, Macro-Score:50.54%, Micro-Score:72.71%, Time:0:00:55, Improve:
+2023-11-25 17:22:56,998 - train - INFO - Epoch [9/20]
+2023-11-25 17:22:57,485 - train - INFO - Iter:3700, Train-Loss:0.2314, Val-Loss:0.2637, Val-Acc:55.32%, Macro-Score:49.12%, Micro-Score:71.70%, Time:0:00:56, Improve:
+2023-11-25 17:22:58,971 - train - INFO - Iter:3800, Train-Loss:0.1871, Val-Loss:0.2661, Val-Acc:55.13%, Macro-Score:49.94%, Micro-Score:72.24%, Time:0:00:58, Improve:
+2023-11-25 17:23:00,441 - train - INFO - Iter:3900, Train-Loss:0.2594, Val-Loss:0.2654, Val-Acc:53.12%, Macro-Score:52.22%, Micro-Score:71.26%, Time:0:00:59, Improve:
+2023-11-25 17:23:01,928 - train - INFO - Iter:4000, Train-Loss:  0.17, Val-Loss:0.2616, Val-Acc:53.60%, Macro-Score:54.28%, Micro-Score:72.09%, Time:0:01:01, Improve:*
+2023-11-25 17:23:03,362 - train - INFO - Iter:4100, Train-Loss:0.2689, Val-Loss:0.2668, Val-Acc:51.45%, Macro-Score:52.75%, Micro-Score:69.34%, Time:0:01:02, Improve:
+2023-11-25 17:23:03,761 - train - INFO - Epoch [10/20]
+2023-11-25 17:23:04,857 - train - INFO - Iter:4200, Train-Loss:0.2221, Val-Loss:0.2686, Val-Acc:53.17%, Macro-Score:49.69%, Micro-Score:71.05%, Time:0:01:03, Improve:
+2023-11-25 17:23:06,422 - train - INFO - Iter:4300, Train-Loss:0.2701, Val-Loss:0.2645, Val-Acc:54.12%, Macro-Score:55.29%, Micro-Score:71.40%, Time:0:01:05, Improve:*
+2023-11-25 17:23:08,011 - train - INFO - Iter:4400, Train-Loss:0.2248, Val-Loss:0.2602, Val-Acc:54.08%, Macro-Score:56.53%, Micro-Score:71.38%, Time:0:01:07, Improve:*
+2023-11-25 17:23:09,489 - train - INFO - Iter:4500, Train-Loss:0.1108, Val-Loss:0.2617, Val-Acc:54.32%, Macro-Score:52.73%, Micro-Score:72.20%, Time:0:01:08, Improve:
+2023-11-25 17:23:10,637 - train - INFO - Epoch [11/20]
+2023-11-25 17:23:10,943 - train - INFO - Iter:4600, Train-Loss:0.2634, Val-Loss:0.2638, Val-Acc:54.51%, Macro-Score:52.02%, Micro-Score:71.43%, Time:0:01:10, Improve:
+2023-11-25 17:23:12,526 - train - INFO - Iter:4700, Train-Loss:0.1929, Val-Loss:0.2638, Val-Acc:53.74%, Macro-Score:57.51%, Micro-Score:71.29%, Time:0:01:11, Improve:*
+2023-11-25 17:23:14,055 - train - INFO - Iter:4800, Train-Loss:0.1734, Val-Loss:0.2672, Val-Acc:51.93%, Macro-Score:51.41%, Micro-Score:70.63%, Time:0:01:13, Improve:
+2023-11-25 17:23:15,475 - train - INFO - Iter:4900, Train-Loss:0.1422, Val-Loss:0.2627, Val-Acc:53.89%, Macro-Score:51.06%, Micro-Score:71.63%, Time:0:01:14, Improve:
+2023-11-25 17:23:16,964 - train - INFO - Iter:5000, Train-Loss:0.2377, Val-Loss:0.2601, Val-Acc:53.84%, Macro-Score:52.75%, Micro-Score:72.68%, Time:0:01:16, Improve:
+2023-11-25 17:23:17,596 - train - INFO - Epoch [12/20]
+2023-11-25 17:23:18,474 - train - INFO - Iter:5100, Train-Loss:0.2422, Val-Loss:0.2648, Val-Acc:52.84%, Macro-Score:53.29%, Micro-Score:70.34%, Time:0:01:17, Improve:
+2023-11-25 17:23:20,008 - train - INFO - Iter:5200, Train-Loss:0.2206, Val-Loss:0.2663, Val-Acc:54.17%, Macro-Score:50.06%, Micro-Score:70.47%, Time:0:01:19, Improve:
+2023-11-25 17:23:21,524 - train - INFO - Iter:5300, Train-Loss:0.2414, Val-Loss:0.2583, Val-Acc:53.74%, Macro-Score:54.91%, Micro-Score:72.58%, Time:0:01:20, Improve:
+2023-11-25 17:23:23,018 - train - INFO - Iter:5400, Train-Loss:0.2237, Val-Loss:0.2586, Val-Acc:54.03%, Macro-Score:52.91%, Micro-Score:72.13%, Time:0:01:22, Improve:
+2023-11-25 17:23:24,498 - train - INFO - Iter:5500, Train-Loss:0.2195, Val-Loss: 0.262, Val-Acc:54.55%, Macro-Score:52.47%, Micro-Score:71.26%, Time:0:01:23, Improve:
+2023-11-25 17:23:24,591 - train - INFO - Epoch [13/20]
+2023-11-25 17:23:26,014 - train - INFO - Iter:5600, Train-Loss:0.2089, Val-Loss:0.2711, Val-Acc:53.36%, Macro-Score:50.16%, Micro-Score:70.26%, Time:0:01:25, Improve:
+2023-11-25 17:23:27,568 - train - INFO - Iter:5700, Train-Loss:0.2557, Val-Loss:0.2676, Val-Acc:53.46%, Macro-Score:51.96%, Micro-Score:72.11%, Time:0:01:26, Improve:
+2023-11-25 17:23:27,568 - train - INFO - No optimization for a long time, auto-stopping...
+2023-11-25 17:23:27,570 - train - INFO - ----------------------
+ RNNModel
+2023-11-25 17:23:29,951 - train - INFO - Epoch [1/20]
+2023-11-25 17:23:30,673 - train - INFO - Iter:   0, Train-Loss: 0.691, Val-Loss: 0.652, Val-Acc: 0.10%, Macro-Score: 0.18%, Micro-Score: 0.23%, Time:0:00:01, Improve:*
+2023-11-25 17:23:34,773 - train - INFO - Iter: 100, Train-Loss:0.4747, Val-Loss:0.4377, Val-Acc: 0.00%, Macro-Score: 0.00%, Micro-Score: 0.00%, Time:0:00:05, Improve:
+2023-11-25 17:23:38,744 - train - INFO - Iter: 200, Train-Loss: 0.455, Val-Loss:0.4385, Val-Acc: 0.00%, Macro-Score: 0.00%, Micro-Score: 0.00%, Time:0:00:09, Improve:
+2023-11-25 17:23:42,904 - train - INFO - Iter: 300, Train-Loss:0.4324, Val-Loss:0.4368, Val-Acc: 0.52%, Macro-Score: 0.70%, Micro-Score: 0.90%, Time:0:00:13, Improve:*
+2023-11-25 17:23:47,018 - train - INFO - Iter: 400, Train-Loss:0.4204, Val-Loss:0.4336, Val-Acc: 0.72%, Macro-Score: 0.93%, Micro-Score: 1.20%, Time:0:00:17, Improve:*
+2023-11-25 17:23:49,044 - train - INFO - Epoch [2/20]
+2023-11-25 17:23:51,175 - train - INFO - Iter: 500, Train-Loss:0.4586, Val-Loss:0.4233, Val-Acc: 5.44%, Macro-Score: 5.82%, Micro-Score: 9.55%, Time:0:00:21, Improve:*
+2023-11-25 17:23:55,259 - train - INFO - Iter: 600, Train-Loss:0.3869, Val-Loss: 0.425, Val-Acc: 6.29%, Macro-Score: 6.60%, Micro-Score:11.36%, Time:0:00:25, Improve:*
+2023-11-25 17:23:59,398 - train - INFO - Iter: 700, Train-Loss:0.4377, Val-Loss:0.4207, Val-Acc:23.89%, Macro-Score:15.22%, Micro-Score:38.71%, Time:0:00:29, Improve:*
+2023-11-25 17:24:03,353 - train - INFO - Iter: 800, Train-Loss:0.4466, Val-Loss: 0.407, Val-Acc:25.46%, Macro-Score:19.10%, Micro-Score:40.37%, Time:0:00:33, Improve:*
+2023-11-25 17:24:07,359 - train - INFO - Iter: 900, Train-Loss:0.4474, Val-Loss:0.4182, Val-Acc:12.59%, Macro-Score:12.49%, Micro-Score:24.08%, Time:0:00:37, Improve:
+2023-11-25 17:24:08,011 - train - INFO - Epoch [3/20]
+2023-11-25 17:24:11,391 - train - INFO - Iter:1000, Train-Loss:0.4688, Val-Loss:0.4096, Val-Acc:25.04%, Macro-Score:33.77%, Micro-Score:40.50%, Time:0:00:41, Improve:*
+2023-11-25 17:24:15,372 - train - INFO - Iter:1100, Train-Loss:0.4236, Val-Loss:0.4003, Val-Acc:21.75%, Macro-Score:32.82%, Micro-Score:38.17%, Time:0:00:45, Improve:
+2023-11-25 17:24:19,462 - train - INFO - Iter:1200, Train-Loss:0.3911, Val-Loss:0.3946, Val-Acc:20.60%, Macro-Score:17.11%, Micro-Score:36.99%, Time:0:00:50, Improve:
+2023-11-25 17:24:23,462 - train - INFO - Iter:1300, Train-Loss: 0.362, Val-Loss:0.3923, Val-Acc:25.23%, Macro-Score:19.87%, Micro-Score:41.45%, Time:0:00:54, Improve:
+2023-11-25 17:24:26,183 - train - INFO - Epoch [4/20]
+2023-11-25 17:24:27,531 - train - INFO - Iter:1400, Train-Loss:0.3681, Val-Loss:0.3868, Val-Acc:28.52%, Macro-Score:22.78%, Micro-Score:43.91%, Time:0:00:58, Improve:
+2023-11-25 17:24:31,227 - train - INFO - Iter:1500, Train-Loss:0.3162, Val-Loss:0.3879, Val-Acc:25.80%, Macro-Score:23.27%, Micro-Score:40.78%, Time:0:01:01, Improve:
+2023-11-25 17:24:35,193 - train - INFO - Iter:1600, Train-Loss: 0.356, Val-Loss:0.3825, Val-Acc:30.14%, Macro-Score:24.51%, Micro-Score:43.46%, Time:0:01:05, Improve:
+2023-11-25 17:24:39,139 - train - INFO - Iter:1700, Train-Loss:0.4029, Val-Loss:0.3765, Val-Acc:30.90%, Macro-Score:31.47%, Micro-Score:48.93%, Time:0:01:09, Improve:
+2023-11-25 17:24:43,176 - train - INFO - Iter:1800, Train-Loss:0.3518, Val-Loss:0.3674, Val-Acc:35.96%, Macro-Score:28.08%, Micro-Score:50.30%, Time:0:01:13, Improve:
+2023-11-25 17:24:44,447 - train - INFO - Epoch [5/20]
+2023-11-25 17:24:46,854 - train - INFO - Iter:1900, Train-Loss:0.2945, Val-Loss:0.3701, Val-Acc:38.29%, Macro-Score:28.22%, Micro-Score:50.40%, Time:0:01:17, Improve:
+2023-11-25 17:24:50,735 - train - INFO - Iter:2000, Train-Loss:0.3071, Val-Loss:0.3568, Val-Acc:36.24%, Macro-Score:29.14%, Micro-Score:50.68%, Time:0:01:21, Improve:
+2023-11-25 17:24:50,735 - train - INFO - No optimization for a long time, auto-stopping...
+2023-11-25 17:24:50,737 - train - INFO - ----------------------
+ xlm-roberta-base
