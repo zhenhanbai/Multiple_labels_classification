@@ -114,12 +114,31 @@ def train(model, device, model_name, lr, train_dataloader, dev_dataloader):
     total_batch = 0  # 记录进行到多少batch
     num_epochs = 5  # 设置训练次数
     total_steps = len(train_dataloader) * num_epochs
+
+    if "TextCNN" in model_name:
+        bert_parameters = list(model.model.parameters()) 
+        cnn_parameters = list(model.convs.parameters()) 
+        # 设置不同部分的学习率
+        optimizer = torch.optim.AdamW([
+            {'params': bert_parameters, 'lr': lr},
+            {'params': cnn_parameters, 'lr': 1e-3}
+        ], weight_decay=0.01, eps=1e-8)
+    elif "RNN" in model_name or "RCNN" in model_name:
+        bert_parameters = list(model.model.parameters()) 
+        rnn_parameters = list(model.rnn.parameters())
+        # 设置不同部分的学习率
+        optimizer = torch.optim.AdamW([
+            {'params': bert_parameters, 'lr': lr},
+            {'params': rnn_parameters, 'lr': 1e-3} 
+        ], weight_decay=0.01, eps=1e-8)
+    else:
+        optimizer = torch.optim.AdamW(
+            model.parameters(),
+            lr=lr,
+            weight_decay=0.01,
+            eps=1e-8
+        )
     # Create the learning rate scheduler.
-    optimizer = torch.optim.AdamW(model.parameters(),
-                lr = lr, # args.learning_rate - default is 5e-5, our notebook had 2e-5
-                weight_decay=0.01,
-                eps = 1e-8 # args.adam_epsilon  - default is 1e-8.
-            )
     ratio = 0.1
     scheduler = get_linear_schedule_with_warmup(optimizer,
                                                 num_warmup_steps = ratio * total_steps, # Default value in run_glue.py
@@ -147,7 +166,7 @@ def train(model, device, model_name, lr, train_dataloader, dev_dataloader):
             optimizer.step()  # 更新参数
             scheduler.step()
             writer.add_scalar("loss/train", loss.item(), total_batch)
-            if total_batch % 100  == 0:
+            if total_batch % 80 == 0:
                 accuracy, report, dev_loss, _ = evaluate(model, device, dev_dataloader, model_name)
                 micro_f1_score, macro_f1_score = report["micro avg"]["f1-score"], report["macro avg"]["f1-score"]
                 if macro_f1_score > dev_best_f1_score:
@@ -167,7 +186,7 @@ def train(model, device, model_name, lr, train_dataloader, dev_dataloader):
                 writer.add_scalar("macro/dev", macro_f1_score, total_batch)
                 writer.add_scalar("micro/dev", micro_f1_score, total_batch)
             total_batch += 1
-            if total_batch - last_improve > 700:
+            if total_batch - last_improve >= 640:
                 # 验证集loss超过1000batch没下降，结束训练
                 logger.info("No optimization for a long time, auto-stopping...")
                 flag = True
@@ -211,12 +230,12 @@ def trainBert():
         device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')  # 设备
         model = model.to(device)
         lr = 3e-5  # 设置Adam优化器学习率
-        model_name = MODEL_NAME.split('/')[1] if len(MODEL_NAME.split('/')) > 1 else MODEL_NAME.split('/')[0]
+        model_name = MODEL_NAME.split('/')[1] if len(MODEL_NAME.split('/')) > 1 else MODEL_NAME.split('/')[0] 
         train(model, device, f"{model_name}", lr, train_dataset, dev_dataset)
 
 
 def trainBertDNN():
-    MODEL_LIST = [ModelTextCNNForSequenceClassification, ModelRNNForSequenceClassification, ModelRCNNForSequenceClassification]
+    MODEL_LIST = [ModelTextCNNForSequenceClassification, ModelRNNForSequenceClassification, ModelRCNNForSequenceClassification,]
     PLM = ["MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli", "bert-base-uncased", "xlm-roberta-base", "xlnet-base-cased"]
     for model_base in PLM:
         for MODEL_NAME in MODEL_LIST:
@@ -239,6 +258,6 @@ def trainBertDNN():
 
 
 if __name__ == '__main__':
-    trainDNN()
+    # trainDNN()
     trainBert()
-    trainBertDNN()
+    # trainBertDNN()
