@@ -13,7 +13,7 @@ from models import (
     RNNModel)
 
 from transformers import AutoTokenizer, AutoModelForSequenceClassification, get_linear_schedule_with_warmup
-from data_processing import MyData, MyDataV2, getDataLoader, tokenize_textCNN
+from data_processing import MyData, MyDataV2, getDataLoader, tokenize_textCNN 
 
 import logging
 import sys
@@ -33,10 +33,10 @@ file_handler.setFormatter(formatter)
 # 将文件处理程序添加到记录器
 logger.addHandler(file_handler)
 
-def setSeed(seed):
+def setSeed(seed): 
     np.random.seed(seed)
     torch.manual_seed(seed)
-    torch.cuda.manual_seed_all(seed)
+    torch.cuda.manual_seed_all(seed) 
     torch.backends.cudnn.deterministic = True
 setSeed(seed=42)
 
@@ -58,7 +58,7 @@ def trainDNNS(model, device, model_name, lr, train_dataloader, dev_dataloader):
     num_epochs = 20  # 设置训练次数
     total_steps = len(train_dataloader) * num_epochs
     # Create the learning rate scheduler.
-    optimizer = torch.optim.Adam(model.parameters(),
+    optimizer = torch.optim.Adam(model.parameters(), 
                 lr = lr
             )
     dev_best_f1_score = float('-inf')  # 记录验证集上的最好损失
@@ -80,11 +80,11 @@ def trainDNNS(model, device, model_name, lr, train_dataloader, dev_dataloader):
             optimizer.step()  # 更新参数
             writer.add_scalar("loss/train", loss.item(), total_batch)
             if total_batch % 100  == 0:
-                accuracy, report, dev_loss, _ = evaluateDNN(model, device, dev_dataloader)
+                accuracy, report, dev_loss, _ = evaluateDNN(model, device, dev_dataloader) 
                 micro_f1_score, macro_f1_score = report["micro avg"]["f1-score"], report["macro avg"]["f1-score"]
                 if macro_f1_score > dev_best_f1_score:
                     dev_best_f1_score = macro_f1_score
-                    checkpoint_path = f"checkpoint/{model_name}/{model_name}_best_model"
+                    checkpoint_path = f"checkpoint/{model_name}/{model_name}_best_model" 
                     torch.save(model, checkpoint_path)
                     improve = '*'  # 设置标记
                     last_improve = total_batch
@@ -92,12 +92,12 @@ def trainDNNS(model, device, model_name, lr, train_dataloader, dev_dataloader):
                     improve = ''
                 time_dif = get_time_dif(start_time)  # 得到当前运行时间
 
-                msg = 'Iter:{0:>4}, Train-Loss:{1:>6.4}, Val-Loss:{2:>6.4}, Val-Acc:{3:>6.2%}, Macro-Score:{4:>6.2%}, Micro-Score:{5:>6.2%}, Time:{6}, Improve:{7}'
+                msg = 'Iter:{0:>4}, Train-Loss:{1:>6.4}, Val-Loss:{2:>6.4}, Val-Acc:{3:>6.2%}, Macro-Score:{4:>6.2%}, Micro-Score:{5:>6.2%}, Time:{6}, Improve:{7}' 
                 logger.info(msg.format(total_batch, loss.item(), dev_loss, accuracy, macro_f1_score, micro_f1_score, time_dif, improve))
                 # 写入tensorboardX可视化用的日志信息
                 writer.add_scalar("loss/dev", dev_loss, total_batch)
                 writer.add_scalar("macro/dev", macro_f1_score, total_batch)
-                writer.add_scalar("micro/dev", micro_f1_score, total_batch)
+                writer.add_scalar("micro/dev", micro_f1_score, total_batch) 
             total_batch += 1
             if total_batch - last_improve > 1000:
                 # 验证集loss超过1000batch没下降，结束训练
@@ -183,7 +183,7 @@ def train(model, device, model_name, lr, train_dataloader, dev_dataloader):
                 logger.info(msg.format(total_batch, loss.item(), dev_loss, accuracy, macro_f1_score, micro_f1_score, time_dif, improve))
                 # 写入tensorboardX可视化用的日志信息
                 writer.add_scalar("loss/dev", dev_loss, total_batch)
-                writer.add_scalar("macro/dev", macro_f1_score, total_batch)
+                writer.add_scalar("macro/dev", macro_f1_score, total_batch) 
                 writer.add_scalar("micro/dev", micro_f1_score, total_batch)
             total_batch += 1
             if total_batch - last_improve >= 640:
@@ -226,7 +226,7 @@ def trainBert():
         if MODEL_NAME in deberta_list:
             model = AutoModelForSequenceClassification.from_pretrained(MODEL_NAME, num_labels=6, ignore_mismatched_sizes=True)
         else:
-            model = ModelForSequenceClassification(MODEL_NAME, num_classes=6)
+            model = ModelForSequenceClassification(MODEL_NAME, num_classes=6) 
         device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')  # 设备
         model = model.to(device)
         lr = 3e-5  # 设置Adam优化器学习率
@@ -240,7 +240,7 @@ def trainBertDNN():
     for model_base in PLM:
         for MODEL_NAME in MODEL_LIST:
             logger.info("----------------------\n %s", str(model_base + "-" + MODEL_NAME.__name__))
-            tokenizer = AutoTokenizer.from_pretrained(model_base)  # 实例化分词器
+            tokenizer = AutoTokenizer.from_pretrained(model_base)  # 实例化分词器 
             # 得到数据集
             def tokenize_BERT(s):
                 return tokenizer(s, max_length=200, truncation=True, padding="max_length")
@@ -249,15 +249,15 @@ def trainBertDNN():
             # 得到数据加载器
             train_dataset, dev_dataset = getDataLoader(train_dataset, dev_dataset)
             # 定义模型
-            model = MODEL_NAME(model_base, num_classes=6)
+            model = MODEL_NAME(model_base, num_classes=6) 
             device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')  # 设备
             model = model.to(device)
             lr = 3e-5  # 设置Adam优化器学习率
-            model_base_filter = model_base.split('/')[1] if len(model_base.split('/')) > 1 else model_base.split('/')[0]
+            model_base_filter = model_base.split('/')[1] if len(model_base.split('/')) > 1 else model_base.split('/')[0] 
             train(model, device, model_base_filter + "-" + MODEL_NAME.__name__, lr, train_dataset, dev_dataset)
 
 
-if __name__ == '__main__':
-    # trainDNN()
+if __name__ == '__main__': 
+    trainDNN() 
     trainBert()
-    # trainBertDNN()
+    trainBertDNN()
