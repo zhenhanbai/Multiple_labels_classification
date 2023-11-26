@@ -13,7 +13,7 @@ from models import (
     RNNModel)
 
 from transformers import AutoTokenizer, AutoModelForSequenceClassification, get_linear_schedule_with_warmup
-from data_processing import MyData, MyDataV2, getDataLoader, tokenize_textCNN 
+from data_processing import MyData, MyDataV2, getDataLoader, tokenize_textCNN
 
 import logging
 import sys
@@ -33,10 +33,10 @@ file_handler.setFormatter(formatter)
 # 将文件处理程序添加到记录器
 logger.addHandler(file_handler)
 
-def setSeed(seed): 
+def setSeed(seed):
     np.random.seed(seed)
     torch.manual_seed(seed)
-    torch.cuda.manual_seed_all(seed) 
+    torch.cuda.manual_seed_all(seed)
     torch.backends.cudnn.deterministic = True
 setSeed(seed=42)
 
@@ -55,11 +55,12 @@ def trainDNNS(model, device, model_name, lr, train_dataloader, dev_dataloader):
     start_time = time.time()  # 记录起始时间
     model.train()  # 设置model为训练模式
     total_batch = 0  # 记录进行到多少batch
-    num_epochs = 20  # 设置训练次数
-    total_steps = len(train_dataloader) * num_epochs
+    num_epochs = 10  # 设置训练次数
     # Create the learning rate scheduler.
-    optimizer = torch.optim.Adam(model.parameters(), 
-                lr = lr
+    optimizer = torch.optim.Adam(
+                model.parameters(),
+                lr = lr,
+                # weight_decay=0.01
             )
     dev_best_f1_score = float('-inf')  # 记录验证集上的最好损失
     last_improve = 0  # 记录上次验证集loss下降的batch数
@@ -76,15 +77,14 @@ def trainDNNS(model, device, model_name, lr, train_dataloader, dev_dataloader):
             model.zero_grad()  # 模型梯度清零
             loss = F.binary_cross_entropy_with_logits(outputs, labels.to(device))  # 计算交叉熵损失
             loss.backward()  # 梯度回传
-            # torch.nn.utils.clip_grad_norm_(model.parameters(), 1.0)
             optimizer.step()  # 更新参数
             writer.add_scalar("loss/train", loss.item(), total_batch)
             if total_batch % 100  == 0:
-                accuracy, report, dev_loss, _ = evaluateDNN(model, device, dev_dataloader) 
+                accuracy, report, dev_loss, _ = evaluateDNN(model, device, dev_dataloader)
                 micro_f1_score, macro_f1_score = report["micro avg"]["f1-score"], report["macro avg"]["f1-score"]
                 if macro_f1_score > dev_best_f1_score:
                     dev_best_f1_score = macro_f1_score
-                    checkpoint_path = f"checkpoint/{model_name}/{model_name}_best_model" 
+                    checkpoint_path = f"checkpoint/{model_name}/{model_name}_best_model"
                     torch.save(model, checkpoint_path)
                     improve = '*'  # 设置标记
                     last_improve = total_batch
@@ -92,12 +92,12 @@ def trainDNNS(model, device, model_name, lr, train_dataloader, dev_dataloader):
                     improve = ''
                 time_dif = get_time_dif(start_time)  # 得到当前运行时间
 
-                msg = 'Iter:{0:>4}, Train-Loss:{1:>6.4}, Val-Loss:{2:>6.4}, Val-Acc:{3:>6.2%}, Macro-Score:{4:>6.2%}, Micro-Score:{5:>6.2%}, Time:{6}, Improve:{7}' 
+                msg = 'Iter:{0:>4}, Train-Loss:{1:>6.4}, Val-Loss:{2:>6.4}, Val-Acc:{3:>6.2%}, Macro-Score:{4:>6.2%}, Micro-Score:{5:>6.2%}, Time:{6}, Improve:{7}'
                 logger.info(msg.format(total_batch, loss.item(), dev_loss, accuracy, macro_f1_score, micro_f1_score, time_dif, improve))
                 # 写入tensorboardX可视化用的日志信息
                 writer.add_scalar("loss/dev", dev_loss, total_batch)
                 writer.add_scalar("macro/dev", macro_f1_score, total_batch)
-                writer.add_scalar("micro/dev", micro_f1_score, total_batch) 
+                writer.add_scalar("micro/dev", micro_f1_score, total_batch)
             total_batch += 1
             if total_batch - last_improve > 1000:
                 # 验证集loss超过1000batch没下降，结束训练
@@ -112,24 +112,26 @@ def train(model, device, model_name, lr, train_dataloader, dev_dataloader):
     start_time = time.time()  # 记录起始时间
     model.train()  # 设置model为训练模式
     total_batch = 0  # 记录进行到多少batch
-    num_epochs = 5  # 设置训练次数
+    num_epochs = 1  # 设置训练次数
     total_steps = len(train_dataloader) * num_epochs
 
     if "TextCNN" in model_name:
         bert_parameters = list(model.model.parameters()) 
         cnn_parameters = list(model.convs.parameters()) 
-        # 设置不同部分的学习率
+        classifier_parameters = list(model.classifier.parameters())
         optimizer = torch.optim.AdamW([
             {'params': bert_parameters, 'lr': lr},
-            {'params': cnn_parameters, 'lr': 1e-3}
+            {'params': cnn_parameters, 'lr': 1e-3},
+            {'params': classifier_parameters, 'lr': 1e-3}
         ], weight_decay=0.01, eps=1e-8)
     elif "RNN" in model_name or "RCNN" in model_name:
         bert_parameters = list(model.model.parameters()) 
         rnn_parameters = list(model.rnn.parameters())
-        # 设置不同部分的学习率
+        classifier_parameters = list(model.classifier.parameters())
         optimizer = torch.optim.AdamW([
             {'params': bert_parameters, 'lr': lr},
-            {'params': rnn_parameters, 'lr': 1e-3} 
+            {'params': rnn_parameters, 'lr': 2e-3},
+            {'params': classifier_parameters, 'lr': 2e-3}
         ], weight_decay=0.01, eps=1e-8)
     else:
         optimizer = torch.optim.AdamW(
@@ -146,7 +148,7 @@ def train(model, device, model_name, lr, train_dataloader, dev_dataloader):
     dev_best_f1_score = float('-inf')  # 记录验证集上的最好损失
     last_improve = 0  # 记录上次验证集loss下降的batch数
     flag = False  # 记录是否很久没有效果提升
-    deberta_list = ["DeBERTa-v3-base-mnli-fever-anli", "deberta-v2-xlarge-mnli"]
+    deberta_list = ["DeBERTa-v3-base-mnli-fever-anli", "deberta-v2-xlarge-mnli", "deberta-v3-base"]
     if not os.path.exists('log'):
         os.makedirs('log', exist_ok=True)
     if not os.path.exists(f'./checkpoint/{model_name}'):
@@ -162,11 +164,11 @@ def train(model, device, model_name, lr, train_dataloader, dev_dataloader):
             else:
                 loss = F.binary_cross_entropy_with_logits(outputs, labels.to(device))  # 计算交叉熵损失
             loss.backward()  # 梯度回传
-            torch.nn.utils.clip_grad_norm_(model.parameters(), 1.0)
+            # torch.nn.utils.clip_grad_norm_(model.parameters(), 1.0)
             optimizer.step()  # 更新参数
             scheduler.step()
             writer.add_scalar("loss/train", loss.item(), total_batch)
-            if total_batch % 80 == 0:
+            if total_batch % 80 == 0 and total_batch != 0:
                 accuracy, report, dev_loss, _ = evaluate(model, device, dev_dataloader, model_name)
                 micro_f1_score, macro_f1_score = report["micro avg"]["f1-score"], report["macro avg"]["f1-score"]
                 if macro_f1_score > dev_best_f1_score:
@@ -183,10 +185,10 @@ def train(model, device, model_name, lr, train_dataloader, dev_dataloader):
                 logger.info(msg.format(total_batch, loss.item(), dev_loss, accuracy, macro_f1_score, micro_f1_score, time_dif, improve))
                 # 写入tensorboardX可视化用的日志信息
                 writer.add_scalar("loss/dev", dev_loss, total_batch)
-                writer.add_scalar("macro/dev", macro_f1_score, total_batch) 
+                writer.add_scalar("macro/dev", macro_f1_score, total_batch)
                 writer.add_scalar("micro/dev", micro_f1_score, total_batch)
             total_batch += 1
-            if total_batch - last_improve >= 640:
+            if total_batch - last_improve >= 800:
                 # 验证集loss超过1000batch没下降，结束训练
                 logger.info("No optimization for a long time, auto-stopping...")
                 flag = True
@@ -204,13 +206,13 @@ def trainDNN():
         train_dataset, dev_dataset = getDataLoader(train_dataset, dev_dataset)
         device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')  # 设备
         model = MODEL_NAME().to(device)
-        lr = 1e-3  # Adam优化器学习率
+        lr = 2e-3  # Adam优化器学习率
         trainDNNS(model, device, MODEL_NAME.__name__, lr, train_dataset, dev_dataset)  # 开始
 
 
 def trainBert():
-    MODEL_LIST = ["xlm-roberta-base", "xlnet-base-cased", "bert-base-uncased", "MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli"]
-    deberta_list = ["MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli", "microsoft/deberta-v2-xlarge-mnli"]
+    MODEL_LIST = ["microsoft/deberta-v3-base", "xlm-roberta-base", "xlnet-base-cased", "bert-base-uncased"]
+    deberta_list = ["MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli", "microsoft/deberta-v2-xlarge-mnli", "microsoft/deberta-v3-base"]
     for MODEL_NAME in MODEL_LIST:
         logger.info("----------------------\n %s", MODEL_NAME)
         tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME)  # 实例化分词器
@@ -226,17 +228,17 @@ def trainBert():
         if MODEL_NAME in deberta_list:
             model = AutoModelForSequenceClassification.from_pretrained(MODEL_NAME, num_labels=6, ignore_mismatched_sizes=True)
         else:
-            model = ModelForSequenceClassification(MODEL_NAME, num_classes=6) 
+            model = ModelForSequenceClassification(MODEL_NAME, num_classes=6)
         device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')  # 设备
         model = model.to(device)
         lr = 3e-5  # 设置Adam优化器学习率
-        model_name = MODEL_NAME.split('/')[1] if len(MODEL_NAME.split('/')) > 1 else MODEL_NAME.split('/')[0] 
+        model_name = MODEL_NAME.split('/')[1] if len(MODEL_NAME.split('/')) > 1 else MODEL_NAME.split('/')[0]
         train(model, device, f"{model_name}", lr, train_dataset, dev_dataset)
 
 
 def trainBertDNN():
-    MODEL_LIST = [ModelTextCNNForSequenceClassification, ModelRNNForSequenceClassification, ModelRCNNForSequenceClassification,]
-    PLM = ["MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli", "bert-base-uncased", "xlm-roberta-base", "xlnet-base-cased"]
+    MODEL_LIST = [ModelTextCNNForSequenceClassification, ModelRNNForSequenceClassification, ModelRCNNForSequenceClassification]
+    PLM = ["microsoft/deberta-v3-base", "bert-base-uncased", "xlm-roberta-base", "xlnet-base-cased"]
     for model_base in PLM:
         for MODEL_NAME in MODEL_LIST:
             logger.info("----------------------\n %s", str(model_base + "-" + MODEL_NAME.__name__))
@@ -249,15 +251,15 @@ def trainBertDNN():
             # 得到数据加载器
             train_dataset, dev_dataset = getDataLoader(train_dataset, dev_dataset)
             # 定义模型
-            model = MODEL_NAME(model_base, num_classes=6) 
+            model = MODEL_NAME(model_base, num_classes=6)
             device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')  # 设备
             model = model.to(device)
             lr = 3e-5  # 设置Adam优化器学习率
-            model_base_filter = model_base.split('/')[1] if len(model_base.split('/')) > 1 else model_base.split('/')[0] 
+            model_base_filter = model_base.split('/')[1] if len(model_base.split('/')) > 1 else model_base.split('/')[0]
             train(model, device, model_base_filter + "-" + MODEL_NAME.__name__, lr, train_dataset, dev_dataset)
 
 
-if __name__ == '__main__': 
-    trainDNN() 
-    trainBert()
+if __name__ == '__main__':
+    # trainDNN()
+    # trainBert()
     trainBertDNN()
