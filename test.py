@@ -37,7 +37,7 @@ def evaluate(model, device, dataload, model_name):
     threshold = 0.5
     probs = []
     labels = []
-    deberta_list = ["DeBERTa-v3-base-mnli-fever-anli", "deberta-v2-xlarge-mnli"]
+    deberta_list = ["DeBERTa-v3-base-mnli-fever-anli", "deberta-v2-xlarge-mnli", "deberta-v3-base"]
     with torch.no_grad():
         for input_ids, mask, labels_batch, _ in dataload:
             outputs = model(input_ids.to(device), mask.to(device))
