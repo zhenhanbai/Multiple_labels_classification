@@ -38,7 +38,7 @@ class TextCNNModel(nn.Module):  # 定义模型
         self.convs = nn.ModuleList(
             [nn.Conv2d(1, 256, (k, 300)) for k in [2, 3, 4]])
         # 定义dropout层
-        self.dropout = nn.Dropout(0.3)
+        self.dropout = nn.Dropout(0.5)
         # 定义全连接层
         self.fc = nn.Linear(256 * 3, 6)
 
@@ -165,7 +165,7 @@ class ModelTextCNNForSequenceClassification(nn.Module):
             self.convs = nn.ModuleList(
                 [nn.Conv2d(1, 256, (k, self.model.config.d_model)) for k in [2, 3, 4]])
         # 定义dropout层
-        self.dropout_cnn = nn.Dropout(0.3)
+        self.dropout_cnn = nn.Dropout(0.1)
         # 定义全连接层
         self.classifier = nn.Linear(256 * 3, self.num_classes)
 
@@ -231,7 +231,7 @@ class ModelRNNForSequenceClassification(nn.Module):
                               batch_first=self.batch_first,
                               dropout=self.droprate)
             
-        self.dropout= nn.Dropout(p=0.3)
+        self.dropout= nn.Dropout(p=0.1)
 
         if self.bidirectional:
             self.classifier = nn.Linear(self.hidden_dim * 2, num_classes)
@@ -299,8 +299,8 @@ class ModelRCNNForSequenceClassification(nn.Module):
                               batch_first=self.batch_first,
                               dropout=self.droprate)
             
-        self.dropout= nn.Dropout(p=0.3)
-        self.maxpool = nn.MaxPool1d(32)
+        self.dropout= nn.Dropout(p=0.1)
+        self.maxpool = nn.MaxPool1d(200)
         self.ReLU = nn.ReLU()
 
         if self.bidirectional:
